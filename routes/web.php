@@ -19,4 +19,6 @@
 
 //Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/{any}', 'IndexController@index')->where('any', '.*');
+Route::get('/{any}', 'IndexController@index')
+  ->where('any', '^(?!api\/)[\/\w\.-]*');
+//    ->where('any', '.*');

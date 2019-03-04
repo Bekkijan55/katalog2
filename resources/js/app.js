@@ -34,6 +34,8 @@ import router from './router'
 // Vuex Store
 import store from '../store/store'
 
+import './permission' // permission control
+
 // Feather font icon
 require('@/assets/css/iconfont.css')
 

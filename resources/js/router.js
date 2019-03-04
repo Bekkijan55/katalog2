@@ -20,6 +20,7 @@ Vue.use(Router)
 
 export default new Router({
 	base: process.env.BASE_URL,
+    mode: 'history',
 	routes: [
 
 		{
@@ -55,10 +56,15 @@ export default new Router({
 		// PAGES
 		// =============================================================================
 				{
-					path: '/pages/login',
+					path: '/login',
 					name: 'pageLogin',
-					component: () => import('@/views/pages/Login.vue')
+					component: () => import('@/views/authentication/Login.vue')
 				},
+                /*{
+                    path: '/register',
+                    name: 'pageRegister',
+                    component: () => import('@/views/authentication/Register.vue')
+                },*/
 				{
 					path: '/pages/error-404',
 					name: 'pageError404',
