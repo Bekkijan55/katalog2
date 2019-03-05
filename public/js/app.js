@@ -65452,13 +65452,14 @@ module.exports = function(module) {
 /*!*****************************************!*\
   !*** ./resources/api/authentication.js ***!
   \*****************************************/
-/*! exports provided: login, logout */
+/*! exports provided: login, logout, userInfo */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "login", function() { return login; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "logout", function() { return logout; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "userInfo", function() { return userInfo; });
 /* harmony import */ var _utils_request__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/request */ "./resources/utils/request.js");
 /* harmony import */ var _utils_auth__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/auth */ "./resources/utils/auth.js");
 
@@ -65477,6 +65478,12 @@ function logout() {
       'Authorization': 'Bearer ' + Object(_utils_auth__WEBPACK_IMPORTED_MODULE_1__["getToken"])()
     },
     method: 'post'
+  });
+}
+function userInfo() {
+  return Object(_utils_request__WEBPACK_IMPORTED_MODULE_0__["default"])({
+    url: '/api/user',
+    method: 'get'
   });
 }
 
@@ -66347,7 +66354,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var core_js_modules_es7_promise_finally__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! core-js/modules/es7.promise.finally */ "./node_modules/core-js/modules/es7.promise.finally.js");
 /* harmony import */ var core_js_modules_es7_promise_finally__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es7_promise_finally__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./router */ "./resources/js/router.js");
-/* harmony import */ var _utils_auth__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../utils/auth */ "./resources/utils/auth.js");
+/* harmony import */ var _store_store__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../store/store */ "./resources/store/store.js");
+/* harmony import */ var _utils_auth__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../utils/auth */ "./resources/utils/auth.js");
+
 
 
 
@@ -66358,14 +66367,16 @@ __webpack_require__.r(__webpack_exports__);
 var whiteList = ['/login']; // no redirect whitelist
 
 _router__WEBPACK_IMPORTED_MODULE_4__["default"].beforeEach(function (to, from, next) {
-  if (Object(_utils_auth__WEBPACK_IMPORTED_MODULE_5__["getToken"])()) {
+  if (Object(_utils_auth__WEBPACK_IMPORTED_MODULE_6__["getToken"])()) {
     // determine if there has token
     if (to.path === '/login') {
       next({
         path: '/'
       });
     } else {
-      next();
+      _store_store__WEBPACK_IMPORTED_MODULE_5__["default"].dispatch('UserInfo').then(function () {
+        next();
+      });
     }
   } else {
     /* has no token*/
@@ -66462,7 +66473,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
       path: '/pages/error-404',
       name: 'pageError404',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.bind(null, /*! @/views/pages/Error404.vue */ "./resources/views/pages/Error404.vue"));
+        return __webpack_require__.e(/*! import() */ 7).then(__webpack_require__.bind(null, /*! @/views/pages/errors/Error404.vue */ "./resources/views/pages/errors/Error404.vue"));
       }
     }]
   }, // Redirect to 404 page, if no match found
@@ -66712,54 +66723,80 @@ var actions = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var D_project_OSPanel_domains_erp_loc_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime-corejs2/core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
-/* harmony import */ var D_project_OSPanel_domains_erp_loc_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(D_project_OSPanel_domains_erp_loc_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _utils_auth__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../utils/auth */ "./resources/utils/auth.js");
-/* harmony import */ var _api_authentication__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../api/authentication */ "./resources/api/authentication.js");
+/* harmony import */ var core_js_modules_es6_function_name__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es6.function.name */ "./node_modules/core-js/modules/es6.function.name.js");
+/* harmony import */ var core_js_modules_es6_function_name__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_function_name__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var D_project_OSPanel_domains_erp_loc_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime-corejs2/core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
+/* harmony import */ var D_project_OSPanel_domains_erp_loc_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(D_project_OSPanel_domains_erp_loc_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _utils_auth__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../utils/auth */ "./resources/utils/auth.js");
+/* harmony import */ var _api_authentication__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../api/authentication */ "./resources/api/authentication.js");
+
 
 // authentication configs
 
 
 var user = {
   state: {
-    userName: '',
+    username: '',
     email: '',
-    token: Object(_utils_auth__WEBPACK_IMPORTED_MODULE_1__["getToken"])()
+    token: Object(_utils_auth__WEBPACK_IMPORTED_MODULE_2__["getToken"])()
+  },
+  getters: {
+    token: function token(state) {
+      return state.token;
+    },
+    username: function username(state) {
+      return state.username;
+    },
+    email: function email(state) {
+      return state.email;
+    }
   },
   mutations: {
     SET_TOKEN: function SET_TOKEN(state, token) {
       state.token = token;
     },
     SET_NAME: function SET_NAME(state, name) {
-      state.name = name;
+      state.username = name;
     },
     SET_EMAIL: function SET_EMAIL(state, email) {
-      state: email = email;
+      state.email = email;
     }
   },
   actions: {
     LoginUser: function LoginUser(_ref, data) {
       var commit = _ref.commit;
-      return new D_project_OSPanel_domains_erp_loc_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a(function (resolve, reject) {
-        Object(_api_authentication__WEBPACK_IMPORTED_MODULE_2__["login"])(data).then(function (response) {
-          commit('SET_TOKEN', response.data.authorization);
-          Object(_utils_auth__WEBPACK_IMPORTED_MODULE_1__["setToken"])(response.data.authorization);
+      return new D_project_OSPanel_domains_erp_loc_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_1___default.a(function (resolve, reject) {
+        Object(_api_authentication__WEBPACK_IMPORTED_MODULE_3__["login"])(data).then(function (response) {
+          if (response.data.access_token) {
+            commit('SET_TOKEN', response.data.access_token);
+            Object(_utils_auth__WEBPACK_IMPORTED_MODULE_2__["setToken"])(response.data.access_token);
+          } else {
+            reject(response.data.error);
+          }
           /*setTimeout(() => {
               VueNotifications.success({message: 'Login success!'});
           }, 1000)*/
 
+
           resolve();
+        }).catch(function (error) {
+          reject(error);
         });
-      }).catch(function (error) {
-        reject(error);
       });
     },
-    FedLogOut: function FedLogOut(_ref2) {
+    UserInfo: function UserInfo(_ref2) {
       var commit = _ref2.commit;
+      Object(_api_authentication__WEBPACK_IMPORTED_MODULE_3__["userInfo"])().then(function (response) {
+        commit('SET_NAME', response.data.data.name);
+        commit('SET_EMAIL', response.data.data.email);
+      });
+    },
+    FedLogOut: function FedLogOut(_ref3) {
+      var commit = _ref3.commit;
       commit('SET_TOKEN', '');
       commit('SET_NAME', '');
       commit('SET_EMAIL', '');
-      Object(_utils_auth__WEBPACK_IMPORTED_MODULE_1__["removeToken"])();
+      Object(_utils_auth__WEBPACK_IMPORTED_MODULE_2__["removeToken"])();
     }
   }
 };

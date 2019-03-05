@@ -9,6 +9,8 @@ use Illuminate\Support\Facades\Validator;
 
 class AuthController extends Controller
 {
+  public $restful = true;
+
   /*  public function register(Request $request)
     {
         $v = Validator::make($request->all(), [
@@ -33,6 +35,7 @@ class AuthController extends Controller
     $credentials = $request->only(['email', 'password']);
 
     if (!$token = auth()->attempt($credentials)) {
+      http_response_code(401);
       return response()->json(['error' => 'Unauthorized'], 401);
     }
     return $this->respondWithToken($token);

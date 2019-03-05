@@ -1,4 +1,5 @@
 import router from './router'
+import store from '../store/store'
 import {getToken} from '../utils/auth' // getToken from cookie
 
 
@@ -9,7 +10,9 @@ router.beforeEach((to, from, next) => {
         if (to.path === '/login') {
             next({path: '/'})
         }else {
-          next()
+            store.dispatch('UserInfo').then(() => {
+              next()
+            })
         }
     }else {
         /* has no token*/
