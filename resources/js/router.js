@@ -43,6 +43,18 @@ export default new Router({
 					name: 'page2',
 					component: () => import('../views/Page2.vue'),
 				},
+				{
+					path: '/users/index',
+          name: 'users',
+          meta: {
+          breadcrumb: [
+            { title: 'Home', url: '/' },
+            { title: 'Users', active: true },
+          ],
+            pageTitle: 'Users'
+        },
+					component: () => import('../views/pages/users/index')
+				}
 			],
 		},
 	// =============================================================================

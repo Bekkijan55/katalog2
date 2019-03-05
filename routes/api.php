@@ -20,11 +20,12 @@ Route::post('login', 'AuthController@login');
 
 /*Route::prefix('auth')->group(function () {
 //    Route::post('/register', 'AuthController@register');
-    Route::get('refresh', 'AuthController@refresh');
+    Route::get('refresh', 'AuthContr  oller@refresh');
 
 });*/
 
 Route::group(['middleware' => 'auth:api'], function(){
   Route::get('user', 'AuthController@user');
+  Route::get('users', 'API\UsersController@index');
   Route::post('logout', 'AuthController@logout');
 });

@@ -28,9 +28,9 @@ export default [
 		icon: "HomeIcon",
 	},
 	{
-		url: "/page2",
-		name: "Page 2",
-		slug: "page2",
+		url: "/users/index",
+		name: "Users",
+		slug: "users",
 		icon: "FileIcon",
 	},
 ]

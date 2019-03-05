@@ -66445,6 +66445,22 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
       component: function component() {
         return __webpack_require__.e(/*! import() */ 6).then(__webpack_require__.bind(null, /*! ../views/Page2.vue */ "./resources/views/Page2.vue"));
       }
+    }, {
+      path: '/users/index',
+      name: 'users',
+      meta: {
+        breadcrumb: [{
+          title: 'Home',
+          url: '/'
+        }, {
+          title: 'Users',
+          active: true
+        }],
+        pageTitle: 'Users'
+      },
+      component: function component() {
+        return __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.bind(null, /*! ../views/pages/users/index */ "./resources/views/pages/users/index.vue"));
+      }
     }]
   }, // =============================================================================
   // FULL PAGE LAYOUTS
