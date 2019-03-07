@@ -28,4 +28,8 @@ Route::group(['middleware' => 'auth:api'], function(){
   Route::get('user', 'AuthController@user');
   Route::get('users', 'API\UsersController@index');
   Route::post('logout', 'AuthController@logout');
+  Route::get('deliver','DeliverController@delivers');
+  Route::get('deliver/{id}','DeliverController@deliver_by_id');
+  Route::get('client','DeliverController@clients');
+  Route::get('client/{id}','DeliverController@client_by_id');
 });
