@@ -52,7 +52,7 @@ export default new Router({
             { title: 'Users', active: true },
           ],
             pageTitle: 'Users'
-        },
+        	},
 					component: () => import('../views/pages/users/index')
 				}
 			],

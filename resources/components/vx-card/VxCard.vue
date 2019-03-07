@@ -64,14 +64,14 @@
             </div>
         </div>
 
-        <div class="vx-card__code-container" ref="codeContainer" v-show="this.$slots.codeContainer"
+       <!-- <div class="vx-card__code-container" ref="codeContainer" v-show="this.$slots.codeContainer"
              :style="codeContainerStyles" :class="{collapsed: !showCode}">
             <div class="code-content">
                 <prism :language="codeLanguage">
                     <slot name="codeContainer"></slot>
                 </prism>
             </div>
-        </div>
+        </div>-->
     </div>
 </template>
 
@@ -82,9 +82,9 @@
 
     export default {
         name: 'vx-card',
-        components: {
+        /*components: {
             Prism
-        },
+        },*/
         props: {
             title: String,
             subtitle: String,

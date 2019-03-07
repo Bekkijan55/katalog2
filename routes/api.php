@@ -25,7 +25,9 @@ Route::post('login', 'AuthController@login');
 });*/
 
 Route::group(['middleware' => 'auth:api'], function(){
-  Route::get('user', 'AuthController@user');
-  Route::get('users', 'API\UsersController@index');
   Route::post('logout', 'AuthController@logout');
+  Route::get('user', 'AuthController@user');
+
+  Route::resource('users', 'API\UsersController');
+  Route::get('roles', 'API\UsersController@getRoles');
 });
