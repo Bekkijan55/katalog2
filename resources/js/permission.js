@@ -14,7 +14,7 @@ router.beforeEach((to, from, next) => {
                 path: '/'
             })
         } else {
-            store.dispatch('UserInfo').then(() => {
+            store.dispatch('UserInfo').then(res => {
                 next()
             })
         }

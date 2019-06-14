@@ -81,7 +81,7 @@ export default {
         ]
       ]
     };
-  },
+  }, 
   mounted() {
     this.fetchPassed();
     console.log(this.json_fields)
