@@ -33,6 +33,7 @@
       </vs-popup>
     </div>
     <vx-card>
+      <h2 class='text-center mb-base mt-4'>{{filename[0].name}}</h2>
       <vs-table :data="vedomosts">
         <template slot="thead">
           <vs-th>№</vs-th>
@@ -129,7 +130,8 @@ export default {
       allGoods: [],
       allpassed: [],
       allpassed2: [],
-      id: this.$route.params.id
+      id: this.$route.params.id,
+      filename:{}
     };
   },
 
@@ -145,6 +147,7 @@ export default {
       getVedmosts(this.id)
         .then(res => {
           this.vedomosts = res.data.data[0].vedomosts;
+          this.filename = res.data.data;
           this.allpassed = [];
           this.vedomosts.forEach(ved => {
             if (ved.passed) {

@@ -124,6 +124,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -141,7 +142,8 @@ __webpack_require__.r(__webpack_exports__);
       allGoods: [],
       allpassed: [],
       allpassed2: [],
-      id: this.$route.params.id
+      id: this.$route.params.id,
+      filename: {}
     };
   },
   components: {
@@ -156,6 +158,7 @@ __webpack_require__.r(__webpack_exports__);
 
       Object(_api_katalog__WEBPACK_IMPORTED_MODULE_2__["getVedmosts"])(this.id).then(function (res) {
         _this.vedomosts = res.data.data[0].vedomosts;
+        _this.filename = res.data.data;
         _this.allpassed = [];
 
         _this.vedomosts.forEach(function (ved) {
@@ -350,6 +353,10 @@ var render = function() {
       _c(
         "vx-card",
         [
+          _c("h2", { staticClass: "text-center mb-base mt-4" }, [
+            _vm._v(_vm._s(_vm.filename[0].name))
+          ]),
+          _vm._v(" "),
           _c(
             "vs-table",
             {
