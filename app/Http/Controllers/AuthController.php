@@ -7,9 +7,12 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
 
+
+
 class AuthController extends Controller
 {
   public $restful = true;
+
 
   /*  public function register(Request $request)
     {

@@ -20,17 +20,31 @@
 ==========================================================================================*/
 
 
-export default [
-	{
-		url: "/",
-		name: "Home",
-		slug: "home",
-		icon: "HomeIcon",
-	},
-	{
-		url: "/users/index",
-		name: "Users",
-		slug: "users",
-		icon: "FileIcon",
-	},
+export default [{
+        url: "/",
+        name: "Home",
+        slug: "home",
+        icon: "HomeIcon",
+    },
+    // {
+    //     url: "/vedomost",
+    //     name: "vedimost",
+    //     slug: "vedimost",
+    //     icon: "FileIcon"
+    // },
+    {
+        url: '/upload-excel',
+        name: 'uploadexcel',
+        slug: 'uploadexcel',
+        icon: 'FileIcon'
+    }
+
+
+
+
+
+
+
+
+
 ]

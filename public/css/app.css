@@ -1,4 +1,32 @@
 var map = {
+	"./de.png": "./resources/assets/images/flags/de.png",
+	"./en.png": "./resources/assets/images/flags/en.png",
+	"./fr.png": "./resources/assets/images/flags/fr.png",
+	"./pt.png": "./resources/assets/images/flags/pt.png",
+	"./ru.png": "./resources/assets/images/flags/ru.png",
+	"./uz.png": "./resources/assets/images/flags/uz.png"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	var id = map[req];
+	if(!(id + 1)) { // check for number or string
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return id;
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./resources/assets/images/flags sync recursive ^\\.\\/.*\\.png$";var map = {
 	"./avatar-s-11.png": "./resources/assets/images/portrait/small/avatar-s-11.png"
 };
 
@@ -21,4 +49,4 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = "./resources/assets/images/portrait/small sync recursive ^\\.\\/.*$";
+webpackContext.id = "./resources/assets/images/portrait/small sync recursive ^\\.\\/.*$";/* (ignored) *//* (ignored) */

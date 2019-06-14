@@ -7816,7 +7816,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700);", ""]);
 
 // module
-exports.push([module.i, "/*=========================================================================================\r\n  File Name: main.scss\r\n  Description: Main scss file. Imports other scss partials from 'vuesax' folder\r\n  ----------------------------------------------------------------------------------------\r\n  Item Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n  Version: 1.1\r\n  Author: Pixinvent\r\n  Author URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n/*=========================================================================================\r\n\tFile Name: _variables.scss\r\n\tDescription: partial- SCSS varibales\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n/*========================================================\r\n\t\tSPACING\r\n=========================================================*/\n\n/*========================================================\r\n\t\tCOLORS\r\n=========================================================*/\n\n/*========================================================\r\n\t\tTYPOGRAPHY\r\n=========================================================*/\n\n/*========================================================\r\n\t\tTYPOGRAPHY\r\n=========================================================*/\n\n/*========================================================\r\n\t\tDARK THEME\r\n=========================================================*/\n\n/*=========================================================================================\r\n\tFile Name: _layout.scss\r\n\tDescription: partial- main layout styles container - imports layout styles\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n/*=========================================================================================\r\n\tFile Name: _layoutCommon.scss\r\n\tDescription: Common layout styles. This style will apply to all layouts\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\nhtml {\n  font-size: 14px;\n  height: 100%;\n  width: 100%;\n  line-height: 1.5;\n  letter-spacing: .01rem;\n}\n\nbody {\n  font-family: \"Montserrat\", Helvetica, Arial, sans-serif;\n  background: #f8f8f8;\n  font-weight: 400;\n  overflow-x: hidden;\n  max-width: 100%;\n  height: 100%;\n}\n\n#app {\n  min-height: 100%;\n}\n\n.layout--main {\n  height: 100%;\n  min-height: 100%;\n}\n\ntextarea.vs-textarea {\n  font-family: \"Montserrat\", Helvetica, Arial, sans-serif;\n  line-height: 1.6;\n}\n\n#content-overlay {\n  position: fixed;\n  opacity: 0;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: rgba(0, 0, 0, .5);\n  cursor: pointer;\n  -webkit-transition: all .7s;\n  transition: all .7s;\n  z-index: -1;\n}\n\n.show-overlay #content-overlay {\n  z-index: 41000;\n  opacity: 1;\n}\n\n.the-footer {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\n\nli.vs-navbar--item a {\n  color: inherit;\n}\n\n.vs-content-sidebar.items-no-padding .vs-sidebar--items {\n  padding: 0;\n}\n\ndiv[id$=demo] .vx-card:not(:last-of-type) {\n  margin-bottom: 2.2rem;\n}\n\n.scroll-area {\n  position: relative;\n  margin: auto;\n  width: 100%;\n  height: 100%;\n}\n\n.app-search-container {\n  background-color: #fff;\n}\n\n.demo-alignment {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-wrap: wrap;\n      flex-wrap: wrap;\n  -webkit-box-pack: start;\n      -ms-flex-pack: start;\n          justify-content: flex-start;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\n\n.demo-alignment > * {\n  margin-right: 1.5rem;\n  margin-top: 1.5rem;\n}\n\n.op-block {\n  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, .1);\n          box-shadow: 1px 1px 10px rgba(0, 0, 0, .1);\n  padding: 10px;\n  border-radius: 10px;\n}\n\n.app-page .router-view {\n  padding-bottom: 0;\n}\n\n.app-page.navbar-floating .app-fixed-height {\n  height: calc(100vh - 12.1rem);\n}\n\n.app-page.navbar-floating.footer-hidden .app-fixed-height {\n  height: calc(100vh - 9.6rem);\n}\n\n.app-page.navbar-floating.footer-sticky .app-fixed-height {\n  height: calc(100vh - 13.1rem);\n}\n\n.app-page.navbar-sticky .app-fixed-height {\n  height: calc(100vh - 11.1rem);\n}\n\n.app-page.navbar-sticky.footer-hidden .app-fixed-height {\n  height: calc(100vh - 8.6rem);\n}\n\n.app-page.navbar-sticky.footer-sticky .app-fixed-height {\n  height: calc(100vh - 12.1rem);\n}\n\n.app-page.navbar-static .app-fixed-height {\n  height: calc(100vh - 11.1rem);\n}\n\n.app-page.navbar-static.footer-hidden .app-fixed-height {\n  height: calc(100vh - 7.6rem);\n}\n\n.app-page.navbar-hidden .app-fixed-height {\n  height: calc(100vh - 6.1rem);\n}\n\n.app-page.navbar-hidden.footer-hidden .app-fixed-height {\n  height: calc(100vh - 4.1rem);\n}\n\n.app-page.navbar-hidden.footer-sticky .app-fixed-height {\n  height: calc(100vh - 8.1rem);\n}\n\n.app-fixed-height {\n  height: calc(100vh - 14.1rem);\n}\n\n.vs-sidebar .vs-sidebar--items {\n  overflow: hidden;\n  height: 100%;\n}\n\n.vs-alert code.language-markup {\n  background: transparent !important;\n  color: #636363 !important;\n}\n\n@media (max-width: 576px) {\n  .router-view {\n    padding: 1.2rem !important;\n  }\n\n  .footer-sticky .router-view {\n    padding-bottom: 5rem !important;\n  }\n}\n\n/*=========================================================================================\r\n\tFile Name: _layoutModern.scss\r\n\tDescription: Default layout styles\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n.vs-navbar.vx-navbar {\n  padding: .8rem 1rem;\n  width: calc(100% - 260px - 4.4rem);\n  position: fixed;\n  border-radius: .5rem;\n  -webkit-transition: all .5s;\n  transition: all .5s;\n  z-index: 10000;\n}\n\n.vs-navbar.vx-navbar.navbar-reduced {\n  width: calc(100% - 80px - 4.4rem);\n}\n\n.vs-navbar.vx-navbar.navbar-full {\n  width: calc(100% - 4.4rem);\n}\n\n#content-area {\n  margin-left: 260px;\n  height: 100%;\n  -webkit-transition: margin-left .5s;\n  transition: margin-left .5s;\n}\n\n#content-area .content-wrapper {\n  min-height: calc(100vh - 3.5rem);\n}\n\n#content-area.content-area-reduced {\n  margin-left: 80px;\n}\n\n#content-area.content-area-full {\n  margin-left: 0px;\n}\n\n#content-area .vx-navbar__search-input input {\n  border: none !important;\n}\n\n#content-area .vx-navbar__search-input input:focus {\n  -webkit-box-shadow: none;\n          box-shadow: none;\n}\n\n.router-view {\n  position: relative;\n  padding: 2.2rem;\n}\n\n.router-view .router-content {\n  margin-top: 5.5rem;\n}\n\n.router-view .content-area__heading h2 {\n  color: #636363;\n}\n\n/*=========================================================================================\r\n\tFile Name: _theNavbar.scss\r\n\tDescription: The navbar styles\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n.starred-page:hover,\n.starred-page--more:hover {\n  color: rgba(var(--vs-primary), 1);\n}\n\n.i18n-dropdown .vs-dropdown--item-link {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\n\n@media screen and (max-width: 364px) {\n  .i18n-dropdown {\n    width: 95vw;\n    left: 90vw !important;\n  }\n\n  .i18n-dropdown .vs-dropdown--menu--after {\n    display: none;\n  }\n}\n\n.notification-dropdown {\n  width: 365px;\n}\n\n@media screen and (max-width: 500px) {\n  .notification-dropdown {\n    width: 95vw;\n    left: 97.5vw !important;\n  }\n\n  .notification-dropdown .vs-dropdown--menu--after {\n    display: none;\n  }\n}\n\n.notification-dropdown .notification:hover {\n  background-color: #f7f7f7;\n}\n\n.notification-dropdown .vs-dropdown--custom {\n  padding: 0 !important;\n  border: 0;\n  overflow: hidden;\n  -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08);\n          box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08);\n}\n\n.notification-dropdown .vs-dropdown--menu--after {\n  background: rgba(var(--vs-primary), 1) !important;\n  right: 1.6rem !important;\n}\n\n.vx-navbar-wrapper {\n  background: -webkit-gradient(linear, left top, left bottom, color-stop(44%, rgba(248, 248, 248, .95)), color-stop(73%, rgba(248, 248, 248, .46)), to(rgba(255, 255, 255, 0)));\n  background: linear-gradient(to bottom, rgba(248, 248, 248, .95) 44%, rgba(248, 248, 248, .46) 73%, rgba(255, 255, 255, 0) 100%);\n  padding: 2.2rem;\n  padding-top: 1.3rem;\n  background-repeat-x: repeat;\n  z-index: 41000;\n  width: calc(100% - 260px);\n  height: 103px;\n  background-repeat-y: no-repeat;\n  position: fixed;\n  top: 0;\n}\n\n.vx-navbar-wrapper .vx-navbar .vs-con-items {\n  width: 100%;\n}\n\n.vx-navbar-wrapper .vx-navbar .vs-con-items .search-full-container {\n  background: #fff;\n}\n\n.content-area-reduced .vx-navbar-wrapper {\n  width: calc(100% - 80px);\n}\n\n.content-area-reduced .vs-navbar.vx-navbar {\n  width: calc(100% - 80px - 4.4rem);\n}\n\n.show-overlay .vx-navbar-wrapper {\n  background: -webkit-gradient(linear, left top, left bottom, color-stop(44%, rgba(44, 48, 60, .9)), color-stop(73%, rgba(44, 48, 60, .43)), to(rgba(44, 48, 60, 0)));\n  background: linear-gradient(to bottom, rgba(44, 48, 60, .9) 44%, rgba(44, 48, 60, .43) 73%, rgba(44, 48, 60, 0) 100%);\n}\n\n.navbar-sticky .vx-navbar-wrapper {\n  padding: 0;\n  background: none;\n}\n\n.navbar-sticky .vx-navbar-wrapper .vx-navbar {\n  width: calc(100% - 260px);\n  border-radius: 0;\n  padding: .8rem 2.2rem;\n}\n\n.navbar-sticky .content-area-reduced .vx-navbar-wrapper .vx-navbar {\n  width: calc(100% - 80px);\n}\n\n.navbar-sticky .router-view .router-content {\n  margin-top: 4.5rem;\n}\n\n.navbar-static .vx-navbar-wrapper {\n  padding: 0;\n  background: none;\n  position: relative;\n  height: auto;\n  width: 100%;\n}\n\n.navbar-static .vx-navbar-wrapper .vx-navbar {\n  width: 100%;\n  border-radius: 0;\n  padding: .8rem 2.2rem;\n  background: transparent !important;\n  -webkit-box-shadow: none;\n          box-shadow: none;\n  position: relative;\n}\n\n.navbar-static .router-view {\n  padding-top: 1rem;\n}\n\n.navbar-static .router-view .router-content {\n  margin-top: 0;\n}\n\n.navbar-hidden .vx-navbar-wrapper {\n  display: none;\n}\n\n.scroll-area--nofications {\n  position: relative;\n  margin: auto;\n  width: 100%;\n  height: 20.2rem;\n}\n\n.search-full-container {\n  z-index: 50000;\n}\n\n.search-full-container .vx-auto-suggest > div {\n  height: 100%;\n}\n\n.search-full-container .vx-auto-suggest input[type=text],\n.search-full-container .vx-auto-suggest .input-span-placeholder {\n  padding: 1.25rem 3rem;\n}\n\n.search-full-container .vx-auto-suggest .vs-input--icon.feather {\n  top: 34%;\n  left: .8rem;\n}\n\n.search-full-container > div.feather-icon {\n  position: absolute !important;\n}\n\n.bookmark-dropdown {\n  z-index: 41001;\n}\n\n.navbar-custom .vs-navbar--btn-responsive {\n  display: none !important;\n}\n\n.navbar-custom .vs-spacer {\n  display: block !important;\n}\n\n.navbar-custom .vs-con-items {\n  display: -webkit-box !important;\n  display: -ms-flexbox !important;\n  display: flex !important;\n  width: 100%;\n}\n\n@media (max-width: 1200px) {\n  .vx-navbar-wrapper {\n    width: calc(100% - 1.2rem);\n  }\n\n  .navbar-sticky .vx-navbar-wrapper .vx-navbar {\n    width: 100%;\n    padding: .8rem 2.2rem;\n  }\n}\n\n@media (max-width: 576px) {\n  .vx-navbar-wrapper {\n    padding: 1.2rem;\n  }\n\n  .vx-navbar-wrapper .vx-navbar.navbar-full {\n    width: calc(100% - 2.4rem);\n  }\n\n  .navbar-sticky .vx-navbar-wrapper {\n    padding: 0;\n  }\n\n  .navbar-sticky .vx-navbar-wrapper .vx-navbar {\n    width: 100%;\n    padding: .8rem 1.5rem;\n  }\n\n  .navbar-static .vx-navbar-wrapper .vx-navbar {\n    width: 100%;\n    padding: .8rem 1.5rem;\n  }\n\n  .navbar-static .router-view .router-content {\n    margin-top: 0;\n  }\n}\n\n/*=========================================================================================\r\n\tFile Name: _footer.scss\r\n\tDescription: Footer styles\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n.footer-sticky .the-footer {\n  position: fixed;\n  background: #fff;\n  bottom: 0;\n  width: calc(100% - 260px);\n  -webkit-box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .05);\n          box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .05);\n  z-index: 40000;\n}\n\n.footer-sticky .content-area-reduced .the-footer {\n  width: calc(100% - 80px);\n}\n\n.footer-sticky .content-area-full .the-footer {\n  width: 100%;\n}\n\n.footer-sticky .router-view {\n  padding-bottom: 5rem;\n}\n\n.footer-hidden .the-footer {\n  display: none;\n}\n\n.the-footer {\n  padding: 1rem 2.2rem;\n}\n\n/*=========================================================================================\r\n\tFile Name: _typography.scss\r\n\tDescription: partial- typography styles\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\nbody {\n  color: #626262;\n}\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  color: #2c2c2c;\n}\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\n.h1,\n.h2,\n.h3,\n.h4,\n.h5,\n.h6 {\n  font-family: inherit;\n  font-weight: 500;\n  line-height: 1.2;\n  color: #2c2c2c;\n}\n\nh1,\n.h1 {\n  font-size: 28px;\n}\n\nh2,\n.h2 {\n  font-size: 24.36px;\n}\n\nh3,\n.h3 {\n  font-size: 21.14px;\n}\n\nh4,\n.h4 {\n  font-size: 18.48px;\n}\n\nh5,\n.h5 {\n  font-size: 15.96px;\n}\n\nh6,\n.h6 {\n  font-size: 14px;\n}\n\n.vs-tooltip h4 {\n  color: #fff;\n}\n\na:active,\na:visited,\na:hover,\na {\n  color: rgba(var(--vs-primary), 1);\n}\n\nu {\n  text-decoration: underline;\n}\n\n/*=========================================================================================\n\tFile Name: _misc.scss\n\tDescription: partial- misc styles\n\t----------------------------------------------------------------------------------------\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\n\tVersion: 1.1\n\tAuthor: Pixinvent\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\n==========================================================================================*/\n\ncode {\n  font-family: \"Montserrat\", Helvetica, Arial, sans-serif;\n  background: #eee;\n  padding: .1rem .3rem;\n  border-radius: 3px;\n}\n\nul,\nol {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n\n.bg-img {\n  background-image: url(" + escape(__webpack_require__(/*! ../images/pages/vuesax-login-bg.jpg */ "./resources/assets/images/pages/vuesax-login-bg.jpg")) + ");\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n\n.full-page-bg-color {\n  background-color: #eff2f7;\n}\n\n.count-down {\n  text-align: center;\n}\n\n.single-counter {\n  display: inline-block;\n  position: relative;\n  width: 105px;\n  padding: 18px 10px 10px;\n}\n\n.single-counter span {\n  display: block;\n  text-align: center;\n}\n\n.single-counter .timer {\n  font-size: 3rem;\n}\n\n.activity-timeline {\n  margin-left: 1.5rem;\n  padding-left: 40px;\n  border-left: 2px solid #e5e8eb;\n}\n\n.activity-timeline li {\n  position: relative;\n  margin-bottom: 20px;\n}\n\n.activity-timeline li .timeline-icon {\n  position: absolute;\n  top: 0;\n  left: -4.3rem;\n  border-radius: 50%;\n  padding: .75rem;\n  padding-bottom: .4rem;\n}\n\n.activity-timeline li .activity-desc {\n  font-size: .9rem;\n}\n\n.activity-timeline li .activity-e-time {\n  font-size: .8rem;\n}\n\n.chat-card-log {\n  height: 240px;\n}\n\n.vjs-poster {\n  background-size: cover !important;\n  width: 100% !important;\n}\n\n.spinner {\n  -webkit-animation: spin 1.5s linear infinite;\n          animation: spin 1.5s linear infinite;\n}\n\n@-webkit-keyframes spin {\n  from {\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg);\n  }\n}\n\n@keyframes spin {\n  from {\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg);\n  }\n}\n\n/*=========================================================================================\r\n\tFile Name: _extraComponents.scss\r\n\tDescription: partial - imports extra components styles\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n/*=========================================================================================\r\n    File Name: _formWizard.scss\r\n    Description: Styles for form wizard externsion.\r\n    ----------------------------------------------------------------------------------------\r\n    Item Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n    Version: 1.1\r\n    Author: Pixinvent\r\n    Author URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n.vue-form-wizard.md .wizard-navigation .wizard-progress-with-circle {\n  top: 33px !important;\n}\n\n.vue-form-wizard.md .wizard-navigation .wizard-nav .wizard-icon-circle {\n  border: 3px solid #ccc;\n  width: 55px;\n  height: 55px;\n}\n\n.vue-form-wizard.md .wizard-navigation .wizard-nav .wizard-icon-circle .wizard-icon {\n  font-size: 1.5rem;\n}\n\n.vue-form-wizard.md .wizard-navigation .wizard-nav .stepTitle {\n  color: #626262;\n}\n\n/*=========================================================================================\r\n\tFile Name: _charts.scss\r\n\tDescription: Styles for charts.\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n.echarts {\n  width: 100% !important;\n}\n\n/*=========================================================================================\r\n    File Name: _quillEditor.scss\r\n    Description: Styles for quill editor externsion.\r\n    ----------------------------------------------------------------------------------------\r\n    Item Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n    Version: 1.1\r\n    Author: Pixinvent\r\n    Author URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n.quill-editor .ql-bubble .ql-tooltip {\n  z-index: 51000;\n}\n\n/*=========================================================================================\r\n\tFile Name: _datePicker.scss\r\n\tDescription: Styles for datepicker component.\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n.vdp-datepicker input {\n  padding: .7rem;\n  font-size: 1rem;\n  border-radius: 5px;\n  border: 1px solid rgba(0, 0, 0, .2);\n}\n\n/*=========================================================================================\r\n\tFile Name: _themes.scss\r\n\tDescription: partial- themes - imports theme styles\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n/*=========================================================================================\r\n\tFile Name: _themeDark.scss\r\n\tDescription: partial- Styles for dark theme\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n.theme-dark {\n  background-color: #262c49;\n  color: #fff !important;\n}\n\n.theme-dark .content-area__heading h2 {\n  color: #fff;\n}\n\n.theme-dark code {\n  color: #b8c2cc;\n  background: #262c49;\n}\n\n.theme-dark pre[class*=language-] {\n  background-color: #1e1e1e;\n  text-shadow: none;\n}\n\n.theme-dark pre[class*=language-] code {\n  background-color: transparent;\n}\n\n.theme-dark pre[class*=language-] code[class*=language-] {\n  text-shadow: none;\n}\n\n.theme-dark label {\n  color: #fff;\n}\n\n.theme-dark h1,\n.theme-dark h2,\n.theme-dark h3,\n.theme-dark h4,\n.theme-dark h5,\n.theme-dark h6 {\n  color: #fff;\n}\n\n.theme-dark .notification-dropdown .notification:hover {\n  background: #10163a;\n}\n\n.theme-dark .vs-component.vs-notifications.vs-noti-dark {\n  color: #22292f !important;\n}\n\n.theme-dark .vs-component.vs-notifications.vs-noti-dark .filling {\n  background: #b8c2cc !important;\n}\n\n.theme-dark .vs-component.vs-notifications.vs-noti-dark h3 {\n  color: #22292f !important;\n}\n\n.theme-dark .vx-card {\n  background-color: #10163a;\n}\n\n.theme-dark .vx-card .vx-card__title h4 {\n  color: #fff;\n}\n\n.theme-dark .vx-card .con-vs-alert-dark {\n  color: #dae1e7;\n}\n\n.theme-dark .vx-card .code-content pre[class^=language-] {\n  background-color: #262c49;\n  text-shadow: none;\n}\n\n.theme-dark .vx-card .code-content pre[class^=language-] code {\n  background-color: transparent;\n}\n\n.theme-dark .vx-card .code-content pre[class^=language-] code[class*=language-] {\n  text-shadow: none;\n}\n\n.theme-dark .vx-card .vx-card__body .con-vs-alert-primary h4 {\n  color: rgba(var(--vs-primary), 1);\n}\n\n.theme-dark .vx-card .vx-card__body .con-vs-alert-success h4 {\n  color: rgba(var(--vs-success), 1);\n}\n\n.theme-dark .vx-card .vx-card__body .con-vs-alert-danger h4 {\n  color: rgba(var(--vs-danger), 1);\n}\n\n.theme-dark .vx-card .vx-card__body .con-vs-alert-info h4 {\n  color: rgba(var(--vs-info), 1);\n}\n\n.theme-dark .vx-card .vx-card__body .con-vs-alert-warning h4 {\n  color: rgba(var(--vs-warning), 1);\n}\n\n.theme-dark .vx-card .tasks-today-container .tasks-today__task:hover {\n  background: #212744;\n}\n\n.theme-dark .vx-navbar-wrapper {\n  background: -webkit-gradient(linear, left top, left bottom, color-stop(44%, rgba(44, 48, 60, .9)), color-stop(73%, rgba(44, 48, 60, .43)), to(rgba(44, 48, 60, 0)));\n  background: linear-gradient(to bottom, rgba(44, 48, 60, .9) 44%, rgba(44, 48, 60, .43) 73%, rgba(44, 48, 60, 0) 100%);\n}\n\n.theme-dark .vx-navbar-wrapper .vx-navbar .search-full-container {\n  background-color: #10163a !important;\n}\n\n.theme-dark .vx-navbar-wrapper .vx-navbar .search-full-container .vx-auto-suggest input {\n  background: #10163a;\n}\n\n.theme-dark .vx-navbar-wrapper .vx-navbar .vx-auto-suggest .auto-suggest-suggestions-list .auto-suggest__suggestion.vx-auto-suggest__current-selected {\n  background: #10163a;\n}\n\n.theme-dark .main-menu-sidebar .vs-sidebar {\n  background-color: #10163a;\n}\n\n.theme-dark .main-menu-sidebar .shadow-bottom {\n  width: 94%;\n  background: -webkit-gradient(linear, left top, left bottom, color-stop(44%, #0f1642), color-stop(73%, rgba(15, 22, 66, .51)), to(rgba(44, 48, 60, 0)));\n  background: linear-gradient(to bottom, #0f1642 44%, rgba(15, 22, 66, .51) 73%, rgba(44, 48, 60, 0) 100%);\n}\n\n.theme-dark .main-menu-sidebar .scroll-area--main-sidebar .feather-icon,\n.theme-dark .main-menu-sidebar .scroll-area--main-sidebar span {\n  color: #fff;\n}\n\n.theme-dark .main-menu-sidebar .scroll-area--main-sidebar a .feather-icon svg,\n.theme-dark .main-menu-sidebar .scroll-area--main-sidebar a .feather-icon span {\n  color: #fff;\n}\n\n.theme-dark .main-menu-sidebar .scroll-area--main-sidebar .vs-sidebar-group.vs-sidebar-group-active > .group-header {\n  background: #262c49;\n}\n\n.theme-dark .main-menu-sidebar .scroll-area--main-sidebar .vs-sidebar-group.vs-sidebar-group-open > .group-header {\n  background: #262c49;\n}\n\n.theme-dark .main-menu-sidebar .scroll-area--main-sidebar .con-vs-chip {\n  -webkit-box-shadow: 0px 0px 4px 2px #262c49;\n          box-shadow: 0px 0px 4px 2px #262c49;\n}\n\n.theme-dark .ps:hover > .ps__scrollbar-y-rail:hover {\n  background-color: #10163a;\n}\n\n.theme-dark .grid-demo__layout-container .vs-row .vs-col {\n  background-color: #212744;\n}\n\n.theme-dark .grid-demo__layout-container .vs-row .vs-col:last-of-type {\n  background-color: #212744;\n}\n\n.theme-dark .grid-demo__layout-container--block .vs-row {\n  background-color: #212744;\n}\n\n.theme-dark .chat-card-log .flex-row-reverse .msg.chat-sent-msg {\n  background-color: #10163a !important;\n}\n\n.theme-dark .chat-card-log .msg {\n  background-color: #212744 !important;\n}\n\n.theme-dark .chat-input-container,\n.theme-dark .chat__input {\n  background-color: #10163a !important;\n  border-top: 1px solid #212744;\n}\n\n.theme-dark .app-search-container {\n  background-color: #262c49;\n}\n\n.theme-dark #chat-app #chat-app-container .chat__profile-search .vs-inputx {\n  border-color: #dae1e7 !important;\n}\n\n.theme-dark #chat-app #chat-app-container #chat-list-sidebar .chat-scroll-area .chat__contact:hover {\n  background: #10163a;\n}\n\n.theme-dark #chat-app #chat-app-container .chat__header header {\n  background: #212744 !important;\n}\n\n.theme-dark #chat-app #chat-app-container .chat__header header h6 {\n  color: #fff;\n}\n\n.theme-dark #chat-app #chat-app-container .chat__bg .select-none {\n  background-color: #212744 !important;\n}\n\n.theme-dark #chat-app #chat-app-container .chat__bg h4 {\n  background-color: #212744 !important;\n  color: #fff;\n}\n\n.theme-dark #chat-app #chat-app-container .chat__bg .msg {\n  background-color: #212744 !important;\n}\n\n.theme-dark #chat-app #chat-app-container .chat__bg.chat-content-area .chat-content-scroll-area {\n  background: rgba(34, 41, 47, .2);\n}\n\n.theme-dark #todo-app .todo-list h6.todo-title {\n  color: #fff;\n}\n\n.theme-dark #todo-app .todo-list .todo-tags .con-vs-chip {\n  background: #10163a;\n  color: #fff !important;\n}\n\n.theme-dark #todo-app .list-item-component:hover {\n  -webkit-box-shadow: 0px 0 0 0px #1e1e1e;\n          box-shadow: 0px 0 0 0px #1e1e1e;\n}\n\n.theme-dark #email-app .email__mails .email__mail-item .mail__mail-item:hover {\n  -webkit-box-shadow: 0px 0 0 0px #1e1e1e;\n          box-shadow: 0px 0 0 0px #1e1e1e;\n}\n\n.theme-dark #email-app .email__mails .mail__opened-mail {\n  background: transparent;\n}\n\n.theme-dark #email-app .email-view-sidebar .vs-sidebar {\n  background-color: #212744 !important;\n}\n\n.theme-dark #calendar-app .full-calendar-body .week-row .day-cell.not-cur-month .day-number {\n  color: rgba(255, 255, 255, .24);\n}\n\n.theme-dark .vs-alert code {\n  color: #b8c2cc;\n  background: #262c49;\n}\n\n.theme-dark .con-vs-chip .con-vs-avatar {\n  background-color: #10163a !important;\n}\n\n.theme-dark .con-vs-avatar {\n  background: #262c49 !important;\n}\n\n.theme-dark .con-vs-avatar.con-vs-avatar-primary {\n  background: rgba(var(--vs-primary), 1) !important;\n}\n\n.theme-dark .con-vs-avatar.con-vs-avatar-success {\n  background: rgba(var(--vs-success), 1) !important;\n}\n\n.theme-dark .con-vs-avatar.con-vs-avatar-danger {\n  background: rgba(var(--vs-danger), 1) !important;\n}\n\n.theme-dark .con-vs-avatar.con-vs-avatar-warning {\n  background: rgba(var(--vs-warning), 1) !important;\n}\n\n.theme-dark .con-vs-avatar.con-vs-avatar-info {\n  background: rgba(var(--vs-info), 1) !important;\n}\n\n.theme-dark .con-vs-avatar.con-vs-avatar-dark {\n  background: #b8c2cc !important;\n}\n\n.theme-dark #profile-page .profile-header .profile-header-nav {\n  background: #10163a !important;\n}\n\n.theme-dark #faq-page .faq-bg {\n  background-color: #10163a;\n}\n\n.theme-dark #badge-demo h1,\n.theme-dark #badge-demo h2,\n.theme-dark #badge-demo h3,\n.theme-dark #badge-demo h4,\n.theme-dark #badge-demo h5,\n.theme-dark #badge-demo h6 {\n  color: #fff;\n}\n\n.theme-dark .vs-breadcrumb--ol a,\n.theme-dark .vs-breadcrumb--ol .vs-breadcrum--separator {\n  color: #dae1e7;\n}\n\n.theme-dark .vs-button-dark.vs-button-filled {\n  background: #b8c2cc !important;\n}\n\n.theme-dark .vs-button-dark.vs-button-filled .vs-button--text {\n  color: #1e1e1e;\n}\n\n.theme-dark .demo-text-dark .vs-button-text {\n  color: #b8c2cc;\n}\n\n.theme-dark .vs-button-dark.vs-button-border,\n.theme-dark .vs-button-dark.vs-button-flat,\n.theme-dark .vs-button-dark.vs-button-line {\n  border-color: #b8c2cc;\n}\n\n.theme-dark .vs-button-dark .vs-button--text,\n.theme-dark .vs-button-dark .vs-icon {\n  color: #b8c2cc;\n}\n\n.theme-dark .vx-card .con-vs-chip {\n  background: #262c49;\n  color: #fff !important;\n}\n\n.theme-dark .vx-card .con-vs-chip.vs-chip-primary {\n  background: rgba(var(--vs-primary), 1);\n}\n\n.theme-dark .vx-card .con-vs-chip.vs-chip-success {\n  background: rgba(var(--vs-success), 1);\n}\n\n.theme-dark .vx-card .con-vs-chip.vs-chip-danger {\n  background: rgba(var(--vs-danger), 1);\n}\n\n.theme-dark .vx-card .con-vs-chip.vs-chip-warning {\n  background: rgba(var(--vs-warning), 1);\n}\n\n.theme-dark .vx-card .con-vs-chip.vs-chip-info {\n  background: rgba(var(--vs-info), 1);\n}\n\n.theme-dark .vx-card .con-vs-chip.vs-chip-dark {\n  background: rgba(var(--vs-dark), 1);\n}\n\n.theme-dark .vx-card .con-chips--input {\n  border: none;\n}\n\n.theme-dark .vs-divider .vs-divider-border {\n  border-color: #fff !important;\n}\n\n.theme-dark .vs-divider .vs-divider-border.vs-divider-border-primary {\n  border-color: rgba(var(--vs-primary), 1) !important;\n}\n\n.theme-dark .vs-divider .vs-divider-border.vs-divider-border-success {\n  border-color: rgba(var(--vs-success), 1) !important;\n}\n\n.theme-dark .vs-divider .vs-divider-border.vs-divider-border-danger {\n  border-color: rgba(var(--vs-danger), 1) !important;\n}\n\n.theme-dark .vs-divider .vs-divider-border.vs-divider-border-warning {\n  border-color: rgba(var(--vs-warning), 1) !important;\n}\n\n.theme-dark .vs-divider .vs-divider-border.vs-divider-border-info {\n  border-color: rgba(var(--vs-info), 1) !important;\n}\n\n.theme-dark .vs-divider .vs-divider-border.vs-divider-border-dark {\n  border-color: rgba(184, 194, 204, .5) !important;\n}\n\n.theme-dark .vs-divider .vs-divider--text {\n  background: transparent;\n  color: #fff !important;\n}\n\n.theme-dark .vs-divider .vs-divider--text .vs-icon {\n  color: #fff;\n}\n\n.theme-dark .vs-dropdown--menu,\n.theme-dark .vs-dropdown--menu--after {\n  background: #262c49;\n}\n\n.theme-dark .vs-dropdown--menu .con-dropdown--group-ul,\n.theme-dark .vs-dropdown--menu--after .con-dropdown--group-ul {\n  background: #262c49;\n}\n\n.theme-dark .vs-dropdown--menu .vs-dropdown--item .vs-dropdown--item-link.disabled,\n.theme-dark .vs-dropdown--menu--after .vs-dropdown--item .vs-dropdown--item-link.disabled {\n  color: #b8c2cc !important;\n}\n\n.theme-dark .con-vs-loading {\n  background: #10163a;\n}\n\n.theme-dark .con-vs-loading h4.title-loading {\n  color: #fff;\n}\n\n.theme-dark .vs-list .vs-list--header {\n  -webkit-box-shadow: 0 7px 7px -5px rgba(255, 255, 255, .08);\n          box-shadow: 0 7px 7px -5px rgba(255, 255, 255, .08);\n}\n\n.theme-dark .vs-list .vs-list--item {\n  border-color: rgba(255, 255, 255, .08);\n}\n\n.theme-dark .vs-navbar {\n  border-color: #262c49;\n}\n\n.theme-dark .vs-navbar li.vs-navbar--item a {\n  color: #dae1e7;\n}\n\n.theme-dark .vs-navbar li.vs-navbar--item.is-active-item a {\n  color: #fff;\n}\n\n.theme-dark #navbar-demo .vs-navbar {\n  -webkit-box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .7);\n          box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .7);\n}\n\n.theme-dark .vs-pagination--nav .vs-pagination--ul {\n  background: #262c49;\n}\n\n.theme-dark .vs-pagination--nav .vs-pagination--ul .vs-pagination--li {\n  color: #fff;\n}\n\n.theme-dark .vs-pagination--nav .vs-pagination--buttons {\n  background: #262c49;\n  color: #fff;\n}\n\n.theme-dark .con-vs-popup .vs-popup {\n  background: #262c49 !important;\n  color: #fff;\n}\n\n.theme-dark .con-vs-popup .vs-popup .vs-popup--header {\n  background: #10163a !important;\n}\n\n.theme-dark .con-vs-popup .vs-popup .vs-popup--header .vs-popup--close {\n  background: #262c49 !important;\n}\n\n.theme-dark #popup-demo .demo-alignment .vs-button {\n  background: #262c49 !important;\n}\n\n.theme-dark #popup-demo .demo-alignment .vs-button:hover {\n  -webkit-box-shadow: #262c49 0px 8px 25px -8px !important;\n          box-shadow: #262c49 0px 8px 25px -8px !important;\n}\n\n.theme-dark .vs-sidebar {\n  background: #262c49;\n}\n\n.theme-dark .vs-sidebar h4,\n.theme-dark .vs-sidebar h5 {\n  color: #fff;\n}\n\n.theme-dark .vs-sidebar .vs-sidebar--items .vs-sidebar--item a {\n  color: #fff;\n}\n\n.theme-dark .vs-sidebar .vs-sidebar-group.vs-sidebar-group-active > .group-header {\n  background: #262c49;\n}\n\n.theme-dark .con-vs-slider .vs-slider {\n  background: rgba(38, 44, 73, .5);\n}\n\n.theme-dark .ul-tabs .vs-tabs--li button {\n  color: #fff;\n}\n\n.theme-dark .vs-tabs-dark .activeChild button,\n.theme-dark .vs-tabs-dark button:not(:disabled):hover {\n  color: #b8c2cc !important;\n}\n\n.theme-dark .vs-tabs-dark .line-vs-tabs {\n  background: linear-gradient(30deg, #b8c2cc, rgba(184, 194, 204, .5)) !important;\n  -webkit-box-shadow: 0 0 8px 0 rgba(184, 194, 204, .4) !important;\n          box-shadow: 0 0 8px 0 rgba(184, 194, 204, .4) !important;\n}\n\n.theme-dark .vs-tooltip.vs-tooltip-dark {\n  background: #262c49;\n}\n\n.theme-dark .con-upload .con-input-upload,\n.theme-dark .con-upload .con-img-upload {\n  background-color: #262c49;\n}\n\n.theme-dark .con-upload .btn-upload-all {\n  background-color: #10163a;\n}\n\n.theme-dark input {\n  background: #262c49;\n  color: #fff;\n}\n\n.theme-dark input ~ .vs-placeholder-label,\n.theme-dark input ~ .vs-input--placeholder {\n  color: #fff;\n}\n\n.theme-dark .vs-input--icon {\n  border-right-color: rgba(255, 255, 255, .2);\n}\n\n.theme-dark .vs-input--icon.icon-after {\n  border-left-color: rgba(255, 255, 255, .2);\n}\n\n.theme-dark .vs-input-number {\n  background: #262c49;\n}\n\n.theme-dark .vs-input-number button.vs-input-number--button-less:disabled,\n.theme-dark .vs-input-number button.vs-input-number--button-less.limit,\n.theme-dark .vs-input-number button.vs-input-number--button-plus:disabled,\n.theme-dark .vs-input-number button.vs-input-number--button-plus.limit {\n  opacity: .75;\n  background: #b8c2cc;\n}\n\n.theme-dark .vs-con-textarea {\n  background: #262c49;\n  color: #fff;\n}\n\n.theme-dark .vs-con-textarea .vs-textarea {\n  color: #fff;\n}\n\n.theme-dark .vs-con-textarea .vs-textarea:focus {\n  border-color: transparent;\n}\n\n.theme-dark .vs-con-textarea.focusx {\n  border-color: transparent;\n}\n\n.theme-dark .vs-con-textarea.focusx h4 {\n  background: transparent;\n}\n\n.theme-dark .vs-con-textarea.textarea-danger .vs-textarea {\n  color: rgba(var(--vs-danger), 1);\n}\n\n.theme-dark .vs-switch {\n  background: #262c49;\n}\n\n.theme-dark .vs-switch.vs-switch-primary.vs-switch-active {\n  background: rgba(var(--vs-primary), 1);\n}\n\n.theme-dark .vs-switch.vs-switch-success.vs-switch-active {\n  background: rgba(var(--vs-success), 1);\n}\n\n.theme-dark .vs-switch.vs-switch-danger.vs-switch-active {\n  background: rgba(var(--vs-danger), 1);\n}\n\n.theme-dark .vs-switch.vs-switch-warning.vs-switch-active {\n  background: rgba(var(--vs-warning), 1);\n}\n\n.theme-dark .vs-switch.vs-switch-info.vs-switch-active {\n  background: rgba(var(--vs-info), 1);\n}\n\n.theme-dark .vs-switch.vs-switch-dark.vs-switch-active {\n  background: #212744;\n}\n\n.theme-dark .vs-radio-dark .vs-radio--circle {\n  background: #b8c2cc;\n  -webkit-box-shadow: 0 3px 12px 0 rgba(184, 194, 204, .4);\n          box-shadow: 0 3px 12px 0 rgba(184, 194, 204, .4);\n}\n\n.theme-dark .op-block {\n  -webkit-box-shadow: 1px 1px 10px rgba(255, 255, 255, .1);\n          box-shadow: 1px 1px 10px rgba(255, 255, 255, .1);\n}\n\n.theme-dark .vs-input-dark .vs-input--input:focus {\n  border-color: #b8c2cc !important;\n}\n\n.theme-dark .vs-input-dark .vs-input--input:focus ~ .vs-input--placeholder {\n  color: #b8c2cc;\n}\n\n.theme-dark .vue-form-wizard .wizard-icon-circle {\n  background: #262c49;\n  border-color: #212744;\n}\n\n.theme-dark .vue-form-wizard .wizard-nav-pills > li > a {\n  color: #fff;\n}\n\n.theme-dark .vue-form-wizard .wizard-nav-pills > li > a .stepTitle {\n  color: #dae1e7;\n}\n\n.theme-dark .vue-form-wizard .wizard-navigation .wizard-nav .stepTitle {\n  color: #dae1e7;\n}\n\n.theme-dark .vs-con-table .vs-con-tbody {\n  background: #212744;\n  border: 2px solid #262c49;\n}\n\n.theme-dark .vs-con-table .vs-con-tbody .vs-table--tbody-table .tr-table tr {\n  background: #262c49;\n}\n\n.theme-dark .vs-con-table .vs-con-tbody .vs-table--tbody-table .vs-table--thead .con-td-check {\n  background: #212744;\n}\n\n.theme-dark .vs-con-table .con-edit-td {\n  background: #212744;\n}\n\n.theme-dark .vs-con-table .is-selected .tr-values {\n  background: #212744 !important;\n}\n\n.theme-dark .apexcharts-canvas .apexcharts-tooltip.light {\n  background: #212744;\n  border-color: #262c49;\n}\n\n.theme-dark .apexcharts-canvas .apexcharts-tooltip.light .apexcharts-tooltip-title {\n  background: #212744;\n}\n\n.theme-dark .apexcharts-canvas .apexcharts-xaxistooltip {\n  background: #212744;\n  border-color: #262c49;\n  color: #fff;\n}\n\n.theme-dark .apexcharts-canvas .apexcharts-xaxistooltip:before,\n.theme-dark .apexcharts-canvas .apexcharts-xaxistooltip:after {\n  border-bottom-color: #212744;\n}\n\n.theme-dark .apexcharts-canvas .apexcharts-yaxistooltip {\n  background: #212744;\n  border-color: #262c49;\n  color: #fff;\n}\n\n.theme-dark .apexcharts-canvas .apexcharts-yaxistooltip:before,\n.theme-dark .apexcharts-canvas .apexcharts-yaxistooltip:after {\n  border-left-color: #212744;\n}\n\n.theme-dark .apexcharts-canvas text {\n  fill: #fff !important;\n}\n\n.theme-dark .apexcharts-canvas .apexcharts-pie-series path {\n  stroke: #262c49;\n}\n\n.theme-dark .apexcharts-canvas .apexcharts-legend .apexcharts-legend-series .apexcharts-legend-text {\n  color: #b8c2cc !important;\n}\n\n.theme-dark .apexcharts-canvas .apexcharts-toolbar .apexcharts-menu {\n  background: #262c49;\n  border-color: #262c49;\n}\n\n.theme-dark .apexcharts-canvas .apexcharts-toolbar .apexcharts-menu .apexcharts-menu-item {\n  background: #212744;\n}\n\n.theme-dark .apexcharts-canvas .apexcharts-radar-series polygon {\n  fill: #262c49;\n  stroke: #212744;\n}\n\n.theme-dark .apexcharts-canvas .apexcharts-track path {\n  stroke: #262c49;\n}\n\n.theme-dark .token.operator,\n.theme-dark .token.entity,\n.theme-dark .token.url,\n.theme-dark .language-css .token.string,\n.theme-dark .style .token.string {\n  background: transparent;\n}\n\n.theme-dark .search-tab-filter {\n  background: #10163a;\n}\n\n.theme-dark .vs-select--options {\n  background: #10163a;\n  border-color: rgba(184, 194, 204, .2);\n}\n\n.theme-dark .vs-select--options .vs-select--item {\n  color: #b8c2cc;\n  border-color: rgba(184, 194, 204, .2);\n  -webkit-box-shadow: none;\n          box-shadow: none;\n}\n\n.theme-dark .vs-select--options .vs-select--item:hover {\n  background: #262c49;\n}\n\n.theme-dark .v-select .dropdown-toggle {\n  background: #262c49;\n}\n\n.theme-dark .v-select .dropdown-toggle .clear {\n  color: #fff;\n}\n\n.theme-dark .v-select .dropdown-toggle .close {\n  color: #fff;\n  opacity: .7;\n}\n\n.theme-dark .v-select .selected-tag {\n  color: #fff;\n  background: #10163a;\n  border: none;\n}\n\n.theme-dark .v-select .open-indicator:before {\n  border-color: #b8c2cc;\n}\n\n.theme-dark .v-select .dropdown-menu {\n  background: #262c49;\n}\n\n.theme-dark .v-select .dropdown-menu li a {\n  color: #fff;\n}\n\n.theme-dark .quill-editor .ql-toolbar button {\n  color: #fff;\n}\n\n.theme-dark .quill-editor .ql-toolbar button svg path {\n  stroke: #fff;\n}\n\n.theme-dark .quill-editor .ql-toolbar .ql-fill {\n  fill: #fff;\n}\n\n.theme-dark .quill-editor .ql-toolbar .ql-stroke {\n  stroke: #fff;\n}\n\n.theme-dark .quill-editor .ql-toolbar .ql-picker {\n  color: #fff;\n}\n\n.theme-dark .quill-editor .ql-toolbar .ql-picker .ql-picker-options {\n  background: #10163a;\n}\n\n.theme-dark .quill-editor .ql-editor.ql-blank::before {\n  color: rgba(255, 255, 255, .6);\n}\n\n.theme-dark .vdp-datepicker .vdp-datepicker__calendar {\n  background: #262c49;\n}\n\n.theme-dark .vdp-datepicker .vdp-datepicker__calendar header .prev:not(.disabled):hover,\n.theme-dark .vdp-datepicker .vdp-datepicker__calendar header .next:not(.disabled):hover,\n.theme-dark .vdp-datepicker .vdp-datepicker__calendar header .up:not(.disabled):hover {\n  background: #10163a;\n}\n\n.theme-dark .vdp-datepicker .vdp-datepicker__calendar header .prev:after {\n  border-right-color: #fff;\n}\n\n.theme-dark .vdp-datepicker .vdp-datepicker__calendar header .next:after {\n  border-left-color: #fff;\n}\n\n.theme-dark .vdp-datepicker .vdp-datepicker__calendar .disabled {\n  color: rgba(184, 194, 204, .6);\n}\n\n.theme-dark .vdp-datepicker .vdp-datepicker__calendar .cell.highlighted {\n  background: #10163a;\n}\n\n.theme-dark .vdp-datepicker input {\n  border: 0;\n  padding: 10px;\n}\n\n.theme-dark .vs-collapse.shadow {\n  -webkit-box-shadow: 0 0px 8px 0 rgba(255, 255, 255, .1) !important;\n          box-shadow: 0 0px 8px 0 rgba(255, 255, 255, .1) !important;\n}\n\n.theme-dark .vs-collapse .vs-collapse-item {\n  border-bottom-color: rgba(255, 255, 255, .04);\n}\n\n.theme-dark .vs-collapse.border {\n  border-color: rgba(255, 255, 255, .1);\n}\n\n.theme-dark .vs-collapse.border .vs-collapse-item {\n  border-bottom-color: rgba(255, 255, 255, .04);\n}\n\n.theme-dark .vs-collapse.margin .vs-collapse-item {\n  background: #10163a;\n  -webkit-box-shadow: 0 2px 15px 0 rgba(255, 255, 255, .05);\n          box-shadow: 0 2px 15px 0 rgba(255, 255, 255, .05);\n}\n\n.theme-dark .vx-auto-suggest .auto-suggest-suggestions-list {\n  background-color: #262c49;\n}\n\n.theme-dark .footer-sticky .the-footer {\n  background-color: #10163a;\n  color: #fff !important;\n}\n\n.theme-dark .con-vs-dialog .vs-dialog {\n  background: #262c49;\n  color: #fff;\n}\n\n.theme-dark .con-vs-dialog .vs-dialog header {\n  background: #10163a;\n}\n\n.theme-dark .con-vs-dialog .vs-dialog header .con-title-after h3 {\n  color: #fff;\n}\n\n.theme-dark .con-vs-dialog .vs-dialog header .vs-dialog-cancel,\n.theme-dark .con-vs-dialog .vs-dialog header .vs-icon {\n  background: #262c49;\n  color: #fff;\n}\n\n.theme-dark .con-vs-dialog .vs-dialog footer .vs-button--text {\n  color: #fff;\n}\n\n.theme-dark .con-vs-dialog .vs-dialog .vs-dialog-text .date-label {\n  color: #fff;\n}\n\n.theme-dark .con-vs-dialog .vs-dialog input,\n.theme-dark .con-vs-dialog .vs-dialog .vs-con-textarea {\n  background: #10163a;\n}\n\n.theme-dark .con-vs-dialog .vs-dialog .con-upload .con-input-upload,\n.theme-dark .con-vs-dialog .vs-dialog .con-upload .con-img-upload {\n  background: #10163a;\n}\n\n.theme-dark .con-vs-dialog .vs-dialog .quill-editor {\n  background: #262c49;\n}\n\n.theme-dark #theme-customizer .vs-switch {\n  background: #10163a;\n}\n\n/*=========================================================================================\r\n\tFile Name: _themeSemiDark.scss\r\n\tDescription: partial- Styles for semi dark theme\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n.theme-semi-dark .main-menu-sidebar .vs-sidebar {\n  background-color: #10163a;\n}\n\n.theme-semi-dark .main-menu-sidebar .shadow-bottom {\n  width: 94%;\n  background: -webkit-gradient(linear, left top, left bottom, color-stop(44%, #0f1642), color-stop(73%, rgba(15, 22, 66, .51)), to(rgba(44, 48, 60, 0)));\n  background: linear-gradient(to bottom, #0f1642 44%, rgba(15, 22, 66, .51) 73%, rgba(44, 48, 60, 0) 100%);\n}\n\n.theme-semi-dark .main-menu-sidebar .scroll-area--main-sidebar .feather-icon,\n.theme-semi-dark .main-menu-sidebar .scroll-area--main-sidebar span {\n  color: #fff;\n}\n\n.theme-semi-dark .main-menu-sidebar .scroll-area--main-sidebar a .feather-icon svg,\n.theme-semi-dark .main-menu-sidebar .scroll-area--main-sidebar a .feather-icon span {\n  color: #fff;\n}\n\n.theme-semi-dark .main-menu-sidebar .scroll-area--main-sidebar .vs-sidebar-group.vs-sidebar-group-open > .group-header {\n  background: #262c49;\n}\n\n.theme-semi-dark .main-menu-sidebar .scroll-area--main-sidebar .vs-sidebar-group.vs-sidebar-group-active > .group-header {\n  background: #262c49;\n}\n\n.theme-semi-dark .main-menu-sidebar .scroll-area--main-sidebar .con-vs-chip {\n  -webkit-box-shadow: 0px 0px 4px 2px #262c49;\n          box-shadow: 0px 0px 4px 2px #262c49;\n}\n\n/*=========================================================================================\r\n\tFile Name: _routerAnimations.scss\r\n\tDescription: partial- router animations\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n/* ZOOM FADE */\n\n.zoom-fade-enter-active,\n.zoom-fade-leave-active {\n  -webkit-transition: opacity .28s ease-in-out, -webkit-transform .35s;\n  transition: opacity .28s ease-in-out, -webkit-transform .35s;\n  transition: transform .35s, opacity .28s ease-in-out;\n  transition: transform .35s, opacity .28s ease-in-out, -webkit-transform .35s;\n}\n\n.zoom-fade-enter {\n  -webkit-transform: scale(.97);\n          transform: scale(.97);\n  opacity: 0;\n}\n\n.zoom-fade-leave-to {\n  -webkit-transform: scale(1.03);\n          transform: scale(1.03);\n  opacity: 0;\n}\n\n/* FADE TRNASITION */\n\n.fade-enter-active,\n.fade-leave-active {\n  -webkit-transition: opacity .28s ease-in-out;\n  transition: opacity .28s ease-in-out;\n}\n\n.fade-enter,\n.fade-leave-to {\n  opacity: 0;\n}\n\n/* PAGE SLIDE */\n\n.slide-fade-enter-active,\n.slide-fade-leave-active {\n  -webkit-transition: opacity .35s, -webkit-transform .4s;\n  transition: opacity .35s, -webkit-transform .4s;\n  transition: opacity .35s, transform .4s;\n  transition: opacity .35s, transform .4s, -webkit-transform .4s;\n}\n\n.slide-fade-enter {\n  opacity: 0;\n  -webkit-transform: translateX(-30%);\n          transform: translateX(-30%);\n}\n\n.slide-fade-leave-to {\n  opacity: 0;\n  -webkit-transform: translateX(30%);\n          transform: translateX(30%);\n}\n\n/* ZOOM OUT */\n\n.zoom-out-enter-active,\n.zoom-out-leave-active {\n  -webkit-transition: opacity .35s ease-in-out, -webkit-transform .45s ease-out;\n  transition: opacity .35s ease-in-out, -webkit-transform .45s ease-out;\n  transition: opacity .35s ease-in-out, transform .45s ease-out;\n  transition: opacity .35s ease-in-out, transform .45s ease-out, -webkit-transform .45s ease-out;\n}\n\n.zoom-out-enter,\n.zoom-out-leave-to {\n  opacity: 0;\n  -webkit-transform: scale(0);\n          transform: scale(0);\n}\n\n/* UNFOLD SLIDE */\n\n.fade-bottom-enter-active,\n.fade-bottom-leave-active {\n  -webkit-transition: opacity .3s, -webkit-transform .35s;\n  transition: opacity .3s, -webkit-transform .35s;\n  transition: opacity .3s, transform .35s;\n  transition: opacity .3s, transform .35s, -webkit-transform .35s;\n}\n\n.fade-bottom-enter {\n  opacity: 0;\n  -webkit-transform: translateY(-8%);\n          transform: translateY(-8%);\n}\n\n.fade-bottom-leave-to {\n  opacity: 0;\n  -webkit-transform: translateY(8%);\n          transform: translateY(8%);\n}\n\n/*=========================================================================================\r\n\tFile Name: _transitions.scss\r\n\tDescription: Transition styles\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n.list-leave-active {\n  position: absolute;\n}\n\n.list-enter,\n.list-leave-to {\n  opacity: 0;\n  -webkit-transform: translateX(30px);\n          transform: translateX(30px);\n}\n\n/*=========================================================================================\r\n\tFile Name: _customClasses.scss\r\n\tDescription: partial- this file containes custom helper classes\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n.vx-row {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-wrap: wrap;\n      flex-wrap: wrap;\n  margin: 0 -1rem;\n}\n\n.vx-row > .vx-col {\n  padding: 0 1rem;\n}\n\n.vx-row.match-height > .vx-col {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n}\n\n.vx-row.no-gutter {\n  margin: 0;\n}\n\n.vx-row.no-gutter > .vx-col {\n  padding: 0;\n}\n\n.text-primary {\n  color: rgba(var(--vs-primary), 1) !important;\n}\n\n.text-success {\n  color: rgba(var(--vs-success), 1) !important;\n}\n\n.text-danger {\n  color: rgba(var(--vs-danger), 1) !important;\n}\n\n.text-warning {\n  color: rgba(var(--vs-warning), 1) !important;\n}\n\n.text-dark {\n  color: rgba(var(--vs-dark), 1) !important;\n}\n\n.bg-primary {\n  background-color: rgba(var(--vs-primary), 1) !important;\n}\n\n.bg-success {\n  background-color: rgba(var(--vs-success), 1) !important;\n}\n\n.bg-danger {\n  background-color: rgba(var(--vs-danger), 1) !important;\n}\n\n.bg-warning {\n  background-color: rgba(var(--vs-warning), 1) !important;\n}\n\n.bg-dark {\n  background-color: rgba(var(--vs-dark), 1) !important;\n}\n\n.border-primary {\n  border-color: rgba(var(--vs-primary), 1) !important;\n}\n\n.border-success {\n  border-color: rgba(var(--vs-success), 1) !important;\n}\n\n.border-danger {\n  border-color: rgba(var(--vs-danger), 1) !important;\n}\n\n.border-warning {\n  border-color: rgba(var(--vs-warning), 1) !important;\n}\n\n.border-dark {\n  border-color: rgba(var(--vs-dark), 1) !important;\n}\n\n.hover\\:bg-primary:hover {\n  background-color: rgba(var(--vs-primary), 1) !important;\n}\n\n.hover\\:bg-success:hover {\n  background-color: rgba(var(--vs-success), 1) !important;\n}\n\n.hover\\:bg-danger:hover {\n  background-color: rgba(var(--vs-danger), 1) !important;\n}\n\n.hover\\:bg-warning:hover {\n  background-color: rgba(var(--vs-warning), 1) !important;\n}\n\n.hover\\:bg-dark:hover {\n  background-color: rgba(var(--vs-dark), 1) !important;\n}\n\n.hover\\:text-primary:hover {\n  color: rgba(var(--vs-primary), 1) !important;\n}\n\n.hover\\:text-success:hover {\n  color: rgba(var(--vs-success), 1) !important;\n}\n\n.hover\\:text-danger:hover {\n  color: rgba(var(--vs-danger), 1) !important;\n}\n\n.hover\\:text-warning:hover {\n  color: rgba(var(--vs-warning), 1) !important;\n}\n\n.hover\\:text-dark:hover {\n  color: rgba(var(--vs-dark), 1) !important;\n}\n\n.bg-primary-gradient {\n  background: linear-gradient(118deg, rgba(var(--vs-primary), 1), rgba(var(--vs-primary), .7)) !important;\n}\n\n.bg-success-gradient {\n  background: linear-gradient(118deg, rgba(var(--vs-success), 1), rgba(var(--vs-success), .7)) !important;\n}\n\n.bg-danger-gradient {\n  background: linear-gradient(118deg, rgba(var(--vs-danger), 1), rgba(var(--vs-danger), .7)) !important;\n}\n\n.bg-warning-gradient {\n  background: linear-gradient(118deg, rgba(var(--vs-warning), 1), rgba(var(--vs-warning), .7)) !important;\n}\n\n.bg-dark-gradient {\n  background: linear-gradient(118deg, rgba(var(--vs-dark), 1), rgba(var(--vs-dark), .7)) !important;\n}\n\n.truncate {\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n}\n\n.text-big {\n  font-size: 4rem;\n}\n\n.text-base {\n  color: #626262;\n}\n\n.blur-1 {\n  -webkit-filter: blur(1px);\n          filter: blur(1px);\n}\n\n.blur-2 {\n  -webkit-filter: blur(2px);\n          filter: blur(2px);\n}\n\n.blur-3 {\n  -webkit-filter: blur(3px);\n          filter: blur(3px);\n}\n\n.sidebar-spacer {\n  width: calc(100% - 260px);\n  margin-left: 260px;\n}\n\n.sidebar-spacer--wide {\n  width: calc(100% - 400px);\n  margin-left: 400px;\n}\n\n.full-vs-sidebar .vs-sidebar {\n  max-width: calc(100% - 260px);\n  margin-left: 260px;\n}\n\n@media only screen and (max-width: 992px) {\n  .full-vs-sidebar .vs-sidebar {\n    max-width: 100%;\n    margin-left: 0;\n  }\n}\n\n.responsive {\n  width: 100%;\n  height: auto;\n}\n\nul.bordered-items > li:not(:last-of-type):not([class*=shadow]) {\n  border-bottom: 1px solid #dae1e7;\n}\n\n/*=========================================================================================\r\n\tFile Name: _fixesVuesax.scss\r\n\tDescription: Partial - Fixes/Add vuesax styles\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n.vs-alert {\n  font-size: 1rem;\n}\n\n.vs-alert code {\n  background: #b5b5b5;\n  color: #fff;\n}\n\n.vs-tooltip {\n  z-index: 52000;\n}\n\n.con-chips .con-chips--input {\n  border: none;\n}\n\n.con-chips .con-vs-chip {\n  margin: .75rem;\n}\n\n.con-chips .con-chips--remove-all {\n  right: 9px;\n}\n\n.con-vs-chip {\n  min-height: 26px;\n  min-width: 26px;\n  font-size: .8rem;\n}\n\n.vs-collapse-item--header {\n  font-size: 1.2rem;\n  padding: 1rem;\n}\n\n.con-content--item {\n  font-size: 1rem;\n  padding: 1rem;\n}\n\n.vs-collapse.default .open-item .con-content--item,\n.vs-collapse.shadow .open-item .con-content--item,\n.vs-collapse.border .open-item .con-content--item,\n.vs-collapse.margin .open-item .con-content--item {\n  opacity: 1;\n  padding: 1rem;\n}\n\n.vs-collapse.shadow .vs-collapse-item--icon-header {\n  -webkit-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%);\n}\n\n.vs-collapse.shadow .open-item .vs-collapse-item--icon-header {\n  -webkit-transform: translate(-50%, -50%) rotate(180deg);\n          transform: translate(-50%, -50%) rotate(180deg);\n}\n\n.con-vs-dialog .vs-dialog header h3 {\n  padding: .8rem;\n}\n\n.con-vs-dialog .vs-dialog header span.after {\n  width: 0;\n}\n\n.con-vs-dialog .vs-dialog .vs-dialog-text {\n  padding: 1rem;\n  font-size: 1rem;\n}\n\n.con-vs-dialog .vs-dialog footer {\n  padding: 1rem;\n}\n\n.vs-con-dropdown {\n  font-size: 1rem;\n}\n\n.con-vs-dropdown--menu {\n  z-index: 42000;\n}\n\n.vs-list--item .list-titles .vs-list--subtitle {\n  font-size: .85rem;\n}\n\n.vs-list--item:last-child {\n  border-bottom: none;\n}\n\n.con-vs-popup {\n  z-index: 53000;\n}\n\n.con-vs-popup .vs-popup--content {\n  padding: 1rem;\n  font-size: 1rem;\n}\n\n.vs-tabs--li button {\n  font-size: 1rem;\n}\n\n.con-select .vs-select--input {\n  padding: 10px;\n  font-size: 1rem;\n  border: 1px solid rgba(0, 0, 0, .2);\n}\n\n.vs-select--options {\n  font-size: 1rem;\n}\n\n.vs-select--options span {\n  font-size: 1rem;\n}\n\n.vs-switch--text {\n  font-size: .7rem;\n}\n\n.vs-con-input .vs-inputx {\n  padding: .7rem;\n  font-size: 1rem;\n  border: 1px solid rgba(0, 0, 0, .2);\n}\n\n.vs-con-input .vx-inputx:not(.input-rounded-full) {\n  border-radius: 5px;\n}\n\n.vs-input--input.normal {\n  padding: .7rem;\n  font-size: 1rem;\n}\n\n.vs-input--input.hasIcon {\n  padding: .7rem 1rem .7rem 3rem;\n}\n\n.vs-input--input.hasIcon.icon-after-input {\n  padding: .7rem 3rem .7rem 1rem;\n}\n\n.vs-input--placeholder.normal {\n  padding: .6rem;\n}\n\n.vs-input--input.large {\n  padding: 1rem;\n  font-size: 1.2rem;\n}\n\n.vs-input--input.large.hasIcon {\n  padding: 1rem .8rem 1rem 2.5rem;\n}\n\n.vs-input--placeholder.large {\n  padding: 1rem .6rem;\n}\n\n.vs-input--input.small {\n  padding: .4rem;\n  font-size: .8rem;\n}\n\n.vs-input--placeholder.small {\n  padding: .2rem .6rem;\n  font-size: .8rem;\n}\n\n.vs-input--input.large ~ .vs-input--icon {\n  top: 1rem;\n  left: .8rem;\n}\n\n.vs-input--icon {\n  top: 13px;\n}\n\n.vs-input--icon.feather {\n  top: 10px;\n}\n\n.no-icon-border .vs-input--icon {\n  border: none;\n}\n\n.input-no-border .vs-input--input {\n  border: none !important;\n}\n\n.input-no-border .vs-input--input:focus {\n  border: none !important;\n  -webkit-box-shadow: none !important;\n          box-shadow: none !important;\n}\n\n.vs-textarea {\n  font-size: 1rem;\n}\n\n.vs-con-textarea {\n  border: 1px solid rgba(0, 0, 0, .2);\n}\n\n.vs-checkbox-small .vs-checkbox--input:checked + .vs-checkbox .vs-icon {\n  -webkit-transform: translateY(-3px);\n          transform: translateY(-3px);\n}\n\n.vs-col {\n  padding: 0 15px;\n}\n\n.con-img-upload {\n  overflow: hidden;\n  padding: .6rem;\n}\n\n.con-img-upload .img-upload {\n  margin: 15px;\n}\n\n.view-upload {\n  z-index: 52000;\n}\n\n.select-large input.vs-select--input {\n  padding: 11px;\n}\n\ni.wizard-icon {\n  font-style: inherit;\n}\n\n.stepTitle {\n  margin-top: .5rem;\n}\n\ni.feather {\n  font-weight: 100;\n}\n\n.vs-con-table {\n  background: transparent;\n}\n\n.vs-con-table .vs-table--header .vs-table--search {\n  padding: 1rem 0;\n}\n\n.vs-con-table .vs-table--header .vs-table--search-input {\n  padding: 10px;\n  border: 1px solid rgba(0, 0, 0, .1);\n}\n\n.vs-con-table .vs-con-tbody {\n  background: #f8f8f8;\n  border: 2px solid #f8f8f8;\n  width: 100%;\n  overflow: auto;\n}\n\n.vs-con-table .vs-con-tbody .vs-table--tbody-table {\n  font-size: 1rem;\n}\n\n.vs-con-table .vs-con-tbody .vs-table--tbody-table .tr-spacer {\n  height: 2px;\n}\n\n.vs-con-table .vs-con-tbody .vs-table--tbody-table .tr-table .tr-expand td {\n  padding: 0;\n}\n\n.vs-con-table .vs-con-tbody .vs-table--tbody-table .tr-table td {\n  padding: 1rem;\n}\n\n.vs-con-table .vs-con-tbody .vs-table--tbody-table .vs-table--thead th {\n  padding-top: 1rem;\n  padding-bottom: 1rem;\n}\n\n.vs-con-table .vs-con-tbody .vs-table--tbody-table .vs-table--thead .con-td-check {\n  background: #f8f8f8;\n  -webkit-box-shadow: none;\n          box-shadow: none;\n}\n\n.vs-con-table .vs-table--pagination {\n  margin-top: 1rem;\n}\n\n.con-vs-checkbox,\n.con-vs-radio {\n  -webkit-box-pack: start !important;\n      -ms-flex-pack: start !important;\n          justify-content: flex-start !important;\n}\n\n.con-vs-radio {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n}\n\n.input-rounded-full input {\n  border-radius: 20px;\n}\n\n.v-select .dropdown-toggle .vs__actions .clear {\n  padding-top: 4px;\n}\n\n.vs-button {\n  font-family: \"Montserrat\", Helvetica, Arial, sans-serif;\n  font-size: 1rem;\n}\n\n.vs-button:not(.vs-radius):not(.includeIconOnly):not(.small):not(.large) {\n  padding: .75rem 2rem;\n}\n\n.vs-button:not(.vs-radius):not(.includeIconOnly):not(.small):not(.large).vs-button-border {\n  padding: .679rem 2rem;\n}\n\n.vs-button.small:not(.includeIconOnly) {\n  padding: .5rem 1.5rem;\n}\n\n.vs-button.large:not(.includeIconOnly) {\n  padding: 1rem 2.5rem;\n}\n\n.vs-button.large {\n  font-size: 1.25rem;\n}\n\n.vs-button.large .vs-button--icon {\n  font-size: 1.25rem;\n}\n\n.vs-button.round {\n  border-radius: 1.5rem;\n}\n\n.vs-button.includeIcon {\n  float: none;\n}\n\n.vs-popup--title h3,\n.vs-notifications h3 {\n  margin-bottom: 0;\n}\n\n.vs-notifications {\n  z-index: 200000 !important;\n}\n\n.vs-notifications h3 {\n  color: #fff;\n  font-weight: 600;\n  font-size: 15.96px;\n}\n\nh3.vs-navbar--title {\n  margin-bottom: 0;\n}\n\n.vs-con-dropdown {\n  color: inherit;\n}\n\n.dropdown-button-container .vs-button {\n  padding: .72rem 1.5rem !important;\n}\n\n.dropdown-button-container .vs-button-line {\n  padding: 9px 10px !important;\n}\n\n.vs-alert--title {\n  color: inherit;\n}\n\n.vs-input.input-rounded-full .vs-input--input.hasIcon {\n  padding: .8rem 1rem .8rem 3rem;\n}\n\n.vs-input.input-rounded-full .input-span-placeholder {\n  padding-left: 3rem;\n  padding-top: .7rem;\n}\n\n.vs-input.input-rounded-full .vs-icon {\n  margin-top: .1rem;\n  margin-left: .6rem;\n  font-size: 1rem;\n}\n\n.vs-tabs-position-left .vs-tabs--li {\n  padding: .35rem .3rem;\n}\n\n.vs-pagination--li.is-current .effect {\n  border-radius: 5rem;\n}\n\n.vs-pagination--li.is-current {\n  border-radius: 5rem;\n}\n\n.vs-pagination--ul {\n  padding: 0;\n}\n\n.vs-select--options {\n  border: 1px solid #eee;\n  z-index: 30000;\n}\n\n.vs-input--icon.feather {\n  padding: .2rem .5rem 0rem .4rem;\n}\n\n.vs-input--input.hasIcon + .vs-input--placeholder {\n  padding-left: 3rem;\n}\n\n.vs-textarea:focus {\n  border: 1px solid #eee;\n}\n\n.vs-input--input.large.hasIcon {\n  padding: 1rem .8rem 1rem 3rem;\n}\n\n.con-vs-alert {\n  -webkit-box-shadow: none !important;\n          box-shadow: none !important;\n}\n\n.vs-alert {\n  font-weight: 500;\n}\n\n.vs-checkbox-small .vs-checkbox--input:checked + .vs-checkbox .vs-icon {\n  margin-top: 4px;\n  margin-left: -1px;\n}\n\n.vs-checkbox-small input:checked + .vs-checkbox {\n  background-color: rgba(var(--vs-primary), 1) !important;\n}\n\n.vs-dialog footer .vs-button-null {\n  margin-left: .5rem !important;\n  border-color: rgba(0, 0, 0, .2) !important;\n}\n\n.vs-avatar--text.feather {\n  font-size: 1.3rem;\n}\n\n/*=========================================================================================\r\n\tFile Name: _tailwindFixes.scss\r\n\tDescription: partial- Tailwind Fixes\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\nbutton:focus {\n  outline: none;\n}\n", ""]);
+exports.push([module.i, "/*=========================================================================================\r\n  File Name: main.scss\r\n  Description: Main scss file. Imports other scss partials from 'vuesax' folder\r\n  ----------------------------------------------------------------------------------------\r\n  Item Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n  Version: 1.1\r\n  Author: Pixinvent\r\n  Author URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n/*=========================================================================================\r\n\tFile Name: _variables.scss\r\n\tDescription: partial- SCSS varibales\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n/*========================================================\r\n\t\tSPACING\r\n=========================================================*/\n\n/*========================================================\r\n\t\tCOLORS\r\n=========================================================*/\n\n/*========================================================\r\n\t\tTYPOGRAPHY\r\n=========================================================*/\n\n/*========================================================\r\n\t\tTYPOGRAPHY\r\n=========================================================*/\n\n/*========================================================\r\n\t\tDARK THEME\r\n=========================================================*/\n\n/*=========================================================================================\r\n\tFile Name: _layout.scss\r\n\tDescription: partial- main layout styles container - imports layout styles\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n/*=========================================================================================\r\n\tFile Name: _layoutCommon.scss\r\n\tDescription: Common layout styles. This style will apply to all layouts\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\nhtml {\n  font-size: 14px;\n  height: 100%;\n  width: 100%;\n  line-height: 1.5;\n  letter-spacing: .01rem;\n}\n\nbody {\n  font-family: \"Montserrat\", Helvetica, Arial, sans-serif;\n  background: #f8f8f8;\n  font-weight: 400;\n  overflow-x: hidden;\n  max-width: 100%;\n  height: 100%;\n}\n\n#app {\n  min-height: 100%;\n}\n\n.layout--main {\n  height: 100%;\n  min-height: 100%;\n}\n\ntextarea.vs-textarea {\n  font-family: \"Montserrat\", Helvetica, Arial, sans-serif;\n  line-height: 1.6;\n}\n\n#content-overlay {\n  position: fixed;\n  opacity: 0;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: rgba(0, 0, 0, .5);\n  cursor: pointer;\n  -webkit-transition: all .7s;\n  transition: all .7s;\n  z-index: -1;\n}\n\n.show-overlay #content-overlay {\n  z-index: 41000;\n  opacity: 1;\n}\n\n.the-footer {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\n\nli.vs-navbar--item a {\n  color: inherit;\n}\n\n.vs-content-sidebar.items-no-padding .vs-sidebar--items {\n  padding: 0;\n}\n\ndiv[id$=demo] .vx-card:not(:last-of-type) {\n  margin-bottom: 2.2rem;\n}\n\n.scroll-area {\n  position: relative;\n  margin: auto;\n  width: 100%;\n  height: 100%;\n}\n\n.app-search-container {\n  background-color: #fff;\n}\n\n.demo-alignment {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-wrap: wrap;\n      flex-wrap: wrap;\n  -webkit-box-pack: start;\n      -ms-flex-pack: start;\n          justify-content: flex-start;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\n\n.demo-alignment > * {\n  margin-right: 1.5rem;\n  margin-top: 1.5rem;\n}\n\n.op-block {\n  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, .1);\n          box-shadow: 1px 1px 10px rgba(0, 0, 0, .1);\n  padding: 10px;\n  border-radius: 10px;\n}\n\n.app-page .router-view {\n  padding-bottom: 0;\n}\n\n.app-page.navbar-floating .app-fixed-height {\n  height: calc(100vh - 12.1rem);\n}\n\n.app-page.navbar-floating.footer-hidden .app-fixed-height {\n  height: calc(100vh - 9.6rem);\n}\n\n.app-page.navbar-floating.footer-sticky .app-fixed-height {\n  height: calc(100vh - 13.1rem);\n}\n\n.app-page.navbar-sticky .app-fixed-height {\n  height: calc(100vh - 11.1rem);\n}\n\n.app-page.navbar-sticky.footer-hidden .app-fixed-height {\n  height: calc(100vh - 8.6rem);\n}\n\n.app-page.navbar-sticky.footer-sticky .app-fixed-height {\n  height: calc(100vh - 12.1rem);\n}\n\n.app-page.navbar-static .app-fixed-height {\n  height: calc(100vh - 11.1rem);\n}\n\n.app-page.navbar-static.footer-hidden .app-fixed-height {\n  height: calc(100vh - 7.6rem);\n}\n\n.app-page.navbar-hidden .app-fixed-height {\n  height: calc(100vh - 6.1rem);\n}\n\n.app-page.navbar-hidden.footer-hidden .app-fixed-height {\n  height: calc(100vh - 4.1rem);\n}\n\n.app-page.navbar-hidden.footer-sticky .app-fixed-height {\n  height: calc(100vh - 8.1rem);\n}\n\n.app-fixed-height {\n  height: calc(100vh - 14.1rem);\n}\n\n.vs-sidebar .vs-sidebar--items {\n  overflow: hidden;\n  height: 100%;\n}\n\n.vs-alert code.language-markup {\n  background: transparent !important;\n  color: #636363 !important;\n}\n\n@media (max-width: 576px) {\n  .router-view {\n    padding: 1.2rem !important;\n  }\n\n  .footer-sticky .router-view {\n    padding-bottom: 5rem !important;\n  }\n}\n\n/*=========================================================================================\r\n\tFile Name: _layoutModern.scss\r\n\tDescription: Default layout styles\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n.vs-navbar.vx-navbar {\n  padding: .8rem 1rem;\n  width: calc(100% - 260px - 4.4rem);\n  position: fixed;\n  border-radius: .5rem;\n  -webkit-transition: all .5s;\n  transition: all .5s;\n  z-index: 10000;\n}\n\n.vs-navbar.vx-navbar.navbar-reduced {\n  width: calc(100% - 80px - 4.4rem);\n}\n\n.vs-navbar.vx-navbar.navbar-full {\n  width: calc(100% - 4.4rem);\n}\n\n#content-area {\n  margin-left: 260px;\n  height: 100%;\n  -webkit-transition: margin-left .5s;\n  transition: margin-left .5s;\n}\n\n#content-area .content-wrapper {\n  min-height: calc(100vh - 3.5rem);\n}\n\n#content-area.content-area-reduced {\n  margin-left: 80px;\n}\n\n#content-area.content-area-full {\n  margin-left: 0px;\n}\n\n#content-area .vx-navbar__search-input input {\n  border: none !important;\n}\n\n#content-area .vx-navbar__search-input input:focus {\n  -webkit-box-shadow: none;\n          box-shadow: none;\n}\n\n.router-view {\n  position: relative;\n  padding: 2.2rem;\n}\n\n.router-view .router-content {\n  margin-top: 5.5rem;\n}\n\n.router-view .content-area__heading h2 {\n  color: #636363;\n}\n\n/*=========================================================================================\r\n\tFile Name: _theNavbar.scss\r\n\tDescription: The navbar styles\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n.starred-page:hover,\n.starred-page--more:hover {\n  color: rgba(var(--vs-primary), 1);\n}\n\n.i18n-dropdown .vs-dropdown--item-link {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\n\n@media screen and (max-width: 364px) {\n  .i18n-dropdown {\n    width: 95vw;\n    left: 90vw !important;\n  }\n\n  .i18n-dropdown .vs-dropdown--menu--after {\n    display: none;\n  }\n}\n\n.notification-dropdown {\n  width: 365px;\n}\n\n@media screen and (max-width: 500px) {\n  .notification-dropdown {\n    width: 95vw;\n    left: 97.5vw !important;\n  }\n\n  .notification-dropdown .vs-dropdown--menu--after {\n    display: none;\n  }\n}\n\n.notification-dropdown .notification:hover {\n  background-color: #f7f7f7;\n}\n\n.notification-dropdown .vs-dropdown--custom {\n  padding: 0 !important;\n  border: 0;\n  overflow: hidden;\n  -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08);\n          box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08);\n}\n\n.notification-dropdown .vs-dropdown--menu--after {\n  background: rgba(var(--vs-primary), 1) !important;\n  right: 1.6rem !important;\n}\n\n.vx-navbar-wrapper {\n  background: -webkit-gradient(linear, left top, left bottom, color-stop(44%, rgba(248, 248, 248, .95)), color-stop(73%, rgba(248, 248, 248, .46)), to(rgba(255, 255, 255, 0)));\n  background: linear-gradient(to bottom, rgba(248, 248, 248, .95) 44%, rgba(248, 248, 248, .46) 73%, rgba(255, 255, 255, 0) 100%);\n  padding: 2.2rem;\n  padding-top: 1.3rem;\n  background-repeat-x: repeat;\n  z-index: 41000;\n  width: calc(100% - 260px);\n  height: 103px;\n  background-repeat-y: no-repeat;\n  position: fixed;\n  top: 0;\n}\n\n.vx-navbar-wrapper .vx-navbar .vs-con-items {\n  width: 100%;\n}\n\n.vx-navbar-wrapper .vx-navbar .vs-con-items .search-full-container {\n  background: #fff;\n}\n\n.content-area-reduced .vx-navbar-wrapper {\n  width: calc(100% - 80px);\n}\n\n.content-area-reduced .vs-navbar.vx-navbar {\n  width: calc(100% - 80px - 4.4rem);\n}\n\n.show-overlay .vx-navbar-wrapper {\n  background: -webkit-gradient(linear, left top, left bottom, color-stop(44%, rgba(44, 48, 60, .9)), color-stop(73%, rgba(44, 48, 60, .43)), to(rgba(44, 48, 60, 0)));\n  background: linear-gradient(to bottom, rgba(44, 48, 60, .9) 44%, rgba(44, 48, 60, .43) 73%, rgba(44, 48, 60, 0) 100%);\n}\n\n.navbar-sticky .vx-navbar-wrapper {\n  padding: 0;\n  background: none;\n}\n\n.navbar-sticky .vx-navbar-wrapper .vx-navbar {\n  width: calc(100% - 260px);\n  border-radius: 0;\n  padding: .8rem 2.2rem;\n}\n\n.navbar-sticky .content-area-reduced .vx-navbar-wrapper .vx-navbar {\n  width: calc(100% - 80px);\n}\n\n.navbar-sticky .router-view .router-content {\n  margin-top: 4.5rem;\n}\n\n.navbar-static .vx-navbar-wrapper {\n  padding: 0;\n  background: none;\n  position: relative;\n  height: auto;\n  width: 100%;\n}\n\n.navbar-static .vx-navbar-wrapper .vx-navbar {\n  width: 100%;\n  border-radius: 0;\n  padding: .8rem 2.2rem;\n  background: transparent !important;\n  -webkit-box-shadow: none;\n          box-shadow: none;\n  position: relative;\n}\n\n.navbar-static .router-view {\n  padding-top: 1rem;\n}\n\n.navbar-static .router-view .router-content {\n  margin-top: 0;\n}\n\n.navbar-hidden .vx-navbar-wrapper {\n  display: none;\n}\n\n.scroll-area--nofications {\n  position: relative;\n  margin: auto;\n  width: 100%;\n  height: 20.2rem;\n}\n\n.search-full-container {\n  z-index: 50000;\n}\n\n.search-full-container .vx-auto-suggest > div {\n  height: 100%;\n}\n\n.search-full-container .vx-auto-suggest input[type=text],\n.search-full-container .vx-auto-suggest .input-span-placeholder {\n  padding: 1.25rem 3rem;\n}\n\n.search-full-container .vx-auto-suggest .vs-input--icon.feather {\n  top: 34%;\n  left: .8rem;\n}\n\n.search-full-container > div.feather-icon {\n  position: absolute !important;\n}\n\n.bookmark-dropdown {\n  z-index: 41001;\n}\n\n.navbar-custom .vs-navbar--btn-responsive {\n  display: none !important;\n}\n\n.navbar-custom .vs-spacer {\n  display: block !important;\n}\n\n.navbar-custom .vs-con-items {\n  display: -webkit-box !important;\n  display: -ms-flexbox !important;\n  display: flex !important;\n  width: 100%;\n}\n\n@media (max-width: 1200px) {\n  .vx-navbar-wrapper {\n    width: calc(100% - 1.2rem);\n  }\n\n  .navbar-sticky .vx-navbar-wrapper .vx-navbar {\n    width: 100%;\n    padding: .8rem 2.2rem;\n  }\n}\n\n@media (max-width: 576px) {\n  .vx-navbar-wrapper {\n    padding: 1.2rem;\n  }\n\n  .vx-navbar-wrapper .vx-navbar.navbar-full {\n    width: calc(100% - 2.4rem);\n  }\n\n  .navbar-sticky .vx-navbar-wrapper {\n    padding: 0;\n  }\n\n  .navbar-sticky .vx-navbar-wrapper .vx-navbar {\n    width: 100%;\n    padding: .8rem 1.5rem;\n  }\n\n  .navbar-static .vx-navbar-wrapper .vx-navbar {\n    width: 100%;\n    padding: .8rem 1.5rem;\n  }\n\n  .navbar-static .router-view .router-content {\n    margin-top: 0;\n  }\n}\n\n/*=========================================================================================\r\n\tFile Name: _footer.scss\r\n\tDescription: Footer styles\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n.footer-sticky .the-footer {\n  position: fixed;\n  background: #fff;\n  bottom: 0;\n  width: calc(100% - 260px);\n  -webkit-box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .05);\n          box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .05);\n  z-index: 40000;\n}\n\n.footer-sticky .content-area-reduced .the-footer {\n  width: calc(100% - 80px);\n}\n\n.footer-sticky .content-area-full .the-footer {\n  width: 100%;\n}\n\n.footer-sticky .router-view {\n  padding-bottom: 5rem;\n}\n\n.footer-hidden .the-footer {\n  display: none;\n}\n\n.the-footer {\n  padding: 1rem 2.2rem;\n}\n\n/*=========================================================================================\r\n\tFile Name: _typography.scss\r\n\tDescription: partial- typography styles\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\nbody {\n  color: #626262;\n}\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  color: #2c2c2c;\n}\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\n.h1,\n.h2,\n.h3,\n.h4,\n.h5,\n.h6 {\n  font-family: inherit;\n  font-weight: 500;\n  line-height: 1.2;\n  color: #2c2c2c;\n}\n\nh1,\n.h1 {\n  font-size: 28px;\n}\n\nh2,\n.h2 {\n  font-size: 24.36px;\n}\n\nh3,\n.h3 {\n  font-size: 21.14px;\n}\n\nh4,\n.h4 {\n  font-size: 18.48px;\n}\n\nh5,\n.h5 {\n  font-size: 15.96px;\n}\n\nh6,\n.h6 {\n  font-size: 14px;\n}\n\n.vs-tooltip h4 {\n  color: #fff;\n}\n\na:active,\na:visited,\na:hover,\na {\n  color: rgba(var(--vs-primary), 1);\n}\n\nu {\n  text-decoration: underline;\n}\n\n/*=========================================================================================\r\n\tFile Name: _misc.scss\r\n\tDescription: partial- misc styles\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\ncode {\n  font-family: \"Montserrat\", Helvetica, Arial, sans-serif;\n  background: #eee;\n  padding: .1rem .3rem;\n  border-radius: 3px;\n}\n\nul,\nol {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n\n.bg-img {\n  background-image: url(" + escape(__webpack_require__(/*! ../images/pages/vuesax-login-bg.jpg */ "./resources/assets/images/pages/vuesax-login-bg.jpg")) + ");\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n\n.full-page-bg-color {\n  background-color: #eff2f7;\n}\n\n.count-down {\n  text-align: center;\n}\n\n.single-counter {\n  display: inline-block;\n  position: relative;\n  width: 105px;\n  padding: 18px 10px 10px;\n}\n\n.single-counter span {\n  display: block;\n  text-align: center;\n}\n\n.single-counter .timer {\n  font-size: 3rem;\n}\n\n.activity-timeline {\n  margin-left: 1.5rem;\n  padding-left: 40px;\n  border-left: 2px solid #e5e8eb;\n}\n\n.activity-timeline li {\n  position: relative;\n  margin-bottom: 20px;\n}\n\n.activity-timeline li .timeline-icon {\n  position: absolute;\n  top: 0;\n  left: -4.3rem;\n  border-radius: 50%;\n  padding: .75rem;\n  padding-bottom: .4rem;\n}\n\n.activity-timeline li .activity-desc {\n  font-size: .9rem;\n}\n\n.activity-timeline li .activity-e-time {\n  font-size: .8rem;\n}\n\n.chat-card-log {\n  height: 240px;\n}\n\n.vjs-poster {\n  background-size: cover !important;\n  width: 100% !important;\n}\n\n.spinner {\n  -webkit-animation: spin 1.5s linear infinite;\n          animation: spin 1.5s linear infinite;\n}\n\n@-webkit-keyframes spin {\n  from {\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg);\n  }\n}\n\n@keyframes spin {\n  from {\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg);\n  }\n}\n\n/*=========================================================================================\r\n\tFile Name: _extraComponents.scss\r\n\tDescription: partial - imports extra components styles\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n/*=========================================================================================\r\n    File Name: _formWizard.scss\r\n    Description: Styles for form wizard externsion.\r\n    ----------------------------------------------------------------------------------------\r\n    Item Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n    Version: 1.1\r\n    Author: Pixinvent\r\n    Author URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n.vue-form-wizard.md .wizard-navigation .wizard-progress-with-circle {\n  top: 33px !important;\n}\n\n.vue-form-wizard.md .wizard-navigation .wizard-nav .wizard-icon-circle {\n  border: 3px solid #ccc;\n  width: 55px;\n  height: 55px;\n}\n\n.vue-form-wizard.md .wizard-navigation .wizard-nav .wizard-icon-circle .wizard-icon {\n  font-size: 1.5rem;\n}\n\n.vue-form-wizard.md .wizard-navigation .wizard-nav .stepTitle {\n  color: #626262;\n}\n\n/*=========================================================================================\r\n\tFile Name: _charts.scss\r\n\tDescription: Styles for charts.\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n.echarts {\n  width: 100% !important;\n}\n\n/*=========================================================================================\r\n    File Name: _quillEditor.scss\r\n    Description: Styles for quill editor externsion.\r\n    ----------------------------------------------------------------------------------------\r\n    Item Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n    Version: 1.1\r\n    Author: Pixinvent\r\n    Author URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n.quill-editor .ql-bubble .ql-tooltip {\n  z-index: 51000;\n}\n\n/*=========================================================================================\r\n\tFile Name: _datePicker.scss\r\n\tDescription: Styles for datepicker component.\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n.vdp-datepicker input {\n  padding: .7rem;\n  font-size: 1rem;\n  border-radius: 5px;\n  border: 1px solid rgba(0, 0, 0, .2);\n}\n\n/*=========================================================================================\r\n\tFile Name: _themes.scss\r\n\tDescription: partial- themes - imports theme styles\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n/*=========================================================================================\r\n\tFile Name: _themeDark.scss\r\n\tDescription: partial- Styles for dark theme\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n.theme-dark {\n  background-color: #262c49;\n  color: #fff !important;\n}\n\n.theme-dark .content-area__heading h2 {\n  color: #fff;\n}\n\n.theme-dark code {\n  color: #b8c2cc;\n  background: #262c49;\n}\n\n.theme-dark pre[class*=language-] {\n  background-color: #1e1e1e;\n  text-shadow: none;\n}\n\n.theme-dark pre[class*=language-] code {\n  background-color: transparent;\n}\n\n.theme-dark pre[class*=language-] code[class*=language-] {\n  text-shadow: none;\n}\n\n.theme-dark label {\n  color: #fff;\n}\n\n.theme-dark h1,\n.theme-dark h2,\n.theme-dark h3,\n.theme-dark h4,\n.theme-dark h5,\n.theme-dark h6 {\n  color: #fff;\n}\n\n.theme-dark .notification-dropdown .notification:hover {\n  background: #10163a;\n}\n\n.theme-dark .vs-component.vs-notifications.vs-noti-dark {\n  color: #22292f !important;\n}\n\n.theme-dark .vs-component.vs-notifications.vs-noti-dark .filling {\n  background: #b8c2cc !important;\n}\n\n.theme-dark .vs-component.vs-notifications.vs-noti-dark h3 {\n  color: #22292f !important;\n}\n\n.theme-dark .vx-card {\n  background-color: #10163a;\n}\n\n.theme-dark .vx-card .vx-card__title h4 {\n  color: #fff;\n}\n\n.theme-dark .vx-card .con-vs-alert-dark {\n  color: #dae1e7;\n}\n\n.theme-dark .vx-card .code-content pre[class^=language-] {\n  background-color: #262c49;\n  text-shadow: none;\n}\n\n.theme-dark .vx-card .code-content pre[class^=language-] code {\n  background-color: transparent;\n}\n\n.theme-dark .vx-card .code-content pre[class^=language-] code[class*=language-] {\n  text-shadow: none;\n}\n\n.theme-dark .vx-card .vx-card__body .con-vs-alert-primary h4 {\n  color: rgba(var(--vs-primary), 1);\n}\n\n.theme-dark .vx-card .vx-card__body .con-vs-alert-success h4 {\n  color: rgba(var(--vs-success), 1);\n}\n\n.theme-dark .vx-card .vx-card__body .con-vs-alert-danger h4 {\n  color: rgba(var(--vs-danger), 1);\n}\n\n.theme-dark .vx-card .vx-card__body .con-vs-alert-info h4 {\n  color: rgba(var(--vs-info), 1);\n}\n\n.theme-dark .vx-card .vx-card__body .con-vs-alert-warning h4 {\n  color: rgba(var(--vs-warning), 1);\n}\n\n.theme-dark .vx-card .tasks-today-container .tasks-today__task:hover {\n  background: #212744;\n}\n\n.theme-dark .vx-navbar-wrapper {\n  background: -webkit-gradient(linear, left top, left bottom, color-stop(44%, rgba(44, 48, 60, .9)), color-stop(73%, rgba(44, 48, 60, .43)), to(rgba(44, 48, 60, 0)));\n  background: linear-gradient(to bottom, rgba(44, 48, 60, .9) 44%, rgba(44, 48, 60, .43) 73%, rgba(44, 48, 60, 0) 100%);\n}\n\n.theme-dark .vx-navbar-wrapper .vx-navbar .search-full-container {\n  background-color: #10163a !important;\n}\n\n.theme-dark .vx-navbar-wrapper .vx-navbar .search-full-container .vx-auto-suggest input {\n  background: #10163a;\n}\n\n.theme-dark .vx-navbar-wrapper .vx-navbar .vx-auto-suggest .auto-suggest-suggestions-list .auto-suggest__suggestion.vx-auto-suggest__current-selected {\n  background: #10163a;\n}\n\n.theme-dark .main-menu-sidebar .vs-sidebar {\n  background-color: #10163a;\n}\n\n.theme-dark .main-menu-sidebar .shadow-bottom {\n  width: 94%;\n  background: -webkit-gradient(linear, left top, left bottom, color-stop(44%, #0f1642), color-stop(73%, rgba(15, 22, 66, .51)), to(rgba(44, 48, 60, 0)));\n  background: linear-gradient(to bottom, #0f1642 44%, rgba(15, 22, 66, .51) 73%, rgba(44, 48, 60, 0) 100%);\n}\n\n.theme-dark .main-menu-sidebar .scroll-area--main-sidebar .feather-icon,\n.theme-dark .main-menu-sidebar .scroll-area--main-sidebar span {\n  color: #fff;\n}\n\n.theme-dark .main-menu-sidebar .scroll-area--main-sidebar a .feather-icon svg,\n.theme-dark .main-menu-sidebar .scroll-area--main-sidebar a .feather-icon span {\n  color: #fff;\n}\n\n.theme-dark .main-menu-sidebar .scroll-area--main-sidebar .vs-sidebar-group.vs-sidebar-group-active > .group-header {\n  background: #262c49;\n}\n\n.theme-dark .main-menu-sidebar .scroll-area--main-sidebar .vs-sidebar-group.vs-sidebar-group-open > .group-header {\n  background: #262c49;\n}\n\n.theme-dark .main-menu-sidebar .scroll-area--main-sidebar .con-vs-chip {\n  -webkit-box-shadow: 0px 0px 4px 2px #262c49;\n          box-shadow: 0px 0px 4px 2px #262c49;\n}\n\n.theme-dark .ps:hover > .ps__scrollbar-y-rail:hover {\n  background-color: #10163a;\n}\n\n.theme-dark .grid-demo__layout-container .vs-row .vs-col {\n  background-color: #212744;\n}\n\n.theme-dark .grid-demo__layout-container .vs-row .vs-col:last-of-type {\n  background-color: #212744;\n}\n\n.theme-dark .grid-demo__layout-container--block .vs-row {\n  background-color: #212744;\n}\n\n.theme-dark .chat-card-log .flex-row-reverse .msg.chat-sent-msg {\n  background-color: #10163a !important;\n}\n\n.theme-dark .chat-card-log .msg {\n  background-color: #212744 !important;\n}\n\n.theme-dark .chat-input-container,\n.theme-dark .chat__input {\n  background-color: #10163a !important;\n  border-top: 1px solid #212744;\n}\n\n.theme-dark .app-search-container {\n  background-color: #262c49;\n}\n\n.theme-dark #chat-app #chat-app-container .chat__profile-search .vs-inputx {\n  border-color: #dae1e7 !important;\n}\n\n.theme-dark #chat-app #chat-app-container #chat-list-sidebar .chat-scroll-area .chat__contact:hover {\n  background: #10163a;\n}\n\n.theme-dark #chat-app #chat-app-container .chat__header header {\n  background: #212744 !important;\n}\n\n.theme-dark #chat-app #chat-app-container .chat__header header h6 {\n  color: #fff;\n}\n\n.theme-dark #chat-app #chat-app-container .chat__bg .select-none {\n  background-color: #212744 !important;\n}\n\n.theme-dark #chat-app #chat-app-container .chat__bg h4 {\n  background-color: #212744 !important;\n  color: #fff;\n}\n\n.theme-dark #chat-app #chat-app-container .chat__bg .msg {\n  background-color: #212744 !important;\n}\n\n.theme-dark #chat-app #chat-app-container .chat__bg.chat-content-area .chat-content-scroll-area {\n  background: rgba(34, 41, 47, .2);\n}\n\n.theme-dark #todo-app .todo-list h6.todo-title {\n  color: #fff;\n}\n\n.theme-dark #todo-app .todo-list .todo-tags .con-vs-chip {\n  background: #10163a;\n  color: #fff !important;\n}\n\n.theme-dark #todo-app .list-item-component:hover {\n  -webkit-box-shadow: 0px 0 0 0px #1e1e1e;\n          box-shadow: 0px 0 0 0px #1e1e1e;\n}\n\n.theme-dark #email-app .email__mails .email__mail-item .mail__mail-item:hover {\n  -webkit-box-shadow: 0px 0 0 0px #1e1e1e;\n          box-shadow: 0px 0 0 0px #1e1e1e;\n}\n\n.theme-dark #email-app .email__mails .mail__opened-mail {\n  background: transparent;\n}\n\n.theme-dark #email-app .email-view-sidebar .vs-sidebar {\n  background-color: #212744 !important;\n}\n\n.theme-dark #calendar-app .full-calendar-body .week-row .day-cell.not-cur-month .day-number {\n  color: rgba(255, 255, 255, .24);\n}\n\n.theme-dark .vs-alert code {\n  color: #b8c2cc;\n  background: #262c49;\n}\n\n.theme-dark .con-vs-chip .con-vs-avatar {\n  background-color: #10163a !important;\n}\n\n.theme-dark .con-vs-avatar {\n  background: #262c49 !important;\n}\n\n.theme-dark .con-vs-avatar.con-vs-avatar-primary {\n  background: rgba(var(--vs-primary), 1) !important;\n}\n\n.theme-dark .con-vs-avatar.con-vs-avatar-success {\n  background: rgba(var(--vs-success), 1) !important;\n}\n\n.theme-dark .con-vs-avatar.con-vs-avatar-danger {\n  background: rgba(var(--vs-danger), 1) !important;\n}\n\n.theme-dark .con-vs-avatar.con-vs-avatar-warning {\n  background: rgba(var(--vs-warning), 1) !important;\n}\n\n.theme-dark .con-vs-avatar.con-vs-avatar-info {\n  background: rgba(var(--vs-info), 1) !important;\n}\n\n.theme-dark .con-vs-avatar.con-vs-avatar-dark {\n  background: #b8c2cc !important;\n}\n\n.theme-dark #profile-page .profile-header .profile-header-nav {\n  background: #10163a !important;\n}\n\n.theme-dark #faq-page .faq-bg {\n  background-color: #10163a;\n}\n\n.theme-dark #badge-demo h1,\n.theme-dark #badge-demo h2,\n.theme-dark #badge-demo h3,\n.theme-dark #badge-demo h4,\n.theme-dark #badge-demo h5,\n.theme-dark #badge-demo h6 {\n  color: #fff;\n}\n\n.theme-dark .vs-breadcrumb--ol a,\n.theme-dark .vs-breadcrumb--ol .vs-breadcrum--separator {\n  color: #dae1e7;\n}\n\n.theme-dark .vs-button-dark.vs-button-filled {\n  background: #b8c2cc !important;\n}\n\n.theme-dark .vs-button-dark.vs-button-filled .vs-button--text {\n  color: #1e1e1e;\n}\n\n.theme-dark .demo-text-dark .vs-button-text {\n  color: #b8c2cc;\n}\n\n.theme-dark .vs-button-dark.vs-button-border,\n.theme-dark .vs-button-dark.vs-button-flat,\n.theme-dark .vs-button-dark.vs-button-line {\n  border-color: #b8c2cc;\n}\n\n.theme-dark .vs-button-dark .vs-button--text,\n.theme-dark .vs-button-dark .vs-icon {\n  color: #b8c2cc;\n}\n\n.theme-dark .vx-card .con-vs-chip {\n  background: #262c49;\n  color: #fff !important;\n}\n\n.theme-dark .vx-card .con-vs-chip.vs-chip-primary {\n  background: rgba(var(--vs-primary), 1);\n}\n\n.theme-dark .vx-card .con-vs-chip.vs-chip-success {\n  background: rgba(var(--vs-success), 1);\n}\n\n.theme-dark .vx-card .con-vs-chip.vs-chip-danger {\n  background: rgba(var(--vs-danger), 1);\n}\n\n.theme-dark .vx-card .con-vs-chip.vs-chip-warning {\n  background: rgba(var(--vs-warning), 1);\n}\n\n.theme-dark .vx-card .con-vs-chip.vs-chip-info {\n  background: rgba(var(--vs-info), 1);\n}\n\n.theme-dark .vx-card .con-vs-chip.vs-chip-dark {\n  background: rgba(var(--vs-dark), 1);\n}\n\n.theme-dark .vx-card .con-chips--input {\n  border: none;\n}\n\n.theme-dark .vs-divider .vs-divider-border {\n  border-color: #fff !important;\n}\n\n.theme-dark .vs-divider .vs-divider-border.vs-divider-border-primary {\n  border-color: rgba(var(--vs-primary), 1) !important;\n}\n\n.theme-dark .vs-divider .vs-divider-border.vs-divider-border-success {\n  border-color: rgba(var(--vs-success), 1) !important;\n}\n\n.theme-dark .vs-divider .vs-divider-border.vs-divider-border-danger {\n  border-color: rgba(var(--vs-danger), 1) !important;\n}\n\n.theme-dark .vs-divider .vs-divider-border.vs-divider-border-warning {\n  border-color: rgba(var(--vs-warning), 1) !important;\n}\n\n.theme-dark .vs-divider .vs-divider-border.vs-divider-border-info {\n  border-color: rgba(var(--vs-info), 1) !important;\n}\n\n.theme-dark .vs-divider .vs-divider-border.vs-divider-border-dark {\n  border-color: rgba(184, 194, 204, .5) !important;\n}\n\n.theme-dark .vs-divider .vs-divider--text {\n  background: transparent;\n  color: #fff !important;\n}\n\n.theme-dark .vs-divider .vs-divider--text .vs-icon {\n  color: #fff;\n}\n\n.theme-dark .vs-dropdown--menu,\n.theme-dark .vs-dropdown--menu--after {\n  background: #262c49;\n}\n\n.theme-dark .vs-dropdown--menu .con-dropdown--group-ul,\n.theme-dark .vs-dropdown--menu--after .con-dropdown--group-ul {\n  background: #262c49;\n}\n\n.theme-dark .vs-dropdown--menu .vs-dropdown--item .vs-dropdown--item-link.disabled,\n.theme-dark .vs-dropdown--menu--after .vs-dropdown--item .vs-dropdown--item-link.disabled {\n  color: #b8c2cc !important;\n}\n\n.theme-dark .con-vs-loading {\n  background: #10163a;\n}\n\n.theme-dark .con-vs-loading h4.title-loading {\n  color: #fff;\n}\n\n.theme-dark .vs-list .vs-list--header {\n  -webkit-box-shadow: 0 7px 7px -5px rgba(255, 255, 255, .08);\n          box-shadow: 0 7px 7px -5px rgba(255, 255, 255, .08);\n}\n\n.theme-dark .vs-list .vs-list--item {\n  border-color: rgba(255, 255, 255, .08);\n}\n\n.theme-dark .vs-navbar {\n  border-color: #262c49;\n}\n\n.theme-dark .vs-navbar li.vs-navbar--item a {\n  color: #dae1e7;\n}\n\n.theme-dark .vs-navbar li.vs-navbar--item.is-active-item a {\n  color: #fff;\n}\n\n.theme-dark #navbar-demo .vs-navbar {\n  -webkit-box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .7);\n          box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .7);\n}\n\n.theme-dark .vs-pagination--nav .vs-pagination--ul {\n  background: #262c49;\n}\n\n.theme-dark .vs-pagination--nav .vs-pagination--ul .vs-pagination--li {\n  color: #fff;\n}\n\n.theme-dark .vs-pagination--nav .vs-pagination--buttons {\n  background: #262c49;\n  color: #fff;\n}\n\n.theme-dark .con-vs-popup .vs-popup {\n  background: #262c49 !important;\n  color: #fff;\n}\n\n.theme-dark .con-vs-popup .vs-popup .vs-popup--header {\n  background: #10163a !important;\n}\n\n.theme-dark .con-vs-popup .vs-popup .vs-popup--header .vs-popup--close {\n  background: #262c49 !important;\n}\n\n.theme-dark #popup-demo .demo-alignment .vs-button {\n  background: #262c49 !important;\n}\n\n.theme-dark #popup-demo .demo-alignment .vs-button:hover {\n  -webkit-box-shadow: #262c49 0px 8px 25px -8px !important;\n          box-shadow: #262c49 0px 8px 25px -8px !important;\n}\n\n.theme-dark .vs-sidebar {\n  background: #262c49;\n}\n\n.theme-dark .vs-sidebar h4,\n.theme-dark .vs-sidebar h5 {\n  color: #fff;\n}\n\n.theme-dark .vs-sidebar .vs-sidebar--items .vs-sidebar--item a {\n  color: #fff;\n}\n\n.theme-dark .vs-sidebar .vs-sidebar-group.vs-sidebar-group-active > .group-header {\n  background: #262c49;\n}\n\n.theme-dark .con-vs-slider .vs-slider {\n  background: rgba(38, 44, 73, .5);\n}\n\n.theme-dark .ul-tabs .vs-tabs--li button {\n  color: #fff;\n}\n\n.theme-dark .vs-tabs-dark .activeChild button,\n.theme-dark .vs-tabs-dark button:not(:disabled):hover {\n  color: #b8c2cc !important;\n}\n\n.theme-dark .vs-tabs-dark .line-vs-tabs {\n  background: linear-gradient(30deg, #b8c2cc, rgba(184, 194, 204, .5)) !important;\n  -webkit-box-shadow: 0 0 8px 0 rgba(184, 194, 204, .4) !important;\n          box-shadow: 0 0 8px 0 rgba(184, 194, 204, .4) !important;\n}\n\n.theme-dark .vs-tooltip.vs-tooltip-dark {\n  background: #262c49;\n}\n\n.theme-dark .con-upload .con-input-upload,\n.theme-dark .con-upload .con-img-upload {\n  background-color: #262c49;\n}\n\n.theme-dark .con-upload .btn-upload-all {\n  background-color: #10163a;\n}\n\n.theme-dark input {\n  background: #262c49;\n  color: #fff;\n}\n\n.theme-dark input ~ .vs-placeholder-label,\n.theme-dark input ~ .vs-input--placeholder {\n  color: #fff;\n}\n\n.theme-dark .vs-input--icon {\n  border-right-color: rgba(255, 255, 255, .2);\n}\n\n.theme-dark .vs-input--icon.icon-after {\n  border-left-color: rgba(255, 255, 255, .2);\n}\n\n.theme-dark .vs-input-number {\n  background: #262c49;\n}\n\n.theme-dark .vs-input-number button.vs-input-number--button-less:disabled,\n.theme-dark .vs-input-number button.vs-input-number--button-less.limit,\n.theme-dark .vs-input-number button.vs-input-number--button-plus:disabled,\n.theme-dark .vs-input-number button.vs-input-number--button-plus.limit {\n  opacity: .75;\n  background: #b8c2cc;\n}\n\n.theme-dark .vs-con-textarea {\n  background: #262c49;\n  color: #fff;\n}\n\n.theme-dark .vs-con-textarea .vs-textarea {\n  color: #fff;\n}\n\n.theme-dark .vs-con-textarea .vs-textarea:focus {\n  border-color: transparent;\n}\n\n.theme-dark .vs-con-textarea.focusx {\n  border-color: transparent;\n}\n\n.theme-dark .vs-con-textarea.focusx h4 {\n  background: transparent;\n}\n\n.theme-dark .vs-con-textarea.textarea-danger .vs-textarea {\n  color: rgba(var(--vs-danger), 1);\n}\n\n.theme-dark .vs-switch {\n  background: #262c49;\n}\n\n.theme-dark .vs-switch.vs-switch-primary.vs-switch-active {\n  background: rgba(var(--vs-primary), 1);\n}\n\n.theme-dark .vs-switch.vs-switch-success.vs-switch-active {\n  background: rgba(var(--vs-success), 1);\n}\n\n.theme-dark .vs-switch.vs-switch-danger.vs-switch-active {\n  background: rgba(var(--vs-danger), 1);\n}\n\n.theme-dark .vs-switch.vs-switch-warning.vs-switch-active {\n  background: rgba(var(--vs-warning), 1);\n}\n\n.theme-dark .vs-switch.vs-switch-info.vs-switch-active {\n  background: rgba(var(--vs-info), 1);\n}\n\n.theme-dark .vs-switch.vs-switch-dark.vs-switch-active {\n  background: #212744;\n}\n\n.theme-dark .vs-radio-dark .vs-radio--circle {\n  background: #b8c2cc;\n  -webkit-box-shadow: 0 3px 12px 0 rgba(184, 194, 204, .4);\n          box-shadow: 0 3px 12px 0 rgba(184, 194, 204, .4);\n}\n\n.theme-dark .op-block {\n  -webkit-box-shadow: 1px 1px 10px rgba(255, 255, 255, .1);\n          box-shadow: 1px 1px 10px rgba(255, 255, 255, .1);\n}\n\n.theme-dark .vs-input-dark .vs-input--input:focus {\n  border-color: #b8c2cc !important;\n}\n\n.theme-dark .vs-input-dark .vs-input--input:focus ~ .vs-input--placeholder {\n  color: #b8c2cc;\n}\n\n.theme-dark .vue-form-wizard .wizard-icon-circle {\n  background: #262c49;\n  border-color: #212744;\n}\n\n.theme-dark .vue-form-wizard .wizard-nav-pills > li > a {\n  color: #fff;\n}\n\n.theme-dark .vue-form-wizard .wizard-nav-pills > li > a .stepTitle {\n  color: #dae1e7;\n}\n\n.theme-dark .vue-form-wizard .wizard-navigation .wizard-nav .stepTitle {\n  color: #dae1e7;\n}\n\n.theme-dark .vs-con-table .vs-con-tbody {\n  background: #212744;\n  border: 2px solid #262c49;\n}\n\n.theme-dark .vs-con-table .vs-con-tbody .vs-table--tbody-table .tr-table tr {\n  background: #262c49;\n}\n\n.theme-dark .vs-con-table .vs-con-tbody .vs-table--tbody-table .vs-table--thead .con-td-check {\n  background: #212744;\n}\n\n.theme-dark .vs-con-table .con-edit-td {\n  background: #212744;\n}\n\n.theme-dark .vs-con-table .is-selected .tr-values {\n  background: #212744 !important;\n}\n\n.theme-dark .apexcharts-canvas .apexcharts-tooltip.light {\n  background: #212744;\n  border-color: #262c49;\n}\n\n.theme-dark .apexcharts-canvas .apexcharts-tooltip.light .apexcharts-tooltip-title {\n  background: #212744;\n}\n\n.theme-dark .apexcharts-canvas .apexcharts-xaxistooltip {\n  background: #212744;\n  border-color: #262c49;\n  color: #fff;\n}\n\n.theme-dark .apexcharts-canvas .apexcharts-xaxistooltip:before,\n.theme-dark .apexcharts-canvas .apexcharts-xaxistooltip:after {\n  border-bottom-color: #212744;\n}\n\n.theme-dark .apexcharts-canvas .apexcharts-yaxistooltip {\n  background: #212744;\n  border-color: #262c49;\n  color: #fff;\n}\n\n.theme-dark .apexcharts-canvas .apexcharts-yaxistooltip:before,\n.theme-dark .apexcharts-canvas .apexcharts-yaxistooltip:after {\n  border-left-color: #212744;\n}\n\n.theme-dark .apexcharts-canvas text {\n  fill: #fff !important;\n}\n\n.theme-dark .apexcharts-canvas .apexcharts-pie-series path {\n  stroke: #262c49;\n}\n\n.theme-dark .apexcharts-canvas .apexcharts-legend .apexcharts-legend-series .apexcharts-legend-text {\n  color: #b8c2cc !important;\n}\n\n.theme-dark .apexcharts-canvas .apexcharts-toolbar .apexcharts-menu {\n  background: #262c49;\n  border-color: #262c49;\n}\n\n.theme-dark .apexcharts-canvas .apexcharts-toolbar .apexcharts-menu .apexcharts-menu-item {\n  background: #212744;\n}\n\n.theme-dark .apexcharts-canvas .apexcharts-radar-series polygon {\n  fill: #262c49;\n  stroke: #212744;\n}\n\n.theme-dark .apexcharts-canvas .apexcharts-track path {\n  stroke: #262c49;\n}\n\n.theme-dark .token.operator,\n.theme-dark .token.entity,\n.theme-dark .token.url,\n.theme-dark .language-css .token.string,\n.theme-dark .style .token.string {\n  background: transparent;\n}\n\n.theme-dark .search-tab-filter {\n  background: #10163a;\n}\n\n.theme-dark .vs-select--options {\n  background: #10163a;\n  border-color: rgba(184, 194, 204, .2);\n}\n\n.theme-dark .vs-select--options .vs-select--item {\n  color: #b8c2cc;\n  border-color: rgba(184, 194, 204, .2);\n  -webkit-box-shadow: none;\n          box-shadow: none;\n}\n\n.theme-dark .vs-select--options .vs-select--item:hover {\n  background: #262c49;\n}\n\n.theme-dark .v-select .dropdown-toggle {\n  background: #262c49;\n}\n\n.theme-dark .v-select .dropdown-toggle .clear {\n  color: #fff;\n}\n\n.theme-dark .v-select .dropdown-toggle .close {\n  color: #fff;\n  opacity: .7;\n}\n\n.theme-dark .v-select .selected-tag {\n  color: #fff;\n  background: #10163a;\n  border: none;\n}\n\n.theme-dark .v-select .open-indicator:before {\n  border-color: #b8c2cc;\n}\n\n.theme-dark .v-select .dropdown-menu {\n  background: #262c49;\n}\n\n.theme-dark .v-select .dropdown-menu li a {\n  color: #fff;\n}\n\n.theme-dark .quill-editor .ql-toolbar button {\n  color: #fff;\n}\n\n.theme-dark .quill-editor .ql-toolbar button svg path {\n  stroke: #fff;\n}\n\n.theme-dark .quill-editor .ql-toolbar .ql-fill {\n  fill: #fff;\n}\n\n.theme-dark .quill-editor .ql-toolbar .ql-stroke {\n  stroke: #fff;\n}\n\n.theme-dark .quill-editor .ql-toolbar .ql-picker {\n  color: #fff;\n}\n\n.theme-dark .quill-editor .ql-toolbar .ql-picker .ql-picker-options {\n  background: #10163a;\n}\n\n.theme-dark .quill-editor .ql-editor.ql-blank::before {\n  color: rgba(255, 255, 255, .6);\n}\n\n.theme-dark .vdp-datepicker .vdp-datepicker__calendar {\n  background: #262c49;\n}\n\n.theme-dark .vdp-datepicker .vdp-datepicker__calendar header .prev:not(.disabled):hover,\n.theme-dark .vdp-datepicker .vdp-datepicker__calendar header .next:not(.disabled):hover,\n.theme-dark .vdp-datepicker .vdp-datepicker__calendar header .up:not(.disabled):hover {\n  background: #10163a;\n}\n\n.theme-dark .vdp-datepicker .vdp-datepicker__calendar header .prev:after {\n  border-right-color: #fff;\n}\n\n.theme-dark .vdp-datepicker .vdp-datepicker__calendar header .next:after {\n  border-left-color: #fff;\n}\n\n.theme-dark .vdp-datepicker .vdp-datepicker__calendar .disabled {\n  color: rgba(184, 194, 204, .6);\n}\n\n.theme-dark .vdp-datepicker .vdp-datepicker__calendar .cell.highlighted {\n  background: #10163a;\n}\n\n.theme-dark .vdp-datepicker input {\n  border: 0;\n  padding: 10px;\n}\n\n.theme-dark .vs-collapse.shadow {\n  -webkit-box-shadow: 0 0px 8px 0 rgba(255, 255, 255, .1) !important;\n          box-shadow: 0 0px 8px 0 rgba(255, 255, 255, .1) !important;\n}\n\n.theme-dark .vs-collapse .vs-collapse-item {\n  border-bottom-color: rgba(255, 255, 255, .04);\n}\n\n.theme-dark .vs-collapse.border {\n  border-color: rgba(255, 255, 255, .1);\n}\n\n.theme-dark .vs-collapse.border .vs-collapse-item {\n  border-bottom-color: rgba(255, 255, 255, .04);\n}\n\n.theme-dark .vs-collapse.margin .vs-collapse-item {\n  background: #10163a;\n  -webkit-box-shadow: 0 2px 15px 0 rgba(255, 255, 255, .05);\n          box-shadow: 0 2px 15px 0 rgba(255, 255, 255, .05);\n}\n\n.theme-dark .vx-auto-suggest .auto-suggest-suggestions-list {\n  background-color: #262c49;\n}\n\n.theme-dark .footer-sticky .the-footer {\n  background-color: #10163a;\n  color: #fff !important;\n}\n\n.theme-dark .con-vs-dialog .vs-dialog {\n  background: #262c49;\n  color: #fff;\n}\n\n.theme-dark .con-vs-dialog .vs-dialog header {\n  background: #10163a;\n}\n\n.theme-dark .con-vs-dialog .vs-dialog header .con-title-after h3 {\n  color: #fff;\n}\n\n.theme-dark .con-vs-dialog .vs-dialog header .vs-dialog-cancel,\n.theme-dark .con-vs-dialog .vs-dialog header .vs-icon {\n  background: #262c49;\n  color: #fff;\n}\n\n.theme-dark .con-vs-dialog .vs-dialog footer .vs-button--text {\n  color: #fff;\n}\n\n.theme-dark .con-vs-dialog .vs-dialog .vs-dialog-text .date-label {\n  color: #fff;\n}\n\n.theme-dark .con-vs-dialog .vs-dialog input,\n.theme-dark .con-vs-dialog .vs-dialog .vs-con-textarea {\n  background: #10163a;\n}\n\n.theme-dark .con-vs-dialog .vs-dialog .con-upload .con-input-upload,\n.theme-dark .con-vs-dialog .vs-dialog .con-upload .con-img-upload {\n  background: #10163a;\n}\n\n.theme-dark .con-vs-dialog .vs-dialog .quill-editor {\n  background: #262c49;\n}\n\n.theme-dark #theme-customizer .vs-switch {\n  background: #10163a;\n}\n\n/*=========================================================================================\r\n\tFile Name: _themeSemiDark.scss\r\n\tDescription: partial- Styles for semi dark theme\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n.theme-semi-dark .main-menu-sidebar .vs-sidebar {\n  background-color: #10163a;\n}\n\n.theme-semi-dark .main-menu-sidebar .shadow-bottom {\n  width: 94%;\n  background: -webkit-gradient(linear, left top, left bottom, color-stop(44%, #0f1642), color-stop(73%, rgba(15, 22, 66, .51)), to(rgba(44, 48, 60, 0)));\n  background: linear-gradient(to bottom, #0f1642 44%, rgba(15, 22, 66, .51) 73%, rgba(44, 48, 60, 0) 100%);\n}\n\n.theme-semi-dark .main-menu-sidebar .scroll-area--main-sidebar .feather-icon,\n.theme-semi-dark .main-menu-sidebar .scroll-area--main-sidebar span {\n  color: #fff;\n}\n\n.theme-semi-dark .main-menu-sidebar .scroll-area--main-sidebar a .feather-icon svg,\n.theme-semi-dark .main-menu-sidebar .scroll-area--main-sidebar a .feather-icon span {\n  color: #fff;\n}\n\n.theme-semi-dark .main-menu-sidebar .scroll-area--main-sidebar .vs-sidebar-group.vs-sidebar-group-open > .group-header {\n  background: #262c49;\n}\n\n.theme-semi-dark .main-menu-sidebar .scroll-area--main-sidebar .vs-sidebar-group.vs-sidebar-group-active > .group-header {\n  background: #262c49;\n}\n\n.theme-semi-dark .main-menu-sidebar .scroll-area--main-sidebar .con-vs-chip {\n  -webkit-box-shadow: 0px 0px 4px 2px #262c49;\n          box-shadow: 0px 0px 4px 2px #262c49;\n}\n\n/*=========================================================================================\r\n\tFile Name: _routerAnimations.scss\r\n\tDescription: partial- router animations\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n/* ZOOM FADE */\n\n.zoom-fade-enter-active,\n.zoom-fade-leave-active {\n  -webkit-transition: opacity .28s ease-in-out, -webkit-transform .35s;\n  transition: opacity .28s ease-in-out, -webkit-transform .35s;\n  transition: transform .35s, opacity .28s ease-in-out;\n  transition: transform .35s, opacity .28s ease-in-out, -webkit-transform .35s;\n}\n\n.zoom-fade-enter {\n  -webkit-transform: scale(.97);\n          transform: scale(.97);\n  opacity: 0;\n}\n\n.zoom-fade-leave-to {\n  -webkit-transform: scale(1.03);\n          transform: scale(1.03);\n  opacity: 0;\n}\n\n/* FADE TRNASITION */\n\n.fade-enter-active,\n.fade-leave-active {\n  -webkit-transition: opacity .28s ease-in-out;\n  transition: opacity .28s ease-in-out;\n}\n\n.fade-enter,\n.fade-leave-to {\n  opacity: 0;\n}\n\n/* PAGE SLIDE */\n\n.slide-fade-enter-active,\n.slide-fade-leave-active {\n  -webkit-transition: opacity .35s, -webkit-transform .4s;\n  transition: opacity .35s, -webkit-transform .4s;\n  transition: opacity .35s, transform .4s;\n  transition: opacity .35s, transform .4s, -webkit-transform .4s;\n}\n\n.slide-fade-enter {\n  opacity: 0;\n  -webkit-transform: translateX(-30%);\n          transform: translateX(-30%);\n}\n\n.slide-fade-leave-to {\n  opacity: 0;\n  -webkit-transform: translateX(30%);\n          transform: translateX(30%);\n}\n\n/* ZOOM OUT */\n\n.zoom-out-enter-active,\n.zoom-out-leave-active {\n  -webkit-transition: opacity .35s ease-in-out, -webkit-transform .45s ease-out;\n  transition: opacity .35s ease-in-out, -webkit-transform .45s ease-out;\n  transition: opacity .35s ease-in-out, transform .45s ease-out;\n  transition: opacity .35s ease-in-out, transform .45s ease-out, -webkit-transform .45s ease-out;\n}\n\n.zoom-out-enter,\n.zoom-out-leave-to {\n  opacity: 0;\n  -webkit-transform: scale(0);\n          transform: scale(0);\n}\n\n/* UNFOLD SLIDE */\n\n.fade-bottom-enter-active,\n.fade-bottom-leave-active {\n  -webkit-transition: opacity .3s, -webkit-transform .35s;\n  transition: opacity .3s, -webkit-transform .35s;\n  transition: opacity .3s, transform .35s;\n  transition: opacity .3s, transform .35s, -webkit-transform .35s;\n}\n\n.fade-bottom-enter {\n  opacity: 0;\n  -webkit-transform: translateY(-8%);\n          transform: translateY(-8%);\n}\n\n.fade-bottom-leave-to {\n  opacity: 0;\n  -webkit-transform: translateY(8%);\n          transform: translateY(8%);\n}\n\n/*=========================================================================================\r\n\tFile Name: _transitions.scss\r\n\tDescription: Transition styles\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n.list-leave-active {\n  position: absolute;\n}\n\n.list-enter,\n.list-leave-to {\n  opacity: 0;\n  -webkit-transform: translateX(30px);\n          transform: translateX(30px);\n}\n\n/*=========================================================================================\r\n\tFile Name: _customClasses.scss\r\n\tDescription: partial- this file containes custom helper classes\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n.vx-row {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-wrap: wrap;\n      flex-wrap: wrap;\n  margin: 0 -1rem;\n}\n\n.vx-row > .vx-col {\n  padding: 0 1rem;\n}\n\n.vx-row.match-height > .vx-col {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n}\n\n.vx-row.no-gutter {\n  margin: 0;\n}\n\n.vx-row.no-gutter > .vx-col {\n  padding: 0;\n}\n\n.text-primary {\n  color: rgba(var(--vs-primary), 1) !important;\n}\n\n.text-success {\n  color: rgba(var(--vs-success), 1) !important;\n}\n\n.text-danger {\n  color: rgba(var(--vs-danger), 1) !important;\n}\n\n.text-warning {\n  color: rgba(var(--vs-warning), 1) !important;\n}\n\n.text-dark {\n  color: rgba(var(--vs-dark), 1) !important;\n}\n\n.bg-primary {\n  background-color: rgba(var(--vs-primary), 1) !important;\n}\n\n.bg-success {\n  background-color: rgba(var(--vs-success), 1) !important;\n}\n\n.bg-danger {\n  background-color: rgba(var(--vs-danger), 1) !important;\n}\n\n.bg-warning {\n  background-color: rgba(var(--vs-warning), 1) !important;\n}\n\n.bg-dark {\n  background-color: rgba(var(--vs-dark), 1) !important;\n}\n\n.border-primary {\n  border-color: rgba(var(--vs-primary), 1) !important;\n}\n\n.border-success {\n  border-color: rgba(var(--vs-success), 1) !important;\n}\n\n.border-danger {\n  border-color: rgba(var(--vs-danger), 1) !important;\n}\n\n.border-warning {\n  border-color: rgba(var(--vs-warning), 1) !important;\n}\n\n.border-dark {\n  border-color: rgba(var(--vs-dark), 1) !important;\n}\n\n.hover\\:bg-primary:hover {\n  background-color: rgba(var(--vs-primary), 1) !important;\n}\n\n.hover\\:bg-success:hover {\n  background-color: rgba(var(--vs-success), 1) !important;\n}\n\n.hover\\:bg-danger:hover {\n  background-color: rgba(var(--vs-danger), 1) !important;\n}\n\n.hover\\:bg-warning:hover {\n  background-color: rgba(var(--vs-warning), 1) !important;\n}\n\n.hover\\:bg-dark:hover {\n  background-color: rgba(var(--vs-dark), 1) !important;\n}\n\n.hover\\:text-primary:hover {\n  color: rgba(var(--vs-primary), 1) !important;\n}\n\n.hover\\:text-success:hover {\n  color: rgba(var(--vs-success), 1) !important;\n}\n\n.hover\\:text-danger:hover {\n  color: rgba(var(--vs-danger), 1) !important;\n}\n\n.hover\\:text-warning:hover {\n  color: rgba(var(--vs-warning), 1) !important;\n}\n\n.hover\\:text-dark:hover {\n  color: rgba(var(--vs-dark), 1) !important;\n}\n\n.bg-primary-gradient {\n  background: linear-gradient(118deg, rgba(var(--vs-primary), 1), rgba(var(--vs-primary), .7)) !important;\n}\n\n.bg-success-gradient {\n  background: linear-gradient(118deg, rgba(var(--vs-success), 1), rgba(var(--vs-success), .7)) !important;\n}\n\n.bg-danger-gradient {\n  background: linear-gradient(118deg, rgba(var(--vs-danger), 1), rgba(var(--vs-danger), .7)) !important;\n}\n\n.bg-warning-gradient {\n  background: linear-gradient(118deg, rgba(var(--vs-warning), 1), rgba(var(--vs-warning), .7)) !important;\n}\n\n.bg-dark-gradient {\n  background: linear-gradient(118deg, rgba(var(--vs-dark), 1), rgba(var(--vs-dark), .7)) !important;\n}\n\n.truncate {\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n}\n\n.text-big {\n  font-size: 4rem;\n}\n\n.text-base {\n  color: #626262;\n}\n\n.blur-1 {\n  -webkit-filter: blur(1px);\n          filter: blur(1px);\n}\n\n.blur-2 {\n  -webkit-filter: blur(2px);\n          filter: blur(2px);\n}\n\n.blur-3 {\n  -webkit-filter: blur(3px);\n          filter: blur(3px);\n}\n\n.sidebar-spacer {\n  width: calc(100% - 260px);\n  margin-left: 260px;\n}\n\n.sidebar-spacer--wide {\n  width: calc(100% - 400px);\n  margin-left: 400px;\n}\n\n.full-vs-sidebar .vs-sidebar {\n  max-width: calc(100% - 260px);\n  margin-left: 260px;\n}\n\n@media only screen and (max-width: 992px) {\n  .full-vs-sidebar .vs-sidebar {\n    max-width: 100%;\n    margin-left: 0;\n  }\n}\n\n.responsive {\n  width: 100%;\n  height: auto;\n}\n\nul.bordered-items > li:not(:last-of-type):not([class*=shadow]) {\n  border-bottom: 1px solid #dae1e7;\n}\n\n/*=========================================================================================\r\n\tFile Name: _fixesVuesax.scss\r\n\tDescription: Partial - Fixes/Add vuesax styles\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\n.vs-alert {\n  font-size: 1rem;\n}\n\n.vs-alert code {\n  background: #b5b5b5;\n  color: #fff;\n}\n\n.vs-tooltip {\n  z-index: 52000;\n}\n\n.con-chips .con-chips--input {\n  border: none;\n}\n\n.con-chips .con-vs-chip {\n  margin: .75rem;\n}\n\n.con-chips .con-chips--remove-all {\n  right: 9px;\n}\n\n.con-vs-chip {\n  min-height: 26px;\n  min-width: 26px;\n  font-size: .8rem;\n}\n\n.vs-collapse-item--header {\n  font-size: 1.2rem;\n  padding: 1rem;\n}\n\n.con-content--item {\n  font-size: 1rem;\n  padding: 1rem;\n}\n\n.vs-collapse.default .open-item .con-content--item,\n.vs-collapse.shadow .open-item .con-content--item,\n.vs-collapse.border .open-item .con-content--item,\n.vs-collapse.margin .open-item .con-content--item {\n  opacity: 1;\n  padding: 1rem;\n}\n\n.vs-collapse.shadow .vs-collapse-item--icon-header {\n  -webkit-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%);\n}\n\n.vs-collapse.shadow .open-item .vs-collapse-item--icon-header {\n  -webkit-transform: translate(-50%, -50%) rotate(180deg);\n          transform: translate(-50%, -50%) rotate(180deg);\n}\n\n.con-vs-dialog .vs-dialog header h3 {\n  padding: .8rem;\n}\n\n.con-vs-dialog .vs-dialog header span.after {\n  width: 0;\n}\n\n.con-vs-dialog .vs-dialog .vs-dialog-text {\n  padding: 1rem;\n  font-size: 1rem;\n}\n\n.con-vs-dialog .vs-dialog footer {\n  padding: 1rem;\n}\n\n.vs-con-dropdown {\n  font-size: 1rem;\n}\n\n.con-vs-dropdown--menu {\n  z-index: 42000;\n}\n\n.vs-list--item .list-titles .vs-list--subtitle {\n  font-size: .85rem;\n}\n\n.vs-list--item:last-child {\n  border-bottom: none;\n}\n\n.con-vs-popup {\n  z-index: 53000;\n}\n\n.con-vs-popup .vs-popup--content {\n  padding: 1rem;\n  font-size: 1rem;\n}\n\n.vs-tabs--li button {\n  font-size: 1rem;\n}\n\n.con-select .vs-select--input {\n  padding: 10px;\n  font-size: 1rem;\n  border: 1px solid rgba(0, 0, 0, .2);\n}\n\n.vs-select--options {\n  font-size: 1rem;\n}\n\n.vs-select--options span {\n  font-size: 1rem;\n}\n\n.vs-switch--text {\n  font-size: .7rem;\n}\n\n.vs-con-input .vs-inputx {\n  padding: .7rem;\n  font-size: 1rem;\n  border: 1px solid rgba(0, 0, 0, .2);\n}\n\n.vs-con-input .vx-inputx:not(.input-rounded-full) {\n  border-radius: 5px;\n}\n\n.vs-input--input.normal {\n  padding: .7rem;\n  font-size: 1rem;\n}\n\n.vs-input--input.hasIcon {\n  padding: .7rem 1rem .7rem 3rem;\n}\n\n.vs-input--input.hasIcon.icon-after-input {\n  padding: .7rem 3rem .7rem 1rem;\n}\n\n.vs-input--placeholder.normal {\n  padding: .6rem;\n}\n\n.vs-input--input.large {\n  padding: 1rem;\n  font-size: 1.2rem;\n}\n\n.vs-input--input.large.hasIcon {\n  padding: 1rem .8rem 1rem 2.5rem;\n}\n\n.vs-input--placeholder.large {\n  padding: 1rem .6rem;\n}\n\n.vs-input--input.small {\n  padding: .4rem;\n  font-size: .8rem;\n}\n\n.vs-input--placeholder.small {\n  padding: .2rem .6rem;\n  font-size: .8rem;\n}\n\n.vs-input--input.large ~ .vs-input--icon {\n  top: 1rem;\n  left: .8rem;\n}\n\n.vs-input--icon {\n  top: 13px;\n}\n\n.vs-input--icon.feather {\n  top: 10px;\n}\n\n.no-icon-border .vs-input--icon {\n  border: none;\n}\n\n.input-no-border .vs-input--input {\n  border: none !important;\n}\n\n.input-no-border .vs-input--input:focus {\n  border: none !important;\n  -webkit-box-shadow: none !important;\n          box-shadow: none !important;\n}\n\n.vs-textarea {\n  font-size: 1rem;\n}\n\n.vs-con-textarea {\n  border: 1px solid rgba(0, 0, 0, .2);\n}\n\n.vs-checkbox-small .vs-checkbox--input:checked + .vs-checkbox .vs-icon {\n  -webkit-transform: translateY(-3px);\n          transform: translateY(-3px);\n}\n\n.vs-col {\n  padding: 0 15px;\n}\n\n.con-img-upload {\n  overflow: hidden;\n  padding: .6rem;\n}\n\n.con-img-upload .img-upload {\n  margin: 15px;\n}\n\n.view-upload {\n  z-index: 52000;\n}\n\n.select-large input.vs-select--input {\n  padding: 11px;\n}\n\ni.wizard-icon {\n  font-style: inherit;\n}\n\n.stepTitle {\n  margin-top: .5rem;\n}\n\ni.feather {\n  font-weight: 100;\n}\n\n.vs-con-table {\n  background: transparent;\n}\n\n.vs-con-table .vs-table--header .vs-table--search {\n  padding: 1rem 0;\n}\n\n.vs-con-table .vs-table--header .vs-table--search-input {\n  padding: 10px;\n  border: 1px solid rgba(0, 0, 0, .1);\n}\n\n.vs-con-table .vs-con-tbody {\n  background: #f8f8f8;\n  border: 2px solid #f8f8f8;\n  width: 100%;\n  overflow: auto;\n}\n\n.vs-con-table .vs-con-tbody .vs-table--tbody-table {\n  font-size: 1rem;\n}\n\n.vs-con-table .vs-con-tbody .vs-table--tbody-table .tr-spacer {\n  height: 2px;\n}\n\n.vs-con-table .vs-con-tbody .vs-table--tbody-table .tr-table .tr-expand td {\n  padding: 0;\n}\n\n.vs-con-table .vs-con-tbody .vs-table--tbody-table .tr-table td {\n  padding: 1rem;\n}\n\n.vs-con-table .vs-con-tbody .vs-table--tbody-table .vs-table--thead th {\n  padding-top: 1rem;\n  padding-bottom: 1rem;\n}\n\n.vs-con-table .vs-con-tbody .vs-table--tbody-table .vs-table--thead .con-td-check {\n  background: #f8f8f8;\n  -webkit-box-shadow: none;\n          box-shadow: none;\n}\n\n.vs-con-table .vs-table--pagination {\n  margin-top: 1rem;\n}\n\n.con-vs-checkbox,\n.con-vs-radio {\n  -webkit-box-pack: start !important;\n      -ms-flex-pack: start !important;\n          justify-content: flex-start !important;\n}\n\n.con-vs-radio {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n}\n\n.input-rounded-full input {\n  border-radius: 20px;\n}\n\n.v-select .dropdown-toggle .vs__actions .clear {\n  padding-top: 4px;\n}\n\n.vs-button {\n  font-family: \"Montserrat\", Helvetica, Arial, sans-serif;\n  font-size: 1rem;\n}\n\n.vs-button:not(.vs-radius):not(.includeIconOnly):not(.small):not(.large) {\n  padding: .75rem 2rem;\n}\n\n.vs-button:not(.vs-radius):not(.includeIconOnly):not(.small):not(.large).vs-button-border {\n  padding: .679rem 2rem;\n}\n\n.vs-button.small:not(.includeIconOnly) {\n  padding: .5rem 1.5rem;\n}\n\n.vs-button.large:not(.includeIconOnly) {\n  padding: 1rem 2.5rem;\n}\n\n.vs-button.large {\n  font-size: 1.25rem;\n}\n\n.vs-button.large .vs-button--icon {\n  font-size: 1.25rem;\n}\n\n.vs-button.round {\n  border-radius: 1.5rem;\n}\n\n.vs-button.includeIcon {\n  float: none;\n}\n\n.vs-popup--title h3,\n.vs-notifications h3 {\n  margin-bottom: 0;\n}\n\n.vs-notifications {\n  z-index: 200000 !important;\n}\n\n.vs-notifications h3 {\n  color: #fff;\n  font-weight: 600;\n  font-size: 15.96px;\n}\n\nh3.vs-navbar--title {\n  margin-bottom: 0;\n}\n\n.vs-con-dropdown {\n  color: inherit;\n}\n\n.dropdown-button-container .vs-button {\n  padding: .72rem 1.5rem !important;\n}\n\n.dropdown-button-container .vs-button-line {\n  padding: 9px 10px !important;\n}\n\n.vs-alert--title {\n  color: inherit;\n}\n\n.vs-input.input-rounded-full .vs-input--input.hasIcon {\n  padding: .8rem 1rem .8rem 3rem;\n}\n\n.vs-input.input-rounded-full .input-span-placeholder {\n  padding-left: 3rem;\n  padding-top: .7rem;\n}\n\n.vs-input.input-rounded-full .vs-icon {\n  margin-top: .1rem;\n  margin-left: .6rem;\n  font-size: 1rem;\n}\n\n.vs-tabs-position-left .vs-tabs--li {\n  padding: .35rem .3rem;\n}\n\n.vs-pagination--li.is-current .effect {\n  border-radius: 5rem;\n}\n\n.vs-pagination--li.is-current {\n  border-radius: 5rem;\n}\n\n.vs-pagination--ul {\n  padding: 0;\n}\n\n.vs-select--options {\n  border: 1px solid #eee;\n  z-index: 30000;\n}\n\n.vs-input--icon.feather {\n  padding: .2rem .5rem 0rem .4rem;\n}\n\n.vs-input--input.hasIcon + .vs-input--placeholder {\n  padding-left: 3rem;\n}\n\n.vs-textarea:focus {\n  border: 1px solid #eee;\n}\n\n.vs-input--input.large.hasIcon {\n  padding: 1rem .8rem 1rem 3rem;\n}\n\n.con-vs-alert {\n  -webkit-box-shadow: none !important;\n          box-shadow: none !important;\n}\n\n.vs-alert {\n  font-weight: 500;\n}\n\n.vs-checkbox-small .vs-checkbox--input:checked + .vs-checkbox .vs-icon {\n  margin-top: 4px;\n  margin-left: -1px;\n}\n\n.vs-checkbox-small input:checked + .vs-checkbox {\n  background-color: rgba(var(--vs-primary), 1) !important;\n}\n\n.vs-dialog footer .vs-button-null {\n  margin-left: .5rem !important;\n  border-color: rgba(0, 0, 0, .2) !important;\n}\n\n.vs-avatar--text.feather {\n  font-size: 1.3rem;\n}\n\n/*=========================================================================================\r\n\tFile Name: _tailwindFixes.scss\r\n\tDescription: partial- Tailwind Fixes\r\n\t----------------------------------------------------------------------------------------\r\n\tItem Name: Vuesax Admin - VueJS Dashboard Admin Template\r\n\tVersion: 1.1\r\n\tAuthor: Pixinvent\r\n\tAuthor URL: hhttp://www.themeforest.net/user/pixinvent\r\n==========================================================================================*/\n\nbutton:focus {\n  outline: none;\n}\n", ""]);
 
 // exports
 
@@ -8106,6 +8106,179 @@ module.exports = function escape(url) {
 
     return url
 }
+
+
+/***/ }),
+
+/***/ "./node_modules/downloadjs/download.js":
+/*!*********************************************!*\
+  !*** ./node_modules/downloadjs/download.js ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;//download.js v4.2, by dandavis; 2008-2016. [MIT] see http://danml.com/download.html for tests/usage
+// v1 landed a FF+Chrome compat way of downloading strings to local un-named files, upgraded to use a hidden frame and optional mime
+// v2 added named files via a[download], msSaveBlob, IE (10+) support, and window.URL support for larger+faster saves than dataURLs
+// v3 added dataURL and Blob Input, bind-toggle arity, and legacy dataURL fallback was improved with force-download mime and base64 support. 3.1 improved safari handling.
+// v4 adds AMD/UMD, commonJS, and plain browser support
+// v4.1 adds url download capability via solo URL argument (same domain/CORS only)
+// v4.2 adds semantic variable names, long (over 2MB) dataURL support, and hidden by default temp anchors
+// https://github.com/rndme/download
+
+(function (root, factory) {
+	if (true) {
+		// AMD. Register as an anonymous module.
+		!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	} else {}
+}(this, function () {
+
+	return function download(data, strFileName, strMimeType) {
+
+		var self = window, // this script is only for browsers anyway...
+			defaultMime = "application/octet-stream", // this default mime also triggers iframe downloads
+			mimeType = strMimeType || defaultMime,
+			payload = data,
+			url = !strFileName && !strMimeType && payload,
+			anchor = document.createElement("a"),
+			toString = function(a){return String(a);},
+			myBlob = (self.Blob || self.MozBlob || self.WebKitBlob || toString),
+			fileName = strFileName || "download",
+			blob,
+			reader;
+			myBlob= myBlob.call ? myBlob.bind(self) : Blob ;
+	  
+		if(String(this)==="true"){ //reverse arguments, allowing download.bind(true, "text/xml", "export.xml") to act as a callback
+			payload=[payload, mimeType];
+			mimeType=payload[0];
+			payload=payload[1];
+		}
+
+
+		if(url && url.length< 2048){ // if no filename and no mime, assume a url was passed as the only argument
+			fileName = url.split("/").pop().split("?")[0];
+			anchor.href = url; // assign href prop to temp anchor
+		  	if(anchor.href.indexOf(url) !== -1){ // if the browser determines that it's a potentially valid url path:
+        		var ajax=new XMLHttpRequest();
+        		ajax.open( "GET", url, true);
+        		ajax.responseType = 'blob';
+        		ajax.onload= function(e){ 
+				  download(e.target.response, fileName, defaultMime);
+				};
+        		setTimeout(function(){ ajax.send();}, 0); // allows setting custom ajax headers using the return:
+			    return ajax;
+			} // end if valid url?
+		} // end if url?
+
+
+		//go ahead and download dataURLs right away
+		if(/^data:([\w+-]+\/[\w+.-]+)?[,;]/.test(payload)){
+		
+			if(payload.length > (1024*1024*1.999) && myBlob !== toString ){
+				payload=dataUrlToBlob(payload);
+				mimeType=payload.type || defaultMime;
+			}else{			
+				return navigator.msSaveBlob ?  // IE10 can't do a[download], only Blobs:
+					navigator.msSaveBlob(dataUrlToBlob(payload), fileName) :
+					saver(payload) ; // everyone else can save dataURLs un-processed
+			}
+			
+		}else{//not data url, is it a string with special needs?
+			if(/([\x80-\xff])/.test(payload)){			  
+				var i=0, tempUiArr= new Uint8Array(payload.length), mx=tempUiArr.length;
+				for(i;i<mx;++i) tempUiArr[i]= payload.charCodeAt(i);
+			 	payload=new myBlob([tempUiArr], {type: mimeType});
+			}		  
+		}
+		blob = payload instanceof myBlob ?
+			payload :
+			new myBlob([payload], {type: mimeType}) ;
+
+
+		function dataUrlToBlob(strUrl) {
+			var parts= strUrl.split(/[:;,]/),
+			type= parts[1],
+			decoder= parts[2] == "base64" ? atob : decodeURIComponent,
+			binData= decoder( parts.pop() ),
+			mx= binData.length,
+			i= 0,
+			uiArr= new Uint8Array(mx);
+
+			for(i;i<mx;++i) uiArr[i]= binData.charCodeAt(i);
+
+			return new myBlob([uiArr], {type: type});
+		 }
+
+		function saver(url, winMode){
+
+			if ('download' in anchor) { //html5 A[download]
+				anchor.href = url;
+				anchor.setAttribute("download", fileName);
+				anchor.className = "download-js-link";
+				anchor.innerHTML = "downloading...";
+				anchor.style.display = "none";
+				document.body.appendChild(anchor);
+				setTimeout(function() {
+					anchor.click();
+					document.body.removeChild(anchor);
+					if(winMode===true){setTimeout(function(){ self.URL.revokeObjectURL(anchor.href);}, 250 );}
+				}, 66);
+				return true;
+			}
+
+			// handle non-a[download] safari as best we can:
+			if(/(Version)\/(\d+)\.(\d+)(?:\.(\d+))?.*Safari\//.test(navigator.userAgent)) {
+				if(/^data:/.test(url))	url="data:"+url.replace(/^data:([\w\/\-\+]+)/, defaultMime);
+				if(!window.open(url)){ // popup blocked, offer direct download:
+					if(confirm("Displaying New Document\n\nUse Save As... to download, then click back to return to this page.")){ location.href=url; }
+				}
+				return true;
+			}
+
+			//do iframe dataURL download (old ch+FF):
+			var f = document.createElement("iframe");
+			document.body.appendChild(f);
+
+			if(!winMode && /^data:/.test(url)){ // force a mime that will download:
+				url="data:"+url.replace(/^data:([\w\/\-\+]+)/, defaultMime);
+			}
+			f.src=url;
+			setTimeout(function(){ document.body.removeChild(f); }, 333);
+
+		}//end saver
+
+
+
+
+		if (navigator.msSaveBlob) { // IE10+ : (has Blob, but not a[download] or URL)
+			return navigator.msSaveBlob(blob, fileName);
+		}
+
+		if(self.URL){ // simple fast and modern way using Blob and URL:
+			saver(self.URL.createObjectURL(blob), true);
+		}else{
+			// handle non-Blob()+non-URL browsers:
+			if(typeof blob === "string" || blob.constructor===toString ){
+				try{
+					return saver( "data:" +  mimeType   + ";base64,"  +  self.btoa(blob)  );
+				}catch(y){
+					return saver( "data:" +  mimeType   + "," + encodeURIComponent(blob)  );
+				}
+			}
+
+			// Blob but not URL support:
+			reader=new FileReader();
+			reader.onload=function(e){
+				saver(this.result);
+			};
+			reader.readAsDataURL(blob);
+		}
+		return true;
+	}; /* end download() */
+}));
 
 
 /***/ }),
@@ -37676,6 +37849,2131 @@ var ZoomOutIcon = {
 
 /***/ }),
 
+/***/ "./node_modules/vue-i18n/dist/vue-i18n.esm.js":
+/*!****************************************************!*\
+  !*** ./node_modules/vue-i18n/dist/vue-i18n.esm.js ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/*!
+ * vue-i18n v8.8.2 
+ * (c) 2019 kazuya kawaguchi
+ * Released under the MIT License.
+ */
+/*  */
+
+/**
+ * utilities
+ */
+
+function warn (msg, err) {
+  if (typeof console !== 'undefined') {
+    console.warn('[vue-i18n] ' + msg);
+    /* istanbul ignore if */
+    if (err) {
+      console.warn(err.stack);
+    }
+  }
+}
+
+function isObject (obj) {
+  return obj !== null && typeof obj === 'object'
+}
+
+var toString = Object.prototype.toString;
+var OBJECT_STRING = '[object Object]';
+function isPlainObject (obj) {
+  return toString.call(obj) === OBJECT_STRING
+}
+
+function isNull (val) {
+  return val === null || val === undefined
+}
+
+function parseArgs () {
+  var args = [], len = arguments.length;
+  while ( len-- ) args[ len ] = arguments[ len ];
+
+  var locale = null;
+  var params = null;
+  if (args.length === 1) {
+    if (isObject(args[0]) || Array.isArray(args[0])) {
+      params = args[0];
+    } else if (typeof args[0] === 'string') {
+      locale = args[0];
+    }
+  } else if (args.length === 2) {
+    if (typeof args[0] === 'string') {
+      locale = args[0];
+    }
+    /* istanbul ignore if */
+    if (isObject(args[1]) || Array.isArray(args[1])) {
+      params = args[1];
+    }
+  }
+
+  return { locale: locale, params: params }
+}
+
+function looseClone (obj) {
+  return JSON.parse(JSON.stringify(obj))
+}
+
+function remove (arr, item) {
+  if (arr.length) {
+    var index = arr.indexOf(item);
+    if (index > -1) {
+      return arr.splice(index, 1)
+    }
+  }
+}
+
+var hasOwnProperty = Object.prototype.hasOwnProperty;
+function hasOwn (obj, key) {
+  return hasOwnProperty.call(obj, key)
+}
+
+function merge (target) {
+  var arguments$1 = arguments;
+
+  var output = Object(target);
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments$1[i];
+    if (source !== undefined && source !== null) {
+      var key = (void 0);
+      for (key in source) {
+        if (hasOwn(source, key)) {
+          if (isObject(source[key])) {
+            output[key] = merge(output[key], source[key]);
+          } else {
+            output[key] = source[key];
+          }
+        }
+      }
+    }
+  }
+  return output
+}
+
+function looseEqual (a, b) {
+  if (a === b) { return true }
+  var isObjectA = isObject(a);
+  var isObjectB = isObject(b);
+  if (isObjectA && isObjectB) {
+    try {
+      var isArrayA = Array.isArray(a);
+      var isArrayB = Array.isArray(b);
+      if (isArrayA && isArrayB) {
+        return a.length === b.length && a.every(function (e, i) {
+          return looseEqual(e, b[i])
+        })
+      } else if (!isArrayA && !isArrayB) {
+        var keysA = Object.keys(a);
+        var keysB = Object.keys(b);
+        return keysA.length === keysB.length && keysA.every(function (key) {
+          return looseEqual(a[key], b[key])
+        })
+      } else {
+        /* istanbul ignore next */
+        return false
+      }
+    } catch (e) {
+      /* istanbul ignore next */
+      return false
+    }
+  } else if (!isObjectA && !isObjectB) {
+    return String(a) === String(b)
+  } else {
+    return false
+  }
+}
+
+/*  */
+
+function extend (Vue) {
+  if (!Vue.prototype.hasOwnProperty('$i18n')) {
+    // $FlowFixMe
+    Object.defineProperty(Vue.prototype, '$i18n', {
+      get: function get () { return this._i18n }
+    });
+  }
+
+  Vue.prototype.$t = function (key) {
+    var values = [], len = arguments.length - 1;
+    while ( len-- > 0 ) values[ len ] = arguments[ len + 1 ];
+
+    var i18n = this.$i18n;
+    return i18n._t.apply(i18n, [ key, i18n.locale, i18n._getMessages(), this ].concat( values ))
+  };
+
+  Vue.prototype.$tc = function (key, choice) {
+    var values = [], len = arguments.length - 2;
+    while ( len-- > 0 ) values[ len ] = arguments[ len + 2 ];
+
+    var i18n = this.$i18n;
+    return i18n._tc.apply(i18n, [ key, i18n.locale, i18n._getMessages(), this, choice ].concat( values ))
+  };
+
+  Vue.prototype.$te = function (key, locale) {
+    var i18n = this.$i18n;
+    return i18n._te(key, i18n.locale, i18n._getMessages(), locale)
+  };
+
+  Vue.prototype.$d = function (value) {
+    var ref;
+
+    var args = [], len = arguments.length - 1;
+    while ( len-- > 0 ) args[ len ] = arguments[ len + 1 ];
+    return (ref = this.$i18n).d.apply(ref, [ value ].concat( args ))
+  };
+
+  Vue.prototype.$n = function (value) {
+    var ref;
+
+    var args = [], len = arguments.length - 1;
+    while ( len-- > 0 ) args[ len ] = arguments[ len + 1 ];
+    return (ref = this.$i18n).n.apply(ref, [ value ].concat( args ))
+  };
+}
+
+/*  */
+
+var mixin = {
+  beforeCreate: function beforeCreate () {
+    var options = this.$options;
+    options.i18n = options.i18n || (options.__i18n ? {} : null);
+
+    if (options.i18n) {
+      if (options.i18n instanceof VueI18n) {
+        // init locale messages via custom blocks
+        if (options.__i18n) {
+          try {
+            var localeMessages = {};
+            options.__i18n.forEach(function (resource) {
+              localeMessages = merge(localeMessages, JSON.parse(resource));
+            });
+            Object.keys(localeMessages).forEach(function (locale) {
+              options.i18n.mergeLocaleMessage(locale, localeMessages[locale]);
+            });
+          } catch (e) {
+            if (true) {
+              warn("Cannot parse locale messages via custom blocks.", e);
+            }
+          }
+        }
+        this._i18n = options.i18n;
+        this._i18nWatcher = this._i18n.watchI18nData();
+        this._i18n.subscribeDataChanging(this);
+        this._subscribing = true;
+      } else if (isPlainObject(options.i18n)) {
+        // component local i18n
+        if (this.$root && this.$root.$i18n && this.$root.$i18n instanceof VueI18n) {
+          options.i18n.root = this.$root;
+          options.i18n.formatter = this.$root.$i18n.formatter;
+          options.i18n.fallbackLocale = this.$root.$i18n.fallbackLocale;
+          options.i18n.silentTranslationWarn = this.$root.$i18n.silentTranslationWarn;
+          options.i18n.silentFallbackWarn = this.$root.$i18n.silentFallbackWarn;
+          options.i18n.pluralizationRules = this.$root.$i18n.pluralizationRules;
+          options.i18n.preserveDirectiveContent = this.$root.$i18n.preserveDirectiveContent;
+        }
+
+        // init locale messages via custom blocks
+        if (options.__i18n) {
+          try {
+            var localeMessages$1 = {};
+            options.__i18n.forEach(function (resource) {
+              localeMessages$1 = merge(localeMessages$1, JSON.parse(resource));
+            });
+            options.i18n.messages = localeMessages$1;
+          } catch (e) {
+            if (true) {
+              warn("Cannot parse locale messages via custom blocks.", e);
+            }
+          }
+        }
+
+        this._i18n = new VueI18n(options.i18n);
+        this._i18nWatcher = this._i18n.watchI18nData();
+        this._i18n.subscribeDataChanging(this);
+        this._subscribing = true;
+
+        if (options.i18n.sync === undefined || !!options.i18n.sync) {
+          this._localeWatcher = this.$i18n.watchLocale();
+        }
+      } else {
+        if (true) {
+          warn("Cannot be interpreted 'i18n' option.");
+        }
+      }
+    } else if (this.$root && this.$root.$i18n && this.$root.$i18n instanceof VueI18n) {
+      // root i18n
+      this._i18n = this.$root.$i18n;
+      this._i18n.subscribeDataChanging(this);
+      this._subscribing = true;
+    } else if (options.parent && options.parent.$i18n && options.parent.$i18n instanceof VueI18n) {
+      // parent i18n
+      this._i18n = options.parent.$i18n;
+      this._i18n.subscribeDataChanging(this);
+      this._subscribing = true;
+    }
+  },
+
+  beforeDestroy: function beforeDestroy () {
+    if (!this._i18n) { return }
+
+    var self = this;
+    this.$nextTick(function () {
+      if (self._subscribing) {
+        self._i18n.unsubscribeDataChanging(self);
+        delete self._subscribing;
+      }
+
+      if (self._i18nWatcher) {
+        self._i18nWatcher();
+        self._i18n.destroyVM();
+        delete self._i18nWatcher;
+      }
+
+      if (self._localeWatcher) {
+        self._localeWatcher();
+        delete self._localeWatcher;
+      }
+
+      self._i18n = null;
+    });
+  }
+};
+
+/*  */
+
+var component = {
+  name: 'i18n',
+  functional: true,
+  props: {
+    tag: {
+      type: String,
+      default: 'span'
+    },
+    path: {
+      type: String,
+      required: true
+    },
+    locale: {
+      type: String
+    },
+    places: {
+      type: [Array, Object]
+    }
+  },
+  render: function render (h, ref) {
+    var props = ref.props;
+    var data = ref.data;
+    var children = ref.children;
+    var parent = ref.parent;
+
+    var i18n = parent.$i18n;
+
+    children = (children || []).filter(function (child) {
+      return child.tag || (child.text = child.text.trim())
+    });
+
+    if (!i18n) {
+      if (true) {
+        warn('Cannot find VueI18n instance!');
+      }
+      return children
+    }
+
+    var path = props.path;
+    var locale = props.locale;
+
+    var params = {};
+    var places = props.places || {};
+
+    var hasPlaces = Array.isArray(places)
+      ? places.length > 0
+      : Object.keys(places).length > 0;
+
+    var everyPlace = children.every(function (child) {
+      if (child.data && child.data.attrs) {
+        var place = child.data.attrs.place;
+        return (typeof place !== 'undefined') && place !== ''
+      }
+    });
+
+    if ( true && hasPlaces && children.length > 0 && !everyPlace) {
+      warn('If places prop is set, all child elements must have place prop set.');
+    }
+
+    if (Array.isArray(places)) {
+      places.forEach(function (el, i) {
+        params[i] = el;
+      });
+    } else {
+      Object.keys(places).forEach(function (key) {
+        params[key] = places[key];
+      });
+    }
+
+    children.forEach(function (child, i) {
+      var key = everyPlace
+        ? ("" + (child.data.attrs.place))
+        : ("" + i);
+      params[key] = child;
+    });
+
+    return h(props.tag, data, i18n.i(path, locale, params))
+  }
+};
+
+/*  */
+
+function bind (el, binding, vnode) {
+  if (!assert(el, vnode)) { return }
+
+  t(el, binding, vnode);
+}
+
+function update (el, binding, vnode, oldVNode) {
+  if (!assert(el, vnode)) { return }
+
+  var i18n = vnode.context.$i18n;
+  if (localeEqual(el, vnode) &&
+    (looseEqual(binding.value, binding.oldValue) &&
+     looseEqual(el._localeMessage, i18n.getLocaleMessage(i18n.locale)))) { return }
+
+  t(el, binding, vnode);
+}
+
+function unbind (el, binding, vnode, oldVNode) {
+  var vm = vnode.context;
+  if (!vm) {
+    warn('Vue instance does not exists in VNode context');
+    return
+  }
+
+  var i18n = vnode.context.$i18n || {};
+  if (!binding.modifiers.preserve && !i18n.preserveDirectiveContent) {
+    el.textContent = '';
+  }
+  el._vt = undefined;
+  delete el['_vt'];
+  el._locale = undefined;
+  delete el['_locale'];
+  el._localeMessage = undefined;
+  delete el['_localeMessage'];
+}
+
+function assert (el, vnode) {
+  var vm = vnode.context;
+  if (!vm) {
+    warn('Vue instance does not exists in VNode context');
+    return false
+  }
+
+  if (!vm.$i18n) {
+    warn('VueI18n instance does not exists in Vue instance');
+    return false
+  }
+
+  return true
+}
+
+function localeEqual (el, vnode) {
+  var vm = vnode.context;
+  return el._locale === vm.$i18n.locale
+}
+
+function t (el, binding, vnode) {
+  var ref$1, ref$2;
+
+  var value = binding.value;
+
+  var ref = parseValue(value);
+  var path = ref.path;
+  var locale = ref.locale;
+  var args = ref.args;
+  var choice = ref.choice;
+  if (!path && !locale && !args) {
+    warn('value type not supported');
+    return
+  }
+
+  if (!path) {
+    warn('`path` is required in v-t directive');
+    return
+  }
+
+  var vm = vnode.context;
+  if (choice) {
+    el._vt = el.textContent = (ref$1 = vm.$i18n).tc.apply(ref$1, [ path, choice ].concat( makeParams(locale, args) ));
+  } else {
+    el._vt = el.textContent = (ref$2 = vm.$i18n).t.apply(ref$2, [ path ].concat( makeParams(locale, args) ));
+  }
+  el._locale = vm.$i18n.locale;
+  el._localeMessage = vm.$i18n.getLocaleMessage(vm.$i18n.locale);
+}
+
+function parseValue (value) {
+  var path;
+  var locale;
+  var args;
+  var choice;
+
+  if (typeof value === 'string') {
+    path = value;
+  } else if (isPlainObject(value)) {
+    path = value.path;
+    locale = value.locale;
+    args = value.args;
+    choice = value.choice;
+  }
+
+  return { path: path, locale: locale, args: args, choice: choice }
+}
+
+function makeParams (locale, args) {
+  var params = [];
+
+  locale && params.push(locale);
+  if (args && (Array.isArray(args) || isPlainObject(args))) {
+    params.push(args);
+  }
+
+  return params
+}
+
+var Vue;
+
+function install (_Vue) {
+  /* istanbul ignore if */
+  if ( true && install.installed && _Vue === Vue) {
+    warn('already installed.');
+    return
+  }
+  install.installed = true;
+
+  Vue = _Vue;
+
+  var version = (Vue.version && Number(Vue.version.split('.')[0])) || -1;
+  /* istanbul ignore if */
+  if ( true && version < 2) {
+    warn(("vue-i18n (" + (install.version) + ") need to use Vue 2.0 or later (Vue: " + (Vue.version) + ")."));
+    return
+  }
+
+  extend(Vue);
+  Vue.mixin(mixin);
+  Vue.directive('t', { bind: bind, update: update, unbind: unbind });
+  Vue.component(component.name, component);
+
+  // use simple mergeStrategies to prevent i18n instance lose '__proto__'
+  var strats = Vue.config.optionMergeStrategies;
+  strats.i18n = function (parentVal, childVal) {
+    return childVal === undefined
+      ? parentVal
+      : childVal
+  };
+}
+
+/*  */
+
+var BaseFormatter = function BaseFormatter () {
+  this._caches = Object.create(null);
+};
+
+BaseFormatter.prototype.interpolate = function interpolate (message, values) {
+  if (!values) {
+    return [message]
+  }
+  var tokens = this._caches[message];
+  if (!tokens) {
+    tokens = parse(message);
+    this._caches[message] = tokens;
+  }
+  return compile(tokens, values)
+};
+
+
+
+var RE_TOKEN_LIST_VALUE = /^(?:\d)+/;
+var RE_TOKEN_NAMED_VALUE = /^(?:\w)+/;
+
+function parse (format) {
+  var tokens = [];
+  var position = 0;
+
+  var text = '';
+  while (position < format.length) {
+    var char = format[position++];
+    if (char === '{') {
+      if (text) {
+        tokens.push({ type: 'text', value: text });
+      }
+
+      text = '';
+      var sub = '';
+      char = format[position++];
+      while (char !== undefined && char !== '}') {
+        sub += char;
+        char = format[position++];
+      }
+      var isClosed = char === '}';
+
+      var type = RE_TOKEN_LIST_VALUE.test(sub)
+        ? 'list'
+        : isClosed && RE_TOKEN_NAMED_VALUE.test(sub)
+          ? 'named'
+          : 'unknown';
+      tokens.push({ value: sub, type: type });
+    } else if (char === '%') {
+      // when found rails i18n syntax, skip text capture
+      if (format[(position)] !== '{') {
+        text += char;
+      }
+    } else {
+      text += char;
+    }
+  }
+
+  text && tokens.push({ type: 'text', value: text });
+
+  return tokens
+}
+
+function compile (tokens, values) {
+  var compiled = [];
+  var index = 0;
+
+  var mode = Array.isArray(values)
+    ? 'list'
+    : isObject(values)
+      ? 'named'
+      : 'unknown';
+  if (mode === 'unknown') { return compiled }
+
+  while (index < tokens.length) {
+    var token = tokens[index];
+    switch (token.type) {
+      case 'text':
+        compiled.push(token.value);
+        break
+      case 'list':
+        compiled.push(values[parseInt(token.value, 10)]);
+        break
+      case 'named':
+        if (mode === 'named') {
+          compiled.push((values)[token.value]);
+        } else {
+          if (true) {
+            warn(("Type of token '" + (token.type) + "' and format of value '" + mode + "' don't match!"));
+          }
+        }
+        break
+      case 'unknown':
+        if (true) {
+          warn("Detect 'unknown' type of token!");
+        }
+        break
+    }
+    index++;
+  }
+
+  return compiled
+}
+
+/*  */
+
+/**
+ *  Path parser
+ *  - Inspired:
+ *    Vue.js Path parser
+ */
+
+// actions
+var APPEND = 0;
+var PUSH = 1;
+var INC_SUB_PATH_DEPTH = 2;
+var PUSH_SUB_PATH = 3;
+
+// states
+var BEFORE_PATH = 0;
+var IN_PATH = 1;
+var BEFORE_IDENT = 2;
+var IN_IDENT = 3;
+var IN_SUB_PATH = 4;
+var IN_SINGLE_QUOTE = 5;
+var IN_DOUBLE_QUOTE = 6;
+var AFTER_PATH = 7;
+var ERROR = 8;
+
+var pathStateMachine = [];
+
+pathStateMachine[BEFORE_PATH] = {
+  'ws': [BEFORE_PATH],
+  'ident': [IN_IDENT, APPEND],
+  '[': [IN_SUB_PATH],
+  'eof': [AFTER_PATH]
+};
+
+pathStateMachine[IN_PATH] = {
+  'ws': [IN_PATH],
+  '.': [BEFORE_IDENT],
+  '[': [IN_SUB_PATH],
+  'eof': [AFTER_PATH]
+};
+
+pathStateMachine[BEFORE_IDENT] = {
+  'ws': [BEFORE_IDENT],
+  'ident': [IN_IDENT, APPEND],
+  '0': [IN_IDENT, APPEND],
+  'number': [IN_IDENT, APPEND]
+};
+
+pathStateMachine[IN_IDENT] = {
+  'ident': [IN_IDENT, APPEND],
+  '0': [IN_IDENT, APPEND],
+  'number': [IN_IDENT, APPEND],
+  'ws': [IN_PATH, PUSH],
+  '.': [BEFORE_IDENT, PUSH],
+  '[': [IN_SUB_PATH, PUSH],
+  'eof': [AFTER_PATH, PUSH]
+};
+
+pathStateMachine[IN_SUB_PATH] = {
+  "'": [IN_SINGLE_QUOTE, APPEND],
+  '"': [IN_DOUBLE_QUOTE, APPEND],
+  '[': [IN_SUB_PATH, INC_SUB_PATH_DEPTH],
+  ']': [IN_PATH, PUSH_SUB_PATH],
+  'eof': ERROR,
+  'else': [IN_SUB_PATH, APPEND]
+};
+
+pathStateMachine[IN_SINGLE_QUOTE] = {
+  "'": [IN_SUB_PATH, APPEND],
+  'eof': ERROR,
+  'else': [IN_SINGLE_QUOTE, APPEND]
+};
+
+pathStateMachine[IN_DOUBLE_QUOTE] = {
+  '"': [IN_SUB_PATH, APPEND],
+  'eof': ERROR,
+  'else': [IN_DOUBLE_QUOTE, APPEND]
+};
+
+/**
+ * Check if an expression is a literal value.
+ */
+
+var literalValueRE = /^\s?(?:true|false|-?[\d.]+|'[^']*'|"[^"]*")\s?$/;
+function isLiteral (exp) {
+  return literalValueRE.test(exp)
+}
+
+/**
+ * Strip quotes from a string
+ */
+
+function stripQuotes (str) {
+  var a = str.charCodeAt(0);
+  var b = str.charCodeAt(str.length - 1);
+  return a === b && (a === 0x22 || a === 0x27)
+    ? str.slice(1, -1)
+    : str
+}
+
+/**
+ * Determine the type of a character in a keypath.
+ */
+
+function getPathCharType (ch) {
+  if (ch === undefined || ch === null) { return 'eof' }
+
+  var code = ch.charCodeAt(0);
+
+  switch (code) {
+    case 0x5B: // [
+    case 0x5D: // ]
+    case 0x2E: // .
+    case 0x22: // "
+    case 0x27: // '
+      return ch
+
+    case 0x5F: // _
+    case 0x24: // $
+    case 0x2D: // -
+      return 'ident'
+
+    case 0x20: // Space
+    case 0x09: // Tab
+    case 0x0A: // Newline
+    case 0x0D: // Return
+    case 0xA0:  // No-break space
+    case 0xFEFF:  // Byte Order Mark
+    case 0x2028:  // Line Separator
+    case 0x2029:  // Paragraph Separator
+      return 'ws'
+  }
+
+  return 'ident'
+}
+
+/**
+ * Format a subPath, return its plain form if it is
+ * a literal string or number. Otherwise prepend the
+ * dynamic indicator (*).
+ */
+
+function formatSubPath (path) {
+  var trimmed = path.trim();
+  // invalid leading 0
+  if (path.charAt(0) === '0' && isNaN(path)) { return false }
+
+  return isLiteral(trimmed) ? stripQuotes(trimmed) : '*' + trimmed
+}
+
+/**
+ * Parse a string path into an array of segments
+ */
+
+function parse$1 (path) {
+  var keys = [];
+  var index = -1;
+  var mode = BEFORE_PATH;
+  var subPathDepth = 0;
+  var c;
+  var key;
+  var newChar;
+  var type;
+  var transition;
+  var action;
+  var typeMap;
+  var actions = [];
+
+  actions[PUSH] = function () {
+    if (key !== undefined) {
+      keys.push(key);
+      key = undefined;
+    }
+  };
+
+  actions[APPEND] = function () {
+    if (key === undefined) {
+      key = newChar;
+    } else {
+      key += newChar;
+    }
+  };
+
+  actions[INC_SUB_PATH_DEPTH] = function () {
+    actions[APPEND]();
+    subPathDepth++;
+  };
+
+  actions[PUSH_SUB_PATH] = function () {
+    if (subPathDepth > 0) {
+      subPathDepth--;
+      mode = IN_SUB_PATH;
+      actions[APPEND]();
+    } else {
+      subPathDepth = 0;
+      key = formatSubPath(key);
+      if (key === false) {
+        return false
+      } else {
+        actions[PUSH]();
+      }
+    }
+  };
+
+  function maybeUnescapeQuote () {
+    var nextChar = path[index + 1];
+    if ((mode === IN_SINGLE_QUOTE && nextChar === "'") ||
+      (mode === IN_DOUBLE_QUOTE && nextChar === '"')) {
+      index++;
+      newChar = '\\' + nextChar;
+      actions[APPEND]();
+      return true
+    }
+  }
+
+  while (mode !== null) {
+    index++;
+    c = path[index];
+
+    if (c === '\\' && maybeUnescapeQuote()) {
+      continue
+    }
+
+    type = getPathCharType(c);
+    typeMap = pathStateMachine[mode];
+    transition = typeMap[type] || typeMap['else'] || ERROR;
+
+    if (transition === ERROR) {
+      return // parse error
+    }
+
+    mode = transition[0];
+    action = actions[transition[1]];
+    if (action) {
+      newChar = transition[2];
+      newChar = newChar === undefined
+        ? c
+        : newChar;
+      if (action() === false) {
+        return
+      }
+    }
+
+    if (mode === AFTER_PATH) {
+      return keys
+    }
+  }
+}
+
+
+
+
+
+var I18nPath = function I18nPath () {
+  this._cache = Object.create(null);
+};
+
+/**
+ * External parse that check for a cache hit first
+ */
+I18nPath.prototype.parsePath = function parsePath (path) {
+  var hit = this._cache[path];
+  if (!hit) {
+    hit = parse$1(path);
+    if (hit) {
+      this._cache[path] = hit;
+    }
+  }
+  return hit || []
+};
+
+/**
+ * Get path value from path string
+ */
+I18nPath.prototype.getPathValue = function getPathValue (obj, path) {
+  if (!isObject(obj)) { return null }
+
+  var paths = this.parsePath(path);
+  if (paths.length === 0) {
+    return null
+  } else {
+    var length = paths.length;
+    var last = obj;
+    var i = 0;
+    while (i < length) {
+      var value = last[paths[i]];
+      if (value === undefined) {
+        return null
+      }
+      last = value;
+      i++;
+    }
+
+    return last
+  }
+};
+
+/*  */
+
+
+
+var numberFormatKeys = [
+  'style',
+  'currency',
+  'currencyDisplay',
+  'useGrouping',
+  'minimumIntegerDigits',
+  'minimumFractionDigits',
+  'maximumFractionDigits',
+  'minimumSignificantDigits',
+  'maximumSignificantDigits',
+  'localeMatcher',
+  'formatMatcher'
+];
+var linkKeyMatcher = /(?:@(?:\.[a-z]+)?:(?:[\w\-_|.]+|\([\w\-_|.]+\)))/g;
+var linkKeyPrefixMatcher = /^@(?:\.([a-z]+))?:/;
+var bracketsMatcher = /[()]/g;
+var formatters = {
+  'upper': function (str) { return str.toLocaleUpperCase(); },
+  'lower': function (str) { return str.toLocaleLowerCase(); }
+};
+
+var defaultFormatter = new BaseFormatter();
+
+var VueI18n = function VueI18n (options) {
+  var this$1 = this;
+  if ( options === void 0 ) options = {};
+
+  // Auto install if it is not done yet and `window` has `Vue`.
+  // To allow users to avoid auto-installation in some cases,
+  // this code should be placed here. See #290
+  /* istanbul ignore if */
+  if (!Vue && typeof window !== 'undefined' && window.Vue) {
+    install(window.Vue);
+  }
+
+  var locale = options.locale || 'en-US';
+  var fallbackLocale = options.fallbackLocale || 'en-US';
+  var messages = options.messages || {};
+  var dateTimeFormats = options.dateTimeFormats || {};
+  var numberFormats = options.numberFormats || {};
+
+  this._vm = null;
+  this._formatter = options.formatter || defaultFormatter;
+  this._missing = options.missing || null;
+  this._root = options.root || null;
+  this._sync = options.sync === undefined ? true : !!options.sync;
+  this._fallbackRoot = options.fallbackRoot === undefined
+    ? true
+    : !!options.fallbackRoot;
+  this._silentTranslationWarn = options.silentTranslationWarn === undefined
+    ? false
+    : !!options.silentTranslationWarn;
+  this._silentFallbackWarn = options.silentFallbackWarn === undefined
+    ? false
+    : !!options.silentFallbackWarn;
+  this._dateTimeFormatters = {};
+  this._numberFormatters = {};
+  this._path = new I18nPath();
+  this._dataListeners = [];
+  this._preserveDirectiveContent = options.preserveDirectiveContent === undefined
+    ? false
+    : !!options.preserveDirectiveContent;
+  this.pluralizationRules = options.pluralizationRules || {};
+
+  this._exist = function (message, key) {
+    if (!message || !key) { return false }
+    if (this$1._path.getPathValue(message, key)) { return true }
+    // fallback for flat key
+    if (message[key]) { return true }
+    return false
+  };
+
+  this._initVM({
+    locale: locale,
+    fallbackLocale: fallbackLocale,
+    messages: messages,
+    dateTimeFormats: dateTimeFormats,
+    numberFormats: numberFormats
+  });
+};
+
+var prototypeAccessors = { vm: { configurable: true },messages: { configurable: true },dateTimeFormats: { configurable: true },numberFormats: { configurable: true },locale: { configurable: true },fallbackLocale: { configurable: true },missing: { configurable: true },formatter: { configurable: true },silentTranslationWarn: { configurable: true },silentFallbackWarn: { configurable: true },preserveDirectiveContent: { configurable: true } };
+
+VueI18n.prototype._initVM = function _initVM (data) {
+  var silent = Vue.config.silent;
+  Vue.config.silent = true;
+  this._vm = new Vue({ data: data });
+  Vue.config.silent = silent;
+};
+
+VueI18n.prototype.destroyVM = function destroyVM () {
+  this._vm.$destroy();
+};
+
+VueI18n.prototype.subscribeDataChanging = function subscribeDataChanging (vm) {
+  this._dataListeners.push(vm);
+};
+
+VueI18n.prototype.unsubscribeDataChanging = function unsubscribeDataChanging (vm) {
+  remove(this._dataListeners, vm);
+};
+
+VueI18n.prototype.watchI18nData = function watchI18nData () {
+  var self = this;
+  return this._vm.$watch('$data', function () {
+    var i = self._dataListeners.length;
+    while (i--) {
+      Vue.nextTick(function () {
+        self._dataListeners[i] && self._dataListeners[i].$forceUpdate();
+      });
+    }
+  }, { deep: true })
+};
+
+VueI18n.prototype.watchLocale = function watchLocale () {
+  /* istanbul ignore if */
+  if (!this._sync || !this._root) { return null }
+  var target = this._vm;
+  return this._root.$i18n.vm.$watch('locale', function (val) {
+    target.$set(target, 'locale', val);
+    target.$forceUpdate();
+  }, { immediate: true })
+};
+
+prototypeAccessors.vm.get = function () { return this._vm };
+
+prototypeAccessors.messages.get = function () { return looseClone(this._getMessages()) };
+prototypeAccessors.dateTimeFormats.get = function () { return looseClone(this._getDateTimeFormats()) };
+prototypeAccessors.numberFormats.get = function () { return looseClone(this._getNumberFormats()) };
+
+prototypeAccessors.locale.get = function () { return this._vm.locale };
+prototypeAccessors.locale.set = function (locale) {
+  this._vm.$set(this._vm, 'locale', locale);
+};
+
+prototypeAccessors.fallbackLocale.get = function () { return this._vm.fallbackLocale };
+prototypeAccessors.fallbackLocale.set = function (locale) {
+  this._vm.$set(this._vm, 'fallbackLocale', locale);
+};
+
+prototypeAccessors.missing.get = function () { return this._missing };
+prototypeAccessors.missing.set = function (handler) { this._missing = handler; };
+
+prototypeAccessors.formatter.get = function () { return this._formatter };
+prototypeAccessors.formatter.set = function (formatter) { this._formatter = formatter; };
+
+prototypeAccessors.silentTranslationWarn.get = function () { return this._silentTranslationWarn };
+prototypeAccessors.silentTranslationWarn.set = function (silent) { this._silentTranslationWarn = silent; };
+
+prototypeAccessors.silentFallbackWarn.get = function () { return this._silentFallbackWarn };
+prototypeAccessors.silentFallbackWarn.set = function (silent) { this._silentFallbackWarn = silent; };
+
+prototypeAccessors.preserveDirectiveContent.get = function () { return this._preserveDirectiveContent };
+prototypeAccessors.preserveDirectiveContent.set = function (preserve) { this._preserveDirectiveContent = preserve; };
+
+VueI18n.prototype._getMessages = function _getMessages () { return this._vm.messages };
+VueI18n.prototype._getDateTimeFormats = function _getDateTimeFormats () { return this._vm.dateTimeFormats };
+VueI18n.prototype._getNumberFormats = function _getNumberFormats () { return this._vm.numberFormats };
+
+VueI18n.prototype._warnDefault = function _warnDefault (locale, key, result, vm, values) {
+  if (!isNull(result)) { return result }
+  if (this._missing) {
+    var missingRet = this._missing.apply(null, [locale, key, vm, values]);
+    if (typeof missingRet === 'string') {
+      return missingRet
+    }
+  } else {
+    if ( true && !this._silentTranslationWarn) {
+      warn(
+        "Cannot translate the value of keypath '" + key + "'. " +
+        'Use the value of keypath as default.'
+      );
+    }
+  }
+  return key
+};
+
+VueI18n.prototype._isFallbackRoot = function _isFallbackRoot (val) {
+  return !val && !isNull(this._root) && this._fallbackRoot
+};
+
+VueI18n.prototype._isSilentFallback = function _isSilentFallback (locale) {
+  return this._silentFallbackWarn && (this._isFallbackRoot() || locale !== this.fallbackLocale)
+};
+
+VueI18n.prototype._interpolate = function _interpolate (
+  locale,
+  message,
+  key,
+  host,
+  interpolateMode,
+  values,
+  visitedLinkStack
+) {
+  if (!message) { return null }
+
+  var pathRet = this._path.getPathValue(message, key);
+  if (Array.isArray(pathRet) || isPlainObject(pathRet)) { return pathRet }
+
+  var ret;
+  if (isNull(pathRet)) {
+    /* istanbul ignore else */
+    if (isPlainObject(message)) {
+      ret = message[key];
+      if (typeof ret !== 'string') {
+        if ( true && !this._silentTranslationWarn && !this._isSilentFallback(locale)) {
+          warn(("Value of key '" + key + "' is not a string!"));
+        }
+        return null
+      }
+    } else {
+      return null
+    }
+  } else {
+    /* istanbul ignore else */
+    if (typeof pathRet === 'string') {
+      ret = pathRet;
+    } else {
+      if ( true && !this._silentTranslationWarn && !this._isSilentFallback(locale)) {
+        warn(("Value of key '" + key + "' is not a string!"));
+      }
+      return null
+    }
+  }
+
+  // Check for the existence of links within the translated string
+  if (ret.indexOf('@:') >= 0 || ret.indexOf('@.') >= 0) {
+    ret = this._link(locale, message, ret, host, 'raw', values, visitedLinkStack);
+  }
+
+  return this._render(ret, interpolateMode, values, key)
+};
+
+VueI18n.prototype._link = function _link (
+  locale,
+  message,
+  str,
+  host,
+  interpolateMode,
+  values,
+  visitedLinkStack
+) {
+    var this$1 = this;
+
+  var ret = str;
+
+  // Match all the links within the local
+  // We are going to replace each of
+  // them with its translation
+  var matches = ret.match(linkKeyMatcher);
+  for (var idx in matches) {
+    // ie compatible: filter custom array
+    // prototype method
+    if (!matches.hasOwnProperty(idx)) {
+      continue
+    }
+    var link = matches[idx];
+    var linkKeyPrefixMatches = link.match(linkKeyPrefixMatcher);
+    var linkPrefix = linkKeyPrefixMatches[0];
+      var formatterName = linkKeyPrefixMatches[1];
+
+    // Remove the leading @:, @.case: and the brackets
+    var linkPlaceholder = link.replace(linkPrefix, '').replace(bracketsMatcher, '');
+
+    if (visitedLinkStack.includes(linkPlaceholder)) {
+      if (true) {
+        warn(("Circular reference found. \"" + link + "\" is already visited in the chain of " + (visitedLinkStack.reverse().join(' <- '))));
+      }
+      return ret
+    }
+    visitedLinkStack.push(linkPlaceholder);
+
+    // Translate the link
+    var translated = this$1._interpolate(
+      locale, message, linkPlaceholder, host,
+      interpolateMode === 'raw' ? 'string' : interpolateMode,
+      interpolateMode === 'raw' ? undefined : values,
+      visitedLinkStack
+    );
+
+    if (this$1._isFallbackRoot(translated)) {
+      if ( true && !this$1._silentTranslationWarn) {
+        warn(("Fall back to translate the link placeholder '" + linkPlaceholder + "' with root locale."));
+      }
+      /* istanbul ignore if */
+      if (!this$1._root) { throw Error('unexpected error') }
+      var root = this$1._root.$i18n;
+      translated = root._translate(
+        root._getMessages(), root.locale, root.fallbackLocale,
+        linkPlaceholder, host, interpolateMode, values
+      );
+    }
+    translated = this$1._warnDefault(
+      locale, linkPlaceholder, translated, host,
+      Array.isArray(values) ? values : [values]
+    );
+    if (formatters.hasOwnProperty(formatterName)) {
+      translated = formatters[formatterName](translated);
+    }
+
+    visitedLinkStack.pop();
+
+    // Replace the link with the translated
+    ret = !translated ? ret : ret.replace(link, translated);
+  }
+
+  return ret
+};
+
+VueI18n.prototype._render = function _render (message, interpolateMode, values, path) {
+  var ret = this._formatter.interpolate(message, values, path);
+
+  // If the custom formatter refuses to work - apply the default one
+  if (!ret) {
+    ret = defaultFormatter.interpolate(message, values, path);
+  }
+
+  // if interpolateMode is **not** 'string' ('row'),
+  // return the compiled data (e.g. ['foo', VNode, 'bar']) with formatter
+  return interpolateMode === 'string' ? ret.join('') : ret
+};
+
+VueI18n.prototype._translate = function _translate (
+  messages,
+  locale,
+  fallback,
+  key,
+  host,
+  interpolateMode,
+  args
+) {
+  var res =
+    this._interpolate(locale, messages[locale], key, host, interpolateMode, args, [key]);
+  if (!isNull(res)) { return res }
+
+  res = this._interpolate(fallback, messages[fallback], key, host, interpolateMode, args, [key]);
+  if (!isNull(res)) {
+    if ( true && !this._silentTranslationWarn && !this._silentFallbackWarn) {
+      warn(("Fall back to translate the keypath '" + key + "' with '" + fallback + "' locale."));
+    }
+    return res
+  } else {
+    return null
+  }
+};
+
+VueI18n.prototype._t = function _t (key, _locale, messages, host) {
+    var ref;
+
+    var values = [], len = arguments.length - 4;
+    while ( len-- > 0 ) values[ len ] = arguments[ len + 4 ];
+  if (!key) { return '' }
+
+  var parsedArgs = parseArgs.apply(void 0, values);
+  var locale = parsedArgs.locale || _locale;
+
+  var ret = this._translate(
+    messages, locale, this.fallbackLocale, key,
+    host, 'string', parsedArgs.params
+  );
+  if (this._isFallbackRoot(ret)) {
+    if ( true && !this._silentTranslationWarn && !this._silentFallbackWarn) {
+      warn(("Fall back to translate the keypath '" + key + "' with root locale."));
+    }
+    /* istanbul ignore if */
+    if (!this._root) { throw Error('unexpected error') }
+    return (ref = this._root).$t.apply(ref, [ key ].concat( values ))
+  } else {
+    return this._warnDefault(locale, key, ret, host, values)
+  }
+};
+
+VueI18n.prototype.t = function t (key) {
+    var ref;
+
+    var values = [], len = arguments.length - 1;
+    while ( len-- > 0 ) values[ len ] = arguments[ len + 1 ];
+  return (ref = this)._t.apply(ref, [ key, this.locale, this._getMessages(), null ].concat( values ))
+};
+
+VueI18n.prototype._i = function _i (key, locale, messages, host, values) {
+  var ret =
+    this._translate(messages, locale, this.fallbackLocale, key, host, 'raw', values);
+  if (this._isFallbackRoot(ret)) {
+    if ( true && !this._silentTranslationWarn) {
+      warn(("Fall back to interpolate the keypath '" + key + "' with root locale."));
+    }
+    if (!this._root) { throw Error('unexpected error') }
+    return this._root.$i18n.i(key, locale, values)
+  } else {
+    return this._warnDefault(locale, key, ret, host, [values])
+  }
+};
+
+VueI18n.prototype.i = function i (key, locale, values) {
+  /* istanbul ignore if */
+  if (!key) { return '' }
+
+  if (typeof locale !== 'string') {
+    locale = this.locale;
+  }
+
+  return this._i(key, locale, this._getMessages(), null, values)
+};
+
+VueI18n.prototype._tc = function _tc (
+  key,
+  _locale,
+  messages,
+  host,
+  choice
+) {
+    var ref;
+
+    var values = [], len = arguments.length - 5;
+    while ( len-- > 0 ) values[ len ] = arguments[ len + 5 ];
+  if (!key) { return '' }
+  if (choice === undefined) {
+    choice = 1;
+  }
+
+  var predefined = { 'count': choice, 'n': choice };
+  var parsedArgs = parseArgs.apply(void 0, values);
+  parsedArgs.params = Object.assign(predefined, parsedArgs.params);
+  values = parsedArgs.locale === null ? [parsedArgs.params] : [parsedArgs.locale, parsedArgs.params];
+  return this.fetchChoice((ref = this)._t.apply(ref, [ key, _locale, messages, host ].concat( values )), choice)
+};
+
+VueI18n.prototype.fetchChoice = function fetchChoice (message, choice) {
+  /* istanbul ignore if */
+  if (!message && typeof message !== 'string') { return null }
+  var choices = message.split('|');
+
+  choice = this.getChoiceIndex(choice, choices.length);
+  if (!choices[choice]) { return message }
+  return choices[choice].trim()
+};
+
+/**
+ * @param choice {number} a choice index given by the input to $tc: `$tc('path.to.rule', choiceIndex)`
+ * @param choicesLength {number} an overall amount of available choices
+ * @returns a final choice index
+*/
+VueI18n.prototype.getChoiceIndex = function getChoiceIndex (choice, choicesLength) {
+  // Default (old) getChoiceIndex implementation - english-compatible
+  var defaultImpl = function (_choice, _choicesLength) {
+    _choice = Math.abs(_choice);
+
+    if (_choicesLength === 2) {
+      return _choice
+        ? _choice > 1
+          ? 1
+          : 0
+        : 1
+    }
+
+    return _choice ? Math.min(_choice, 2) : 0
+  };
+
+  if (this.locale in this.pluralizationRules) {
+    return this.pluralizationRules[this.locale].apply(this, [choice, choicesLength])
+  } else {
+    return defaultImpl(choice, choicesLength)
+  }
+};
+
+VueI18n.prototype.tc = function tc (key, choice) {
+    var ref;
+
+    var values = [], len = arguments.length - 2;
+    while ( len-- > 0 ) values[ len ] = arguments[ len + 2 ];
+  return (ref = this)._tc.apply(ref, [ key, this.locale, this._getMessages(), null, choice ].concat( values ))
+};
+
+VueI18n.prototype._te = function _te (key, locale, messages) {
+    var args = [], len = arguments.length - 3;
+    while ( len-- > 0 ) args[ len ] = arguments[ len + 3 ];
+
+  var _locale = parseArgs.apply(void 0, args).locale || locale;
+  return this._exist(messages[_locale], key)
+};
+
+VueI18n.prototype.te = function te (key, locale) {
+  return this._te(key, this.locale, this._getMessages(), locale)
+};
+
+VueI18n.prototype.getLocaleMessage = function getLocaleMessage (locale) {
+  return looseClone(this._vm.messages[locale] || {})
+};
+
+VueI18n.prototype.setLocaleMessage = function setLocaleMessage (locale, message) {
+  this._vm.$set(this._vm.messages, locale, message);
+};
+
+VueI18n.prototype.mergeLocaleMessage = function mergeLocaleMessage (locale, message) {
+  this._vm.$set(this._vm.messages, locale, merge(this._vm.messages[locale] || {}, message));
+};
+
+VueI18n.prototype.getDateTimeFormat = function getDateTimeFormat (locale) {
+  return looseClone(this._vm.dateTimeFormats[locale] || {})
+};
+
+VueI18n.prototype.setDateTimeFormat = function setDateTimeFormat (locale, format) {
+  this._vm.$set(this._vm.dateTimeFormats, locale, format);
+};
+
+VueI18n.prototype.mergeDateTimeFormat = function mergeDateTimeFormat (locale, format) {
+  this._vm.$set(this._vm.dateTimeFormats, locale, merge(this._vm.dateTimeFormats[locale] || {}, format));
+};
+
+VueI18n.prototype._localizeDateTime = function _localizeDateTime (
+  value,
+  locale,
+  fallback,
+  dateTimeFormats,
+  key
+) {
+  var _locale = locale;
+  var formats = dateTimeFormats[_locale];
+
+  // fallback locale
+  if (isNull(formats) || isNull(formats[key])) {
+    if ( true && !this._silentTranslationWarn) {
+      warn(("Fall back to '" + fallback + "' datetime formats from '" + locale + " datetime formats."));
+    }
+    _locale = fallback;
+    formats = dateTimeFormats[_locale];
+  }
+
+  if (isNull(formats) || isNull(formats[key])) {
+    return null
+  } else {
+    var format = formats[key];
+    var id = _locale + "__" + key;
+    var formatter = this._dateTimeFormatters[id];
+    if (!formatter) {
+      formatter = this._dateTimeFormatters[id] = new Intl.DateTimeFormat(_locale, format);
+    }
+    return formatter.format(value)
+  }
+};
+
+VueI18n.prototype._d = function _d (value, locale, key) {
+  /* istanbul ignore if */
+  if ( true && !VueI18n.availabilities.dateTimeFormat) {
+    warn('Cannot format a Date value due to not supported Intl.DateTimeFormat.');
+    return ''
+  }
+
+  if (!key) {
+    return new Intl.DateTimeFormat(locale).format(value)
+  }
+
+  var ret =
+    this._localizeDateTime(value, locale, this.fallbackLocale, this._getDateTimeFormats(), key);
+  if (this._isFallbackRoot(ret)) {
+    if ( true && !this._silentTranslationWarn) {
+      warn(("Fall back to datetime localization of root: key '" + key + "' ."));
+    }
+    /* istanbul ignore if */
+    if (!this._root) { throw Error('unexpected error') }
+    return this._root.$i18n.d(value, key, locale)
+  } else {
+    return ret || ''
+  }
+};
+
+VueI18n.prototype.d = function d (value) {
+    var args = [], len = arguments.length - 1;
+    while ( len-- > 0 ) args[ len ] = arguments[ len + 1 ];
+
+  var locale = this.locale;
+  var key = null;
+
+  if (args.length === 1) {
+    if (typeof args[0] === 'string') {
+      key = args[0];
+    } else if (isObject(args[0])) {
+      if (args[0].locale) {
+        locale = args[0].locale;
+      }
+      if (args[0].key) {
+        key = args[0].key;
+      }
+    }
+  } else if (args.length === 2) {
+    if (typeof args[0] === 'string') {
+      key = args[0];
+    }
+    if (typeof args[1] === 'string') {
+      locale = args[1];
+    }
+  }
+
+  return this._d(value, locale, key)
+};
+
+VueI18n.prototype.getNumberFormat = function getNumberFormat (locale) {
+  return looseClone(this._vm.numberFormats[locale] || {})
+};
+
+VueI18n.prototype.setNumberFormat = function setNumberFormat (locale, format) {
+  this._vm.$set(this._vm.numberFormats, locale, format);
+};
+
+VueI18n.prototype.mergeNumberFormat = function mergeNumberFormat (locale, format) {
+  this._vm.$set(this._vm.numberFormats, locale, merge(this._vm.numberFormats[locale] || {}, format));
+};
+
+VueI18n.prototype._localizeNumber = function _localizeNumber (
+  value,
+  locale,
+  fallback,
+  numberFormats,
+  key,
+  options
+) {
+  var _locale = locale;
+  var formats = numberFormats[_locale];
+
+  // fallback locale
+  if (isNull(formats) || isNull(formats[key])) {
+    if ( true && !this._silentTranslationWarn) {
+      warn(("Fall back to '" + fallback + "' number formats from '" + locale + " number formats."));
+    }
+    _locale = fallback;
+    formats = numberFormats[_locale];
+  }
+
+  if (isNull(formats) || isNull(formats[key])) {
+    return null
+  } else {
+    var format = formats[key];
+
+    var formatter;
+    if (options) {
+      // If options specified - create one time number formatter
+      formatter = new Intl.NumberFormat(_locale, Object.assign({}, format, options));
+    } else {
+      var id = _locale + "__" + key;
+      formatter = this._numberFormatters[id];
+      if (!formatter) {
+        formatter = this._numberFormatters[id] = new Intl.NumberFormat(_locale, format);
+      }
+    }
+    return formatter.format(value)
+  }
+};
+
+VueI18n.prototype._n = function _n (value, locale, key, options) {
+  /* istanbul ignore if */
+  if (!VueI18n.availabilities.numberFormat) {
+    if (true) {
+      warn('Cannot format a Number value due to not supported Intl.NumberFormat.');
+    }
+    return ''
+  }
+
+  if (!key) {
+    var nf = !options ? new Intl.NumberFormat(locale) : new Intl.NumberFormat(locale, options);
+    return nf.format(value)
+  }
+
+  var ret =
+    this._localizeNumber(value, locale, this.fallbackLocale, this._getNumberFormats(), key, options);
+  if (this._isFallbackRoot(ret)) {
+    if ( true && !this._silentTranslationWarn) {
+      warn(("Fall back to number localization of root: key '" + key + "' ."));
+    }
+    /* istanbul ignore if */
+    if (!this._root) { throw Error('unexpected error') }
+    return this._root.$i18n.n(value, Object.assign({}, { key: key, locale: locale }, options))
+  } else {
+    return ret || ''
+  }
+};
+
+VueI18n.prototype.n = function n (value) {
+    var args = [], len = arguments.length - 1;
+    while ( len-- > 0 ) args[ len ] = arguments[ len + 1 ];
+
+  var locale = this.locale;
+  var key = null;
+  var options = null;
+
+  if (args.length === 1) {
+    if (typeof args[0] === 'string') {
+      key = args[0];
+    } else if (isObject(args[0])) {
+      if (args[0].locale) {
+        locale = args[0].locale;
+      }
+      if (args[0].key) {
+        key = args[0].key;
+      }
+
+      // Filter out number format options only
+      options = Object.keys(args[0]).reduce(function (acc, key) {
+          var obj;
+
+        if (numberFormatKeys.includes(key)) {
+          return Object.assign({}, acc, ( obj = {}, obj[key] = args[0][key], obj ))
+        }
+        return acc
+      }, null);
+    }
+  } else if (args.length === 2) {
+    if (typeof args[0] === 'string') {
+      key = args[0];
+    }
+    if (typeof args[1] === 'string') {
+      locale = args[1];
+    }
+  }
+
+  return this._n(value, locale, key, options)
+};
+
+Object.defineProperties( VueI18n.prototype, prototypeAccessors );
+
+var availabilities;
+// $FlowFixMe
+Object.defineProperty(VueI18n, 'availabilities', {
+  get: function get () {
+    if (!availabilities) {
+      var intlDefined = typeof Intl !== 'undefined';
+      availabilities = {
+        dateTimeFormat: intlDefined && typeof Intl.DateTimeFormat !== 'undefined',
+        numberFormat: intlDefined && typeof Intl.NumberFormat !== 'undefined'
+      };
+    }
+
+    return availabilities
+  }
+});
+
+VueI18n.install = install;
+VueI18n.version = '8.8.2';
+
+/* harmony default export */ __webpack_exports__["default"] = (VueI18n);
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-json-excel/JsonExcel.vue":
+/*!***************************************************!*\
+  !*** ./node_modules/vue-json-excel/JsonExcel.vue ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _JsonExcel_vue_vue_type_template_id_fb865680___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./JsonExcel.vue?vue&type=template&id=fb865680& */ "./node_modules/vue-json-excel/JsonExcel.vue?vue&type=template&id=fb865680&");
+/* harmony import */ var _JsonExcel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./JsonExcel.vue?vue&type=script&lang=js& */ "./node_modules/vue-json-excel/JsonExcel.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _JsonExcel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _JsonExcel_vue_vue_type_template_id_fb865680___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _JsonExcel_vue_vue_type_template_id_fb865680___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "node_modules/vue-json-excel/JsonExcel.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./node_modules/vue-json-excel/JsonExcel.vue?vue&type=script&lang=js&":
+/*!****************************************************************************!*\
+  !*** ./node_modules/vue-json-excel/JsonExcel.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _vue_loader_lib_index_js_vue_loader_options_JsonExcel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../vue-loader/lib??vue-loader-options!./JsonExcel.vue?vue&type=script&lang=js& */ "./node_modules/vue-loader/lib/index.js?!./node_modules/vue-json-excel/JsonExcel.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_vue_loader_lib_index_js_vue_loader_options_JsonExcel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./node_modules/vue-json-excel/JsonExcel.vue?vue&type=template&id=fb865680&":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/vue-json-excel/JsonExcel.vue?vue&type=template&id=fb865680& ***!
+  \**********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_JsonExcel_vue_vue_type_template_id_fb865680___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../vue-loader/lib??vue-loader-options!./JsonExcel.vue?vue&type=template&id=fb865680& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./node_modules/vue-json-excel/JsonExcel.vue?vue&type=template&id=fb865680&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_JsonExcel_vue_vue_type_template_id_fb865680___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_JsonExcel_vue_vue_type_template_id_fb865680___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/index.js?!./node_modules/vue-json-excel/JsonExcel.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib??vue-loader-options!./node_modules/vue-json-excel/JsonExcel.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var downloadjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! downloadjs */ "./node_modules/downloadjs/download.js");
+/* harmony import */ var downloadjs__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(downloadjs__WEBPACK_IMPORTED_MODULE_0__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  props: {
+    // mime type [xls, csv]
+    type: {
+      type: String,
+      default: "xls"
+    },
+    // Json to download
+    data: {
+      type: Array,
+      required: false,
+      default: null
+    },
+    // fields inside the Json Object that you want to export
+    // if no given, all the properties in the Json are exported
+    fields: {
+      type: Object,
+      required: false
+    },
+    // this prop is used to fix the problem with other components that use the
+    // variable fields, like vee-validate. exportFields works exactly like fields
+    exportFields: {
+      type: Object,
+      required: false
+    },
+    // Use as fallback when the row has no field values
+    defaultValue: {
+      type: String,
+      required: false,
+      default: ""
+    },
+    // Title(s) for the data, could be a string or an array of strings (multiple titles)
+    title: {
+      default: null
+    },
+    // Footer(s) for the data, could be a string or an array of strings (multiple footers)
+    footer: {
+      default: null
+    },
+    // filename to export
+    name: {
+      type: String,
+      default: "data.xls"
+    },
+    fetch: {
+      type: Function,
+    },
+    meta: {
+      type: Array,
+      default: () => []
+    }, 
+    worksheet: {
+      type: String, 
+      default: "Sheet1"
+    },
+    //event before generate was called
+    beforeGenerate:{
+      type: Function,
+    },
+    //event before download pops up
+    beforeFinish:{
+      type: Function,
+    },
+  },
+  computed: {
+    // unique identifier
+    idName() {
+      var now = new Date().getTime();
+      return "export_" + now;
+    },
+
+    downloadFields() {
+      if (this.fields !== undefined) return this.fields;
+
+      if (this.exportFields !== undefined) return this.exportFields;
+    }
+  },
+  methods: {
+    async generate() {
+      if(typeof this.beforeGenerate === 'function'){
+        await this.beforeGenerate();
+      }
+      let data = this.data;
+      if(typeof this.fetch === 'function' || !data)
+         data = await this.fetch();
+
+      if (!data || !data.length) {
+        return;
+      }
+
+      let json = this.getProcessedJson(data, this.downloadFields);
+      if (this.type === "html") {
+        // this is mainly for testing
+        return this.export(
+          this.jsonToXLS(json),
+          this.name.replace(".xls", ".html"),
+          "text/html"
+        );
+      } else if (this.type === "csv") {
+        return this.export(
+          this.jsonToCSV(json),
+          this.name.replace(".xls", ".csv"),
+          "application/csv"
+        );
+      }
+      return this.export(
+        this.jsonToXLS(json),
+        this.name,
+        "application/vnd.ms-excel"
+      );
+    },
+    /*
+		Use downloadjs to generate the download link
+		*/
+    export:async function(data, filename, mime) {
+      let blob = this.base64ToBlob(data, mime);
+      if(typeof this.beforeFinish === 'function')
+        await this.beforeFinish();
+      downloadjs__WEBPACK_IMPORTED_MODULE_0___default()(blob, filename, mime);
+    },
+    /*
+		jsonToXLS
+		---------------
+		Transform json data into an xml document with MS Excel format, sadly
+		it shows a prompt when it opens, that is a default behavior for
+		Microsoft office and cannot be avoided. It's recommended to use CSV format instead.
+		*/
+    jsonToXLS(data) {
+      let xlsTemp =
+        '<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><meta name=ProgId content=Excel.Sheet> <meta name=Generator content="Microsoft Excel 11"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>${worksheet}</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--><style>br {mso-data-placement: same-cell;}</style></head><body><table>${table}</table></body></html>';
+      let xlsData = "<thead>";
+      const colspan = Object.keys(data[0]).length;
+      let _self = this;
+
+      //Header
+      if (this.title != null) {
+        xlsData += this.parseExtraData(
+          this.title,
+          '<tr><th colspan="' + colspan + '">${data}</th></tr>'
+        );
+      }
+
+      //Fields
+      xlsData += "<tr>";
+      for (let key in data[0]) {
+        xlsData += "<th>" + key + "</th>";
+      }
+      xlsData += "</tr>";
+      xlsData += "</thead>";
+
+      //Data
+      xlsData += "<tbody>";
+      data.map(function(item, index) {
+        xlsData += "<tr>";
+        for (let key in item) {
+          xlsData += "<td>" + _self.valueReformattedForMultilines(item[key]) + "</td>";
+        }
+        xlsData += "</tr>";
+      });
+      xlsData += "</tbody>";
+
+      //Footer
+      if (this.footer != null) {
+        xlsData += "<tfoot>";
+        xlsData += this.parseExtraData(
+          this.footer,
+          '<tr><td colspan="' + colspan + '">${data}</td></tr>'
+        );
+        xlsData += "</tfoot>";
+      }
+
+      return xlsTemp.replace("${table}", xlsData).replace("${worksheet}", this.worksheet);
+    },
+    /*
+		jsonToCSV
+		---------------
+		Transform json data into an CSV file.
+		*/
+    jsonToCSV(data) {
+      var csvData = [];
+      //Header
+      if (this.title != null) {
+        csvData.push(this.parseExtraData(this.title, "${data}\r\n"));
+      }
+      //Fields
+      for (let key in data[0]) {
+        csvData.push(key);
+        csvData.push(",");
+      }
+      csvData.pop();
+      csvData.push("\r\n");
+      //Data
+      data.map(function(item) {
+        for (let key in item) {
+          let escapedCSV = '=\"' + item[key] + '\"'; // cast Numbers to string
+          if (escapedCSV.match(/[,"\n]/)) {
+            escapedCSV = '"' + escapedCSV.replace(/\"/g, '""') + '"';
+          }
+          csvData.push(escapedCSV);
+          csvData.push(",");
+        }
+        csvData.pop();
+        csvData.push("\r\n");
+      });
+      //Footer
+      if (this.footer != null) {
+        csvData.push(this.parseExtraData(this.footer, "${data}\r\n"));
+      }
+      return csvData.join("");
+    },
+    /*
+		getProcessedJson
+		---------------
+		Get only the data to export, if no fields are set return all the data
+		*/
+    getProcessedJson(data, header) {
+      let keys = this.getKeys(data, header);
+      let newData = [];
+      let _self = this;
+      data.map(function(item, index) {
+        let newItem = {};
+        for (let label in keys) {
+          let property = keys[label];
+          newItem[label] = _self.getValue(property, item);
+        }
+        newData.push(newItem);
+      });
+
+      return newData;
+    },
+    getKeys(data, header) {
+      if (header) {
+        return header;
+      }
+
+      let keys = {};
+      for (let key in data[0]) {
+        keys[key] = key;
+      }
+      return keys;
+    },
+    /*
+		parseExtraData
+		---------------
+		Parse title and footer attribute to the csv format
+		*/
+    parseExtraData(extraData, format) {
+      let parseData = "";
+      if (Array.isArray(extraData)) {
+        for (var i = 0; i < extraData.length; i++) {
+          parseData += format.replace("${data}", extraData[i]);
+        }
+      } else {
+        parseData += format.replace("${data}", extraData);
+      }
+      return parseData;
+    },
+
+    getValue(key, item) {
+      const field = typeof key   !== "object" ? key : key.field;
+      let indexes = typeof field !== "string" ? []  : field.split(".");
+      let value   = this.defaultValue;
+    
+      if (!field)
+	      value = item;
+      else if( indexes.length > 1 )
+        value = this.getValueFromNestedItem(item, indexes);
+      else
+        value = this.parseValue(item[field]);
+      
+      if( key.hasOwnProperty('callback'))
+        value = this.getValueFromCallback(value, key.callback);
+      
+      return value;
+    },
+
+    /*
+    convert values with newline \n characters into <br/>
+    */
+    valueReformattedForMultilines(value) {
+      if (typeof(value)=="string") return(value.replace(/\n/ig,"<br/>"));
+      else return(value);
+    },
+
+    getValueFromNestedItem(item, indexes){
+      let nestedItem = item;
+      for (let index of indexes) {
+        if(nestedItem)
+          nestedItem = nestedItem[index];
+      }
+      return this.parseValue(nestedItem);
+    },
+
+    getValueFromCallback(item, callback){
+      if(typeof callback !== "function")
+        return this.defaultValue
+      const value = callback(item);
+      return this.parseValue(value);
+    },
+    parseValue(value){
+      return value || value === 0 || typeof value === 'boolean'
+          ? value
+          : this.defaultValue;
+    },
+    base64ToBlob(data, mime) {
+      let base64 = window.btoa(window.unescape(encodeURIComponent(data)));
+      let bstr = atob(base64);
+      let n = bstr.length;
+      let u8arr = new Uint8ClampedArray(n);
+      while (n--) {
+        u8arr[n] = bstr.charCodeAt(n);
+      }
+      return new Blob([u8arr], { type: mime });
+    }
+  } // end methods
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./node_modules/vue-json-excel/JsonExcel.vue?vue&type=template&id=fb865680&":
+/*!****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/vue-json-excel/JsonExcel.vue?vue&type=template&id=fb865680& ***!
+  \****************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { attrs: { id: _vm.idName }, on: { click: _vm.generate } },
+    [
+      _vm._t("default", [_vm._v("\n\t\tDownload " + _vm._s(_vm.name) + "\n\t")])
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/components/vx-card/VxCard.vue?vue&type=template&id=abb03b12&":
 /*!**************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/components/vx-card/VxCard.vue?vue&type=template&id=abb03b12& ***!
@@ -65523,7 +67821,7 @@ module.exports = "/fonts/feather.eot?931c9e74d0b20947054bfe6a5b74a838";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/fonts/feather.svg?90f969db293a9077b0555139e6c9b20e";
+module.exports = "/fonts/feather.svg?0e5daf6bac4f17e400266545070b108e";
 
 /***/ }),
 
@@ -65605,8 +67903,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var core_js_modules_es6_regexp_replace__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_regexp_replace__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var core_js_modules_es6_regexp_search__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es6.regexp.search */ "./node_modules/core-js/modules/es6.regexp.search.js");
 /* harmony import */ var core_js_modules_es6_regexp_search__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_regexp_search__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var D_project_OSPanel_domains_erp_loc_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime-corejs2/core-js/parse-int */ "./node_modules/@babel/runtime-corejs2/core-js/parse-int.js");
-/* harmony import */ var D_project_OSPanel_domains_erp_loc_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(D_project_OSPanel_domains_erp_loc_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime-corejs2/core-js/parse-int */ "./node_modules/@babel/runtime-corejs2/core-js/parse-int.js");
+/* harmony import */ var C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var core_js_modules_es6_regexp_split__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! core-js/modules/es6.regexp.split */ "./node_modules/core-js/modules/es6.regexp.split.js");
 /* harmony import */ var core_js_modules_es6_regexp_split__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_regexp_split__WEBPACK_IMPORTED_MODULE_4__);
 
@@ -65619,9 +67917,9 @@ __webpack_require__.r(__webpack_exports__);
     var f = color.split(","),
         t = percent < 0 ? 0 : 255,
         p = percent < 0 ? percent * -1 : percent,
-        R = D_project_OSPanel_domains_erp_loc_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3___default()(f[0].slice(4)),
-        G = D_project_OSPanel_domains_erp_loc_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3___default()(f[1]),
-        B = D_project_OSPanel_domains_erp_loc_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3___default()(f[2]);
+        R = C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3___default()(f[0].slice(4)),
+        G = C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3___default()(f[1]),
+        B = C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3___default()(f[2]);
 
     return "rgb(" + (Math.round((t - R) * p) + R) + "," + (Math.round((t - G) * p) + G) + "," + (Math.round((t - B) * p) + B) + ")";
   },
@@ -65729,9 +68027,9 @@ __webpack_require__.r(__webpack_exports__);
     });
     var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
     return result ? {
-      r: D_project_OSPanel_domains_erp_loc_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3___default()(result[1], 16),
-      g: D_project_OSPanel_domains_erp_loc_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3___default()(result[2], 16),
-      b: D_project_OSPanel_domains_erp_loc_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3___default()(result[3], 16)
+      r: C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3___default()(result[1], 16),
+      g: C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3___default()(result[2], 16),
+      b: C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3___default()(result[3], 16)
     } : null;
   },
   getVariable: function getVariable(styles, propertyName) {
@@ -66189,15 +68487,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var material_icons_iconfont_material_icons_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(material_icons_iconfont_material_icons_css__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var vuesax_dist_vuesax_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! vuesax/dist/vuesax.css */ "./node_modules/vuesax/dist/vuesax.css");
 /* harmony import */ var vuesax_dist_vuesax_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(vuesax_dist_vuesax_css__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _themeConfig_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../themeConfig.js */ "./themeConfig.js");
-/* harmony import */ var _globalComponents_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../globalComponents.js */ "./resources/globalComponents.js");
-/* harmony import */ var _assets_scss_main_scss__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @/assets/scss/main.scss */ "./resources/assets/scss/main.scss");
-/* harmony import */ var _assets_scss_main_scss__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_assets_scss_main_scss__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _assets_css_main_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @/assets/css/main.css */ "./resources/assets/css/main.css");
-/* harmony import */ var _assets_css_main_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_assets_css_main_css__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./router */ "./resources/js/router.js");
-/* harmony import */ var _store_store__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../store/store */ "./resources/store/store.js");
-/* harmony import */ var _permission__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./permission */ "./resources/js/permission.js");
+/* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./router */ "./resources/js/router.js");
+/* harmony import */ var vue_json_excel__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! vue-json-excel */ "./node_modules/vue-json-excel/JsonExcel.vue");
+/* harmony import */ var _themeConfig_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../themeConfig.js */ "./themeConfig.js");
+/* harmony import */ var vue_i18n__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! vue-i18n */ "./node_modules/vue-i18n/dist/vue-i18n.esm.js");
+/* harmony import */ var _language__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../language */ "./resources/language/index.js");
+/* harmony import */ var _globalComponents_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../globalComponents.js */ "./resources/globalComponents.js");
+/* harmony import */ var _assets_scss_main_scss__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @/assets/scss/main.scss */ "./resources/assets/scss/main.scss");
+/* harmony import */ var _assets_scss_main_scss__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_assets_scss_main_scss__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var _assets_css_main_css__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @/assets/css/main.css */ "./resources/assets/css/main.css");
+/* harmony import */ var _assets_css_main_css__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_assets_css_main_css__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var _store_store__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../store/store */ "./resources/store/store.js");
+/* harmony import */ var _permission__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./permission */ "./resources/js/permission.js");
 
 
 
@@ -66218,7 +68519,13 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
  // Vuesax
 
-vue__WEBPACK_IMPORTED_MODULE_4___default.a.use(vuesax__WEBPACK_IMPORTED_MODULE_6___default.a); // Theme Configurations
+vue__WEBPACK_IMPORTED_MODULE_4___default.a.use(vuesax__WEBPACK_IMPORTED_MODULE_6___default.a); // Vue Router
+
+
+
+vue__WEBPACK_IMPORTED_MODULE_4___default.a.component('downloadExcel', vue_json_excel__WEBPACK_IMPORTED_MODULE_10__["default"]); // Theme Configurations
+
+
 
  // Globally Registered Components
 
@@ -66226,20 +68533,36 @@ vue__WEBPACK_IMPORTED_MODULE_4___default.a.use(vuesax__WEBPACK_IMPORTED_MODULE_6
 
  // Tailwind
 
- // Vue Router
-
  // Vuex Store
 
 
  // permission control
-// Feather font icon
+
+vue__WEBPACK_IMPORTED_MODULE_4___default.a.use(vue_i18n__WEBPACK_IMPORTED_MODULE_12__["default"]);
+_router__WEBPACK_IMPORTED_MODULE_9__["default"].beforeEach(function (to, from, next) {
+  if (_store_store__WEBPACK_IMPORTED_MODULE_17__["default"].getters.username === null) {
+    next({
+      path: '/login',
+      query: {
+        redirect: to.fullPath
+      }
+    });
+  } else {
+    next();
+  }
+});
+var i18n = new vue_i18n__WEBPACK_IMPORTED_MODULE_12__["default"]({
+  locale: 'ru',
+  messages: _language__WEBPACK_IMPORTED_MODULE_13__["default"]
+}); // Feather font icon
 
 __webpack_require__(/*! @/assets/css/iconfont.css */ "./resources/assets/css/iconfont.css");
 
 vue__WEBPACK_IMPORTED_MODULE_4___default.a.config.productionTip = false;
 new vue__WEBPACK_IMPORTED_MODULE_4___default.a({
-  router: _router__WEBPACK_IMPORTED_MODULE_13__["default"],
-  store: _store_store__WEBPACK_IMPORTED_MODULE_14__["default"],
+  router: _router__WEBPACK_IMPORTED_MODULE_9__["default"],
+  store: _store_store__WEBPACK_IMPORTED_MODULE_17__["default"],
+  i18n: i18n,
   render: function render(h) {
     return h(_App_vue__WEBPACK_IMPORTED_MODULE_5__["default"]);
   }
@@ -66301,36 +68624,24 @@ if (token) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var core_js_modules_es6_array_iterator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es6.array.iterator */ "./node_modules/core-js/modules/es6.array.iterator.js");
-/* harmony import */ var core_js_modules_es6_array_iterator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_array_iterator__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var core_js_modules_es6_promise__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es6.promise */ "./node_modules/core-js/modules/es6.promise.js");
-/* harmony import */ var core_js_modules_es6_promise__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_promise__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var core_js_modules_es6_object_assign__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es6.object.assign */ "./node_modules/core-js/modules/es6.object.assign.js");
-/* harmony import */ var core_js_modules_es6_object_assign__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_object_assign__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var core_js_modules_es7_promise_finally__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! core-js/modules/es7.promise.finally */ "./node_modules/core-js/modules/es7.promise.finally.js");
-/* harmony import */ var core_js_modules_es7_promise_finally__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es7_promise_finally__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./router */ "./resources/js/router.js");
-/* harmony import */ var _store_store__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../store/store */ "./resources/store/store.js");
-/* harmony import */ var _utils_auth__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../utils/auth */ "./resources/utils/auth.js");
-
-
-
-
+/* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./router */ "./resources/js/router.js");
+/* harmony import */ var _store_store__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../store/store */ "./resources/store/store.js");
+/* harmony import */ var _utils_auth__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/auth */ "./resources/utils/auth.js");
 
 
  // getToken from cookie
 
 var whiteList = ['/login']; // no redirect whitelist
 
-_router__WEBPACK_IMPORTED_MODULE_4__["default"].beforeEach(function (to, from, next) {
-  if (Object(_utils_auth__WEBPACK_IMPORTED_MODULE_6__["getToken"])()) {
+_router__WEBPACK_IMPORTED_MODULE_0__["default"].beforeEach(function (to, from, next) {
+  if (Object(_utils_auth__WEBPACK_IMPORTED_MODULE_2__["getToken"])()) {
     // determine if there has token
     if (to.path === '/login') {
       next({
         path: '/'
       });
     } else {
-      _store_store__WEBPACK_IMPORTED_MODULE_5__["default"].dispatch('UserInfo').then(function () {
+      _store_store__WEBPACK_IMPORTED_MODULE_1__["default"].dispatch('UserInfo').then(function () {
         next();
       });
     }
@@ -66384,7 +68695,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
     // =============================================================================
     path: '',
     component: function component() {
-      return Promise.all(/*! import() */[__webpack_require__.e(1), __webpack_require__.e(0)]).then(__webpack_require__.bind(null, /*! ../layouts/main/Main.vue */ "./resources/layouts/main/Main.vue"));
+      return Promise.all(/*! import() */[__webpack_require__.e(2), __webpack_require__.e(1)]).then(__webpack_require__.bind(null, /*! ../layouts/main/Main.vue */ "./resources/layouts/main/Main.vue"));
     },
     children: [// =============================================================================
     // Theme Routes
@@ -66393,13 +68704,13 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
       path: '/',
       name: 'home',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 6).then(__webpack_require__.bind(null, /*! ../views/Home.vue */ "./resources/views/Home.vue"));
+        return __webpack_require__.e(/*! import() */ 5).then(__webpack_require__.bind(null, /*! ../views/Home.vue */ "./resources/views/Home.vue"));
       }
     }, {
       path: '/page2',
       name: 'page2',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 7).then(__webpack_require__.bind(null, /*! ../views/Page2.vue */ "./resources/views/Page2.vue"));
+        return __webpack_require__.e(/*! import() */ 12).then(__webpack_require__.bind(null, /*! ../views/Page2.vue */ "./resources/views/Page2.vue"));
       }
     }, {
       path: '/users/index',
@@ -66415,7 +68726,41 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
         pageTitle: 'Users'
       },
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.bind(null, /*! ../views/pages/users/index */ "./resources/views/pages/users/index.vue"));
+        return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! ../views/pages/users/index */ "./resources/views/pages/users/index.vue"));
+      }
+    }, {
+      path: '/users',
+      name: 'Users',
+      meta: {
+        breadcrumb: [{
+          title: "Home",
+          url: '/'
+        }, {
+          title: "User",
+          active: true
+        }],
+        pageTitle: 'User'
+      },
+      component: function component() {
+        return __webpack_require__.e(/*! import() */ 10).then(__webpack_require__.bind(null, /*! ../views/pages/users/users */ "./resources/views/pages/users/users.vue"));
+      }
+    }, {
+      path: '/vedomost/:id',
+      name: 'vedimost',
+      component: function component() {
+        return Promise.all(/*! import() */[__webpack_require__.e(13), __webpack_require__.e(8)]).then(__webpack_require__.bind(null, /*! ../views/pages/catalogs/vedimost */ "./resources/views/pages/catalogs/vedimost.vue"));
+      }
+    }, {
+      path: '/all-passed',
+      name: 'allPassed',
+      component: function component() {
+        return __webpack_require__.e(/*! import() */ 7).then(__webpack_require__.bind(null, /*! ../views/pages/catalogs/allpassed */ "./resources/views/pages/catalogs/allpassed.vue"));
+      }
+    }, {
+      path: '/upload-excel',
+      name: 'uploadexcel',
+      component: function component() {
+        return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(4)]).then(__webpack_require__.bind(null, /*! ../views/pages/catalogs/uploadexcel */ "./resources/views/pages/catalogs/uploadexcel.vue"));
       }
     }]
   }, // =============================================================================
@@ -66424,7 +68769,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
   {
     path: '',
     component: function component() {
-      return __webpack_require__.e(/*! import() */ 5).then(__webpack_require__.bind(null, /*! @/layouts/full-page/FullPage.vue */ "./resources/layouts/full-page/FullPage.vue"));
+      return __webpack_require__.e(/*! import() */ 11).then(__webpack_require__.bind(null, /*! @/layouts/full-page/FullPage.vue */ "./resources/layouts/full-page/FullPage.vue"));
     },
     children: [// =============================================================================
     // PAGES
@@ -66433,7 +68778,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
       path: '/login',
       name: 'pageLogin',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! @/views/authentication/Login.vue */ "./resources/views/authentication/Login.vue"));
+        return __webpack_require__.e(/*! import() */ 6).then(__webpack_require__.bind(null, /*! @/views/authentication/Login.vue */ "./resources/views/authentication/Login.vue"));
       }
     },
     /*{
@@ -66445,7 +68790,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
       path: '/pages/error-404',
       name: 'pageError404',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 4).then(__webpack_require__.bind(null, /*! @/views/pages/errors/Error404.vue */ "./resources/views/pages/errors/Error404.vue"));
+        return __webpack_require__.e(/*! import() */ 9).then(__webpack_require__.bind(null, /*! @/views/pages/errors/Error404.vue */ "./resources/views/pages/errors/Error404.vue"));
       }
     }]
   }, // Redirect to 404 page, if no match found
@@ -66454,6 +68799,95 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
     redirect: '/pages/error-404'
   }]
 }));
+
+/***/ }),
+
+/***/ "./resources/language/en/index.js":
+/*!****************************************!*\
+  !*** ./resources/language/en/index.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ({
+  'name': 'Name',
+  'email': 'Email',
+  'activeness': 'Activeness',
+  'time': 'Time',
+  'enterTime': 'Entering Time',
+  'outTime': 'Out Time'
+});
+
+/***/ }),
+
+/***/ "./resources/language/index.js":
+/*!*************************************!*\
+  !*** ./resources/language/index.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _en__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./en */ "./resources/language/en/index.js");
+/* harmony import */ var _ru__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ru */ "./resources/language/ru/index.js");
+/* harmony import */ var _uz__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./uz */ "./resources/language/uz/index.js");
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  en: {
+    message: _en__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
+  ru: {
+    message: _ru__WEBPACK_IMPORTED_MODULE_1__["default"]
+  },
+  uz: {
+    message: _uz__WEBPACK_IMPORTED_MODULE_2__["default"]
+  }
+});
+
+/***/ }),
+
+/***/ "./resources/language/ru/index.js":
+/*!****************************************!*\
+  !*** ./resources/language/ru/index.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ({
+  'name': 'Имя',
+  'email': 'Email',
+  'activeness': 'Активность',
+  'time': 'Время',
+  'enterTime': 'Время входа',
+  'outTime': 'Время выхода'
+});
+
+/***/ }),
+
+/***/ "./resources/language/uz/index.js":
+/*!****************************************!*\
+  !*** ./resources/language/uz/index.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ({
+  'name': 'Ism',
+  'email': 'Email',
+  'activeness': 'Faollik',
+  'time': 'Vaqt',
+  'enterTime': 'Kirish vaqti',
+  'outTime': 'Chiqish vaqti'
+});
 
 /***/ }),
 
@@ -66697,8 +69131,8 @@ var actions = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var core_js_modules_es6_function_name__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es6.function.name */ "./node_modules/core-js/modules/es6.function.name.js");
 /* harmony import */ var core_js_modules_es6_function_name__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_function_name__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var D_project_OSPanel_domains_erp_loc_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime-corejs2/core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
-/* harmony import */ var D_project_OSPanel_domains_erp_loc_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(D_project_OSPanel_domains_erp_loc_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime-corejs2/core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
+/* harmony import */ var C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _utils_auth__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../utils/auth */ "./resources/utils/auth.js");
 /* harmony import */ var _api_authentication__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../api/authentication */ "./resources/api/authentication.js");
 
@@ -66737,7 +69171,7 @@ var user = {
   actions: {
     LoginUser: function LoginUser(_ref, data) {
       var commit = _ref.commit;
-      return new D_project_OSPanel_domains_erp_loc_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_1___default.a(function (resolve, reject) {
+      return new C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_1___default.a(function (resolve, reject) {
         Object(_api_authentication__WEBPACK_IMPORTED_MODULE_3__["login"])(data).then(function (response) {
           if (response.data.access_token) {
             commit('SET_TOKEN', response.data.access_token);
@@ -67003,8 +69437,8 @@ function removeToken() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var D_project_OSPanel_domains_erp_loc_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime-corejs2/core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
-/* harmony import */ var D_project_OSPanel_domains_erp_loc_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(D_project_OSPanel_domains_erp_loc_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime-corejs2/core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
+/* harmony import */ var C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _auth__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./auth */ "./resources/utils/auth.js");
@@ -67036,7 +69470,7 @@ service.interceptors.request.use(function (config) {
   // Do something with request error
   console.log(error); // for debug
 
-  D_project_OSPanel_domains_erp_loc_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a.reject(error);
+  C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a.reject(error);
 }); // respone interceptor
 
 service.interceptors.response.use(function (response) {
@@ -67046,7 +69480,7 @@ service.interceptors.response.use(function (response) {
 
   setTimeout(function () {// VueNotifications.error({ message: error.message });
   }, 500);
-  return D_project_OSPanel_domains_erp_loc_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a.reject(error);
+  return C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a.reject(error);
 });
 /* harmony default export */ __webpack_exports__["default"] = (service);
 
@@ -67139,8 +69573,8 @@ var themeConfig = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\project\OSPanel\domains\erp.loc\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\project\OSPanel\domains\erp.loc\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\OSPanel\domains\katalog2\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\OSPanel\domains\katalog2\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

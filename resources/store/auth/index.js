@@ -1,14 +1,22 @@
 // authentication configs
 
-import {getToken, setToken, removeToken} from '../../utils/auth'
-import {login, logout, userInfo} from '../../api/authentication'
+import {
+    getToken,
+    setToken,
+    removeToken
+} from '../../utils/auth'
+import {
+    login,
+    logout,
+    userInfo
+} from '../../api/authentication'
 
 const user = {
     state: {
-            username: '',
-            email: '',
-            token: getToken(),
-        },
+        username: '',
+        email: '',
+        token: getToken(),
+    },
     getters: {
         token: state => {
             return state.token;
@@ -32,14 +40,16 @@ const user = {
         }
     },
     actions: {
-        LoginUser({commit}, data) {
+        LoginUser({
+            commit
+        }, data) {
             return new Promise((resolve, reject) => {
                 login(data).then(response => {
-                    if(response.data.access_token) {
-                      commit('SET_TOKEN', response.data.access_token)
-                      setToken(response.data.access_token)
-                    }else {
-                      reject( response.data.error)
+                    if (response.data.access_token) {
+                        commit('SET_TOKEN', response.data.access_token)
+                        setToken(response.data.access_token)
+                    } else {
+                        reject(response.data.error)
                     }
 
                     /*setTimeout(() => {
@@ -47,22 +57,26 @@ const user = {
                     }, 1000)*/
                     resolve()
                 }).catch(error => {
-                  reject(error)
+                    reject(error)
                 })
             })
         },
-      UserInfo({commit}) {
-        userInfo().then(response => {
-          commit('SET_NAME', response.data.data.name)
-          commit('SET_EMAIL', response.data.data.email)
-      })
-      },
-      FedLogOut({commit}) {
-          commit('SET_TOKEN', '')
-          commit('SET_NAME', '')
-          commit('SET_EMAIL', '')
+        UserInfo({
+            commit
+        }) {
+            userInfo().then(response => {
+                commit('SET_NAME', response.data.data.name)
+                commit('SET_EMAIL', response.data.data.email)
+            })
+        },
+        FedLogOut({
+            commit
+        }) {
+            commit('SET_TOKEN', '')
+            commit('SET_NAME', '')
+            commit('SET_EMAIL', '')
             removeToken()
-      },
+        },
     }
 }
 
