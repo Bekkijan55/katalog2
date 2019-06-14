@@ -3,7 +3,7 @@
     <div class="demo-alignment">
       <vs-popup
         classContent="popup-example"
-        title="Lorem ipsum dolor sit amet"
+        title=""
         :active.sync="popupActive2"
       >
         <!-- <v-select
@@ -33,7 +33,7 @@
       </vs-popup>
     </div>
     <vx-card>
-      <h2 class='text-center mb-base mt-4'>{{filename[0].name}}</h2>
+      <!-- <h2 class='text-center mb-base mt-4'>{{filename[0].name}}</h2> -->
       <vs-table :data="vedomosts">
         <template slot="thead">
           <vs-th>№</vs-th>
@@ -86,10 +86,10 @@
               <div class="con-expand-users w-full">
                 <vs-list>
                   <vs-list-item
-                    v-for="item in allGoods[val.id]"
-                    :key="item.id"
-                    :title="item.id + ' ' + '--' + item.good"
-                    :subtitle="item.bezndc"
+                    v-for="(val,index) in allGoods[val.id]"
+                    :key="index"
+                    :title="index + ' ' + '--' + val.good"
+                    :subtitle="val.bezndc ? val.bezndc : null"
                   ></vs-list-item>
                 </vs-list>
               </div>
@@ -186,6 +186,7 @@ export default {
       this.allGoods[this.selectedVedmost.id] = this.check;
       this.check = [];
       this.popupActive2 = false;
+      console.log(this.allGoods)
     },
     getPass(v) {
       // this.allpassed.push(v);

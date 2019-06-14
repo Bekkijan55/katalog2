@@ -204,6 +204,7 @@ __webpack_require__.r(__webpack_exports__);
       this.allGoods[this.selectedVedmost.id] = this.check;
       this.check = [];
       this.popupActive2 = false;
+      console.log(this.allGoods);
     },
     getPass: function getPass(v) {
       // this.allpassed.push(v);
@@ -266,7 +267,7 @@ var render = function() {
             {
               attrs: {
                 classContent: "popup-example",
-                title: "Lorem ipsum dolor sit amet",
+                title: "",
                 active: _vm.popupActive2
               },
               on: {
@@ -353,10 +354,6 @@ var render = function() {
       _c(
         "vx-card",
         [
-          _c("h2", { staticClass: "text-center mb-base mt-4" }, [
-            _vm._v(_vm._s(_vm.filename[0].name))
-          ]),
-          _vm._v(" "),
           _c(
             "vs-table",
             {
@@ -460,17 +457,17 @@ var render = function() {
                                       _c(
                                         "vs-list",
                                         _vm._l(_vm.allGoods[val.id], function(
-                                          item
+                                          val,
+                                          index
                                         ) {
                                           return _c("vs-list-item", {
-                                            key: item.id,
+                                            key: index,
                                             attrs: {
                                               title:
-                                                item.id +
-                                                " " +
-                                                "--" +
-                                                item.good,
-                                              subtitle: item.bezndc
+                                                index + " " + "--" + val.good,
+                                              subtitle: val.bezndc
+                                                ? val.bezndc
+                                                : null
                                             }
                                           })
                                         }),
