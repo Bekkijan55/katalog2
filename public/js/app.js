@@ -7893,7 +7893,7 @@ exports = module.exports = __webpack_require__(/*! ../../css-loader/lib/css-base
 
 
 // module
-exports.push([module.i, "/**\n * prism.js default theme for JavaScript, CSS and HTML\n * Based on dabblet (http://dabblet.com)\n * @author Lea Verou\n */\n\ncode[class*=\"language-\"],\npre[class*=\"language-\"] {\n  color: black;\n  background: none;\n  text-shadow: 0 1px white;\n  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;\n  text-align: left;\n  white-space: pre;\n  word-spacing: normal;\n  word-break: normal;\n  word-wrap: normal;\n  line-height: 1.5;\n  -moz-tab-size: 4;\n    -o-tab-size: 4;\n       tab-size: 4;\n  -webkit-hyphens: none;\n      -ms-hyphens: none;\n          hyphens: none;\n}\n\npre[class*=\"language-\"]::selection,\npre[class*=\"language-\"] ::selection,\ncode[class*=\"language-\"]::selection,\ncode[class*=\"language-\"] ::selection {\n  text-shadow: none;\n  background: #b3d4fc;\n}\n\n@media print {\n  code[class*=\"language-\"],\n  pre[class*=\"language-\"] {\n    text-shadow: none;\n  }\n}\n\n/* Code blocks */\n\npre[class*=\"language-\"] {\n  padding: 1em;\n  margin: .5em 0;\n  overflow: auto;\n}\n\n:not(pre) > code[class*=\"language-\"],\npre[class*=\"language-\"] {\n  background: #f5f2f0;\n}\n\n/* Inline code */\n\n:not(pre) > code[class*=\"language-\"] {\n  padding: .1em;\n  border-radius: .3em;\n  white-space: normal;\n}\n\n.token.comment,\n.token.prolog,\n.token.doctype,\n.token.cdata {\n  color: slategray;\n}\n\n.token.punctuation {\n  color: #999;\n}\n\n.namespace {\n  opacity: .7;\n}\n\n.token.property,\n.token.tag,\n.token.boolean,\n.token.number,\n.token.constant,\n.token.symbol,\n.token.deleted {\n  color: #905;\n}\n\n.token.selector,\n.token.attr-name,\n.token.string,\n.token.char,\n.token.builtin,\n.token.inserted {\n  color: #690;\n}\n\n.token.operator,\n.token.entity,\n.token.url,\n.language-css .token.string,\n.style .token.string {\n  color: #9a6e3a;\n  background: hsla(0, 0%, 100%, .5);\n}\n\n.token.atrule,\n.token.attr-value,\n.token.keyword {\n  color: #07a;\n}\n\n.token.function,\n.token.class-name {\n  color: #dd4a68;\n}\n\n.token.regex,\n.token.important,\n.token.variable {\n  color: #e90;\n}\n\n.token.important,\n.token.bold {\n  font-weight: bold;\n}\n\n.token.italic {\n  font-style: italic;\n}\n\n.token.entity {\n  cursor: help;\n}\n", ""]);
+exports.push([module.i, "/**\r\n * prism.js default theme for JavaScript, CSS and HTML\r\n * Based on dabblet (http://dabblet.com)\r\n * @author Lea Verou\r\n */\n\ncode[class*=\"language-\"],\npre[class*=\"language-\"] {\n  color: black;\n  background: none;\n  text-shadow: 0 1px white;\n  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;\n  text-align: left;\n  white-space: pre;\n  word-spacing: normal;\n  word-break: normal;\n  word-wrap: normal;\n  line-height: 1.5;\n  -moz-tab-size: 4;\n    -o-tab-size: 4;\n       tab-size: 4;\n  -webkit-hyphens: none;\n      -ms-hyphens: none;\n          hyphens: none;\n}\n\npre[class*=\"language-\"]::selection,\npre[class*=\"language-\"] ::selection,\ncode[class*=\"language-\"]::selection,\ncode[class*=\"language-\"] ::selection {\n  text-shadow: none;\n  background: #b3d4fc;\n}\n\n@media print {\n  code[class*=\"language-\"],\n  pre[class*=\"language-\"] {\n    text-shadow: none;\n  }\n}\n\n/* Code blocks */\n\npre[class*=\"language-\"] {\n  padding: 1em;\n  margin: .5em 0;\n  overflow: auto;\n}\n\n:not(pre) > code[class*=\"language-\"],\npre[class*=\"language-\"] {\n  background: #f5f2f0;\n}\n\n/* Inline code */\n\n:not(pre) > code[class*=\"language-\"] {\n  padding: .1em;\n  border-radius: .3em;\n  white-space: normal;\n}\n\n.token.comment,\n.token.prolog,\n.token.doctype,\n.token.cdata {\n  color: slategray;\n}\n\n.token.punctuation {\n  color: #999;\n}\n\n.namespace {\n  opacity: .7;\n}\n\n.token.property,\n.token.tag,\n.token.boolean,\n.token.number,\n.token.constant,\n.token.symbol,\n.token.deleted {\n  color: #905;\n}\n\n.token.selector,\n.token.attr-name,\n.token.string,\n.token.char,\n.token.builtin,\n.token.inserted {\n  color: #690;\n}\n\n.token.operator,\n.token.entity,\n.token.url,\n.language-css .token.string,\n.style .token.string {\n  color: #9a6e3a;\n  background: hsla(0, 0%, 100%, .5);\n}\n\n.token.atrule,\n.token.attr-value,\n.token.keyword {\n  color: #07a;\n}\n\n.token.function,\n.token.class-name {\n  color: #dd4a68;\n}\n\n.token.regex,\n.token.important,\n.token.variable {\n  color: #e90;\n}\n\n.token.important,\n.token.bold {\n  font-weight: bold;\n}\n\n.token.italic {\n  font-style: italic;\n}\n\n.token.entity {\n  cursor: help;\n}\n", ""]);
 
 // exports
 
@@ -67903,8 +67903,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var core_js_modules_es6_regexp_replace__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_regexp_replace__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var core_js_modules_es6_regexp_search__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es6.regexp.search */ "./node_modules/core-js/modules/es6.regexp.search.js");
 /* harmony import */ var core_js_modules_es6_regexp_search__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_regexp_search__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime-corejs2/core-js/parse-int */ "./node_modules/@babel/runtime-corejs2/core-js/parse-int.js");
-/* harmony import */ var C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var C_OSPanel_domains_katalog3_katalog2_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime-corejs2/core-js/parse-int */ "./node_modules/@babel/runtime-corejs2/core-js/parse-int.js");
+/* harmony import */ var C_OSPanel_domains_katalog3_katalog2_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(C_OSPanel_domains_katalog3_katalog2_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var core_js_modules_es6_regexp_split__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! core-js/modules/es6.regexp.split */ "./node_modules/core-js/modules/es6.regexp.split.js");
 /* harmony import */ var core_js_modules_es6_regexp_split__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_regexp_split__WEBPACK_IMPORTED_MODULE_4__);
 
@@ -67917,9 +67917,9 @@ __webpack_require__.r(__webpack_exports__);
     var f = color.split(","),
         t = percent < 0 ? 0 : 255,
         p = percent < 0 ? percent * -1 : percent,
-        R = C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3___default()(f[0].slice(4)),
-        G = C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3___default()(f[1]),
-        B = C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3___default()(f[2]);
+        R = C_OSPanel_domains_katalog3_katalog2_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3___default()(f[0].slice(4)),
+        G = C_OSPanel_domains_katalog3_katalog2_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3___default()(f[1]),
+        B = C_OSPanel_domains_katalog3_katalog2_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3___default()(f[2]);
 
     return "rgb(" + (Math.round((t - R) * p) + R) + "," + (Math.round((t - G) * p) + G) + "," + (Math.round((t - B) * p) + B) + ")";
   },
@@ -68027,9 +68027,9 @@ __webpack_require__.r(__webpack_exports__);
     });
     var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
     return result ? {
-      r: C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3___default()(result[1], 16),
-      g: C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3___default()(result[2], 16),
-      b: C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3___default()(result[3], 16)
+      r: C_OSPanel_domains_katalog3_katalog2_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3___default()(result[1], 16),
+      g: C_OSPanel_domains_katalog3_katalog2_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3___default()(result[2], 16),
+      b: C_OSPanel_domains_katalog3_katalog2_node_modules_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_3___default()(result[3], 16)
     } : null;
   },
   getVariable: function getVariable(styles, propertyName) {
@@ -68655,6 +68655,12 @@ _router__WEBPACK_IMPORTED_MODULE_4__["default"].beforeEach(function (to, from, n
     } else {
       _store_store__WEBPACK_IMPORTED_MODULE_5__["default"].dispatch('UserInfo').then(function (res) {
         next();
+      }).catch(function (err) {
+        _store_store__WEBPACK_IMPORTED_MODULE_5__["default"].dispatch('FedLogOut').then(function () {
+          next({
+            path: '/login'
+          });
+        });
       });
     }
   } else {
@@ -68707,7 +68713,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
     // =============================================================================
     path: '',
     component: function component() {
-      return Promise.all(/*! import() */[__webpack_require__.e(10), __webpack_require__.e(1)]).then(__webpack_require__.bind(null, /*! ../layouts/main/Main.vue */ "./resources/layouts/main/Main.vue"));
+      return Promise.all(/*! import() */[__webpack_require__.e(2), __webpack_require__.e(1)]).then(__webpack_require__.bind(null, /*! ../layouts/main/Main.vue */ "./resources/layouts/main/Main.vue"));
     },
     children: [// =============================================================================
     // Theme Routes
@@ -68716,7 +68722,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
       path: '/',
       name: 'home',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 4).then(__webpack_require__.bind(null, /*! ../views/Home.vue */ "./resources/views/Home.vue"));
+        return __webpack_require__.e(/*! import() */ 5).then(__webpack_require__.bind(null, /*! ../views/Home.vue */ "./resources/views/Home.vue"));
       }
     }, {
       path: '/page2',
@@ -68738,7 +68744,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
         pageTitle: 'Users'
       },
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.bind(null, /*! ../views/pages/users/index */ "./resources/views/pages/users/index.vue"));
+        return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! ../views/pages/users/index */ "./resources/views/pages/users/index.vue"));
       }
     }, {
       path: '/users',
@@ -68754,25 +68760,25 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
         pageTitle: 'User'
       },
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 9).then(__webpack_require__.bind(null, /*! ../views/pages/users/users */ "./resources/views/pages/users/users.vue"));
+        return __webpack_require__.e(/*! import() */ 10).then(__webpack_require__.bind(null, /*! ../views/pages/users/users */ "./resources/views/pages/users/users.vue"));
       }
     }, {
       path: '/vedomost/:id',
       name: 'vedimost',
       component: function component() {
-        return Promise.all(/*! import() */[__webpack_require__.e(13), __webpack_require__.e(7)]).then(__webpack_require__.bind(null, /*! ../views/pages/catalogs/vedimost */ "./resources/views/pages/catalogs/vedimost.vue"));
+        return Promise.all(/*! import() */[__webpack_require__.e(13), __webpack_require__.e(8)]).then(__webpack_require__.bind(null, /*! ../views/pages/catalogs/vedimost */ "./resources/views/pages/catalogs/vedimost.vue"));
       }
     }, {
       path: '/all-passed',
       name: 'allPassed',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 6).then(__webpack_require__.bind(null, /*! ../views/pages/catalogs/allpassed */ "./resources/views/pages/catalogs/allpassed.vue"));
+        return __webpack_require__.e(/*! import() */ 7).then(__webpack_require__.bind(null, /*! ../views/pages/catalogs/allpassed */ "./resources/views/pages/catalogs/allpassed.vue"));
       }
     }, {
       path: '/upload-excel',
       name: 'uploadexcel',
       component: function component() {
-        return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(3)]).then(__webpack_require__.bind(null, /*! ../views/pages/catalogs/uploadexcel */ "./resources/views/pages/catalogs/uploadexcel.vue"));
+        return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(4)]).then(__webpack_require__.bind(null, /*! ../views/pages/catalogs/uploadexcel */ "./resources/views/pages/catalogs/uploadexcel.vue"));
       }
     }]
   }, // =============================================================================
@@ -68790,7 +68796,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
       path: '/login',
       name: 'pageLogin',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 5).then(__webpack_require__.bind(null, /*! @/views/authentication/Login.vue */ "./resources/views/authentication/Login.vue"));
+        return __webpack_require__.e(/*! import() */ 6).then(__webpack_require__.bind(null, /*! @/views/authentication/Login.vue */ "./resources/views/authentication/Login.vue"));
       }
     },
     /*{
@@ -68802,7 +68808,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
       path: '/pages/error-404',
       name: 'pageError404',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 8).then(__webpack_require__.bind(null, /*! @/views/pages/errors/Error404.vue */ "./resources/views/pages/errors/Error404.vue"));
+        return __webpack_require__.e(/*! import() */ 9).then(__webpack_require__.bind(null, /*! @/views/pages/errors/Error404.vue */ "./resources/views/pages/errors/Error404.vue"));
       }
     }]
   }, // Redirect to 404 page, if no match found
@@ -69143,8 +69149,8 @@ var actions = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var core_js_modules_es6_function_name__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es6.function.name */ "./node_modules/core-js/modules/es6.function.name.js");
 /* harmony import */ var core_js_modules_es6_function_name__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_function_name__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime-corejs2/core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
-/* harmony import */ var C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var C_OSPanel_domains_katalog3_katalog2_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime-corejs2/core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
+/* harmony import */ var C_OSPanel_domains_katalog3_katalog2_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(C_OSPanel_domains_katalog3_katalog2_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _utils_auth__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../utils/auth */ "./resources/utils/auth.js");
 /* harmony import */ var _api_authentication__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../api/authentication */ "./resources/api/authentication.js");
 
@@ -69183,7 +69189,7 @@ var user = {
   actions: {
     LoginUser: function LoginUser(_ref, data) {
       var commit = _ref.commit;
-      return new C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_1___default.a(function (resolve, reject) {
+      return new C_OSPanel_domains_katalog3_katalog2_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_1___default.a(function (resolve, reject) {
         Object(_api_authentication__WEBPACK_IMPORTED_MODULE_3__["login"])(data).then(function (response) {
           if (response.data.access_token) {
             commit('SET_TOKEN', response.data.access_token);
@@ -69449,8 +69455,8 @@ function removeToken() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime-corejs2/core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
-/* harmony import */ var C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var C_OSPanel_domains_katalog3_katalog2_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime-corejs2/core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
+/* harmony import */ var C_OSPanel_domains_katalog3_katalog2_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(C_OSPanel_domains_katalog3_katalog2_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _auth__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./auth */ "./resources/utils/auth.js");
@@ -69482,7 +69488,7 @@ service.interceptors.request.use(function (config) {
   // Do something with request error
   console.log(error); // for debug
 
-  C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a.reject(error);
+  C_OSPanel_domains_katalog3_katalog2_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a.reject(error);
 }); // respone interceptor
 
 service.interceptors.response.use(function (response) {
@@ -69492,7 +69498,7 @@ service.interceptors.response.use(function (response) {
 
   setTimeout(function () {// VueNotifications.error({ message: error.message });
   }, 500);
-  return C_OSPanel_domains_katalog2_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a.reject(error);
+  return C_OSPanel_domains_katalog3_katalog2_node_modules_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a.reject(error);
 });
 /* harmony default export */ __webpack_exports__["default"] = (service);
 
@@ -69585,8 +69591,8 @@ var themeConfig = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\OSPanel\domains\katalog2\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\OSPanel\domains\katalog2\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\OSPanel\domains\katalog3\katalog2\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\OSPanel\domains\katalog3\katalog2\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

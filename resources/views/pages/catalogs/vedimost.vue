@@ -1,11 +1,7 @@
 <template>
   <div>
     <div class="demo-alignment">
-      <vs-popup
-        classContent="popup-example"
-        title="Lorem ipsum dolor sit amet"
-        :active.sync="popupActive2"
-      >
+      <vs-popup classContent="popup-example" title :active.sync="popupActive2">
         <!-- <v-select
           label="good"
           class="mb-4 mt-2"
@@ -17,6 +13,7 @@
         <vs-input
           label-placeholder="label"
           v-model="selectedVedmost.good"
+          :value="selectedVedmost.good"
           @input="getNameVedmost(selectedVedmost)"
           class="w-full mb-base"
         />
@@ -33,19 +30,13 @@
       </vs-popup>
     </div>
     <vx-card>
-      <h2 class='text-center mb-base mt-4'>{{filename[0].name}}</h2>
+      <h2 class="text-center mb-base mt-4">{{filename[0].name}}</h2>
       <vs-table :data="vedomosts">
         <template slot="thead">
           <vs-th>№</vs-th>
-
           <vs-th>НАИМЕНОВАНИЕ РАБОТ И РЕСУРСОВ</vs-th>
           <vs-th>ЕД.ИЗМ</vs-th>
-
           <vs-th>НА ЕДИНИЦУ</vs-th>
-
-          <vs-th>НА ЕДИНИЦУ</vs-th>
-          <vs-th>ВСЕГО</vs-th>
-          
           <vs-th>Кол-во</vs-th>
           <vs-th>Цена</vs-th>
           <vs-th>ВСЕГО</vs-th>
@@ -57,15 +48,10 @@
             :key="index"
             :state="allpassed.includes(val) ? 'danger' : ''"
           >
-            <vs-td>{{val.id}}</vs-td>
-
+            <vs-td>{{val.number}}</vs-td>
             <vs-td>{{val.good}}</vs-td>
             <vs-td>{{val.unit}}</vs-td>
-            <vs-td>{{val.act_one}}</vs-td>
-
-            <vs-td>{{val.act_one_price}}</vs-td>
-            <vs-td>{{val.act_total}}</vs-td>
-            
+            <vs-td>{{val.one_amount}}</vs-td>
             <vs-td>{{val.amount}}</vs-td>
             <vs-td>{{val.price}}</vs-td>
             <vs-td>{{val.total}}</vs-td>
@@ -82,14 +68,38 @@
               <vs-button color="warning" size="small" type="filled" v-on:click="getPass(val)">Pass</vs-button>
             </vs-td>
 
-            <template class="expand-user active" slot="expand" v-if="allGoods[val.id]">
+            <!-- <template class="expand-user" slot="expand" v-if="allGoods[val.id]">
               <div class="con-expand-users w-full">
                 <vs-list>
                   <vs-list-item
                     v-for="item in allGoods[val.id]"
                     :key="item.id"
                     :title="item.id + ' ' + '--' + item.good"
-                    :subtitle="item.bezndc"
+                  ></vs-list-item>
+                </vs-list>
+              </div>
+            </template>-->
+
+            <template class="expand-user" slot="expand" v-if="allGoods[val.id]">
+              <div class="con-expand-users w-full">
+                <!-- <div class="con-btns-user flex items-center justify-between">
+                <div class="con-userx flex items-center justify-start">
+                  <vs-avatar :badge="tr.id" size="45px" :src="`https://randomuser.me/api/portraits/women/${indextr}.jpg`" />
+                  <span>{{ tr.name }}</span>
+                </div>
+                <div class="flex">
+                  <vs-button type="border" size="small" icon-pack="feather" icon="icon-phone" class="mr-2"></vs-button>
+                  <vs-button type="border" size="small" icon-pack="feather" icon="icon-send" color="success" class="mr-2"></vs-button>
+                  <vs-button type="border" size="small" icon-pack="feather" icon="icon-trash" color="danger"></vs-button>
+                </div>
+                </div>-->
+                <vs-list>
+                  <vs-list-item
+                    icon-pack="feather"
+                    icon="icon-check"
+                    v-for="item in allGoods[val.id]"
+                    :key="item.id"
+                    :title="item.id + ' ' + item.good + ' -- ' + item.price4"
                   ></vs-list-item>
                 </vs-list>
               </div>
@@ -131,7 +141,7 @@ export default {
       allpassed: [],
       allpassed2: [],
       id: this.$route.params.id,
-      filename:{}
+      filename: {}
     };
   },
 
@@ -186,6 +196,7 @@ export default {
       this.allGoods[this.selectedVedmost.id] = this.check;
       this.check = [];
       this.popupActive2 = false;
+      console.log(this.allGoods);
     },
     getPass(v) {
       // this.allpassed.push(v);

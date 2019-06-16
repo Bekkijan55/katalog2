@@ -25,6 +25,7 @@ class KatalogResource extends JsonResource
             'ndc' => $this->ndc,
             'currency' => $this->currency,
             'summa' => $this->summa,
+            'price4' => $this->price4,
             'unit' => $this->unit,
             'created_at' => $this->created_at
         ];

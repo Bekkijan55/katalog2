@@ -16,6 +16,12 @@ router.beforeEach((to, from, next) => {
         } else {
             store.dispatch('UserInfo').then(res => {
                 next()
+            }).catch(err => {
+                store.dispatch('FedLogOut').then(() => {
+                    next({
+                        path: '/login'
+                    })
+                })
             })
         }
     } else {

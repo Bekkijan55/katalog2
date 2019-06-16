@@ -26,7 +26,7 @@ class KatalogController extends Controller
     public function matchFromKatalog(Request $request) {
         
         // $katmatch = Katalog::match('good_name')->against($request->query('good'))->get();
-        $katmatch = Katalog::where('good_name','LIKE',"%".$request->query('good')."%")->get();
+        $katmatch = Katalog::where('good_name','LIKE',"%".$request->query('good')."%")->orderBy('price4','asc')->get();
 
         return KatalogResource::collection($katmatch);
     }
@@ -95,18 +95,14 @@ class KatalogController extends Controller
             $newveds = new Vedmost;
             $row = $allrows[$i];
             if($row[0] != null) {
-             $newveds->justify = $row[1];
-            $newveds->resource_name = $row[2];
-             $newveds->unit = $row[3];
-            $newveds->act_one = $row[4];
-             $newveds->act_project = $row[5];
-            $newveds->act_one_price = $row[6];
-             $newveds->act_total = $row[7];
-            $newveds->ins_one = $row[8];
-             $newveds->amount = $row[9];
-            $newveds->price = $row[10];
-             $newveds->total = $row[11];
-            $newveds->file_id = $file->id;
+             $newveds->number = $row[0];
+             $newveds->good_name = $row[1];
+             $newveds->unit = $row[2];
+             $newveds->one_amount = $row[3];
+             $newveds->amount = $row[4];
+             $newveds->price = $row[5];
+             $newveds->total = $row[6];
+             $newveds->file_id = $file->id;
              $newveds->save();
             }
 

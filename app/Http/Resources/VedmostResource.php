@@ -16,15 +16,11 @@ class VedmostResource extends JsonResource
     {
        // return parent::toArray($request);
        return [
-           'id' => $this->id,
-           'justify' => $this->justify,
-           'good' => $this->resource_name,
-           'unit' => $this->unit,
-           'act_one' => $this->act_one,
-           'act_project' => $this->act_project,
-           'act_one_price' => $this->act_one_price,
-           'act_total' => $this->act_total,
-           'ins_one' => $this->ins_one,
+           'id' => $this->id,           
+           'number' => $this->number,
+           'good' => $this->good_name,
+           'unit' => $this->unit,         
+           'one_amount' => $this->one_amount, 
            'amount' => $this->amount,
            'price' => $this->price,
            'total' => $this->total,
