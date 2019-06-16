@@ -1,7 +1,15 @@
 <template>
   <div>
     <div class="demo-alignment">
+<<<<<<< HEAD
       <vs-popup classContent="popup-example" title :active.sync="popupActive2">
+=======
+      <vs-popup
+        classContent="popup-example"
+        title=""
+        :active.sync="popupActive2"
+      >
+>>>>>>> aad962a2c5577340c64e2ac9eadf41cd58523dae
         <!-- <v-select
           label="good"
           class="mb-4 mt-2"
@@ -30,7 +38,11 @@
       </vs-popup>
     </div>
     <vx-card>
+<<<<<<< HEAD
       <h2 class="text-center mb-base mt-4">{{filename[0].name}}</h2>
+=======
+      <!-- <h2 class='text-center mb-base mt-4'>{{filename[0].name}}</h2> -->
+>>>>>>> aad962a2c5577340c64e2ac9eadf41cd58523dae
       <vs-table :data="vedomosts">
         <template slot="thead">
           <vs-th>№</vs-th>
@@ -72,6 +84,7 @@
               <div class="con-expand-users w-full">
                 <vs-list>
                   <vs-list-item
+<<<<<<< HEAD
                     v-for="item in allGoods[val.id]"
                     :key="item.id"
                     :title="item.id + ' ' + '--' + item.good"
@@ -100,6 +113,12 @@
                     v-for="item in allGoods[val.id]"
                     :key="item.id"
                     :title="item.id + ' ' + item.good + ' -- ' + item.price4"
+=======
+                    v-for="(val,index) in allGoods[val.id]"
+                    :key="index"
+                    :title="index + ' ' + '--' + val.good"
+                    :subtitle="val.bezndc ? val.bezndc : null"
+>>>>>>> aad962a2c5577340c64e2ac9eadf41cd58523dae
                   ></vs-list-item>
                 </vs-list>
               </div>
@@ -196,7 +215,11 @@ export default {
       this.allGoods[this.selectedVedmost.id] = this.check;
       this.check = [];
       this.popupActive2 = false;
+<<<<<<< HEAD
       console.log(this.allGoods);
+=======
+      console.log(this.allGoods)
+>>>>>>> aad962a2c5577340c64e2ac9eadf41cd58523dae
     },
     getPass(v) {
       // this.allpassed.push(v);

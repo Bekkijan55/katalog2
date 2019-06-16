@@ -68766,7 +68766,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
       path: '/vedomost/:id',
       name: 'vedimost',
       component: function component() {
-        return Promise.all(/*! import() */[__webpack_require__.e(13), __webpack_require__.e(8)]).then(__webpack_require__.bind(null, /*! ../views/pages/catalogs/vedimost */ "./resources/views/pages/catalogs/vedimost.vue"));
+        return __webpack_require__.e(/*! import() */ 13).then(__webpack_require__.bind(null, /*! ../views/pages/catalogs/vedimost */ "./resources/views/pages/catalogs/vedimost.vue"));
       }
     }, {
       path: '/all-passed',

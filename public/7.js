@@ -79,10 +79,88 @@ __webpack_require__.r(__webpack_exports__);
     fetchPassed: function fetchPassed() {
       var _this = this;
 
+<<<<<<< HEAD
       Object(_api_katalog__WEBPACK_IMPORTED_MODULE_0__["getAllPassed"])().then(function (res) {
         _this.allPassed = res.data.data;
         _this.json_data = res.data.data;
         console.log(_this.json_data);
+=======
+      Object(_api_katalog__WEBPACK_IMPORTED_MODULE_2__["getVedmosts"])(this.id).then(function (res) {
+        _this.vedomosts = res.data.data[0].vedomosts;
+        _this.filename = res.data.data;
+        _this.allpassed = [];
+
+        _this.vedomosts.forEach(function (ved) {
+          if (ved.passed) {
+            _this.allpassed.push(ved);
+          }
+        });
+
+        console.log(_this.allpassed);
+      }).catch(function (err) {
+        return console.log(err);
+      });
+    },
+    getNameVedmost: function getNameVedmost(v) {
+      var _this2 = this;
+
+      this.selectedVedmost = v;
+      Object(_api_katalog__WEBPACK_IMPORTED_MODULE_2__["findFromKatalog"])(v).then(function (res) {
+        _this2.allKatItem = res.data.data;
+      }).catch(function (err) {
+        return console.log(err);
+      });
+    },
+    getCheck: function getCheck(v) {
+      this.flag = false;
+
+      if (this.check.length > 0) {
+        for (var i = 0; i < this.check.length; i++) {
+          if (this.check[i].id == v.id) {
+            this.check.splice(i, 1);
+            this.flag = true;
+          }
+        }
+      }
+
+      if (!this.flag) {
+        this.check.push(v);
+      }
+
+      console.log(this.check);
+    },
+    addMassive: function addMassive() {
+      this.allGoods[this.selectedVedmost.id] = this.check;
+      this.check = [];
+      this.popupActive2 = false;
+      console.log(this.allGoods);
+    },
+    getPass: function getPass(v) {
+      // this.allpassed.push(v);
+      console.log(this.allpassed);
+      this.passFlag = false;
+
+      if (this.allpassed.length > 0) {
+        for (var i = 0; i < this.allpassed.length; i++) {
+          if (this.allpassed[i].id == v.id) {
+            this.allpassed.splice(i, 1);
+            this.passFlag = true;
+          }
+        }
+      }
+
+      if (!this.passFlag) {
+        this.allpassed.push(v);
+      }
+    },
+    postPassed: function postPassed() {
+      var _this3 = this;
+
+      Object(_api_katalog__WEBPACK_IMPORTED_MODULE_2__["clickPassed"])(this.allpassed).then(function (res) {
+        _this3.vedomosts = res.data.data;
+
+        _this3.fetchVedomost();
+>>>>>>> aad962a2c5577340c64e2ac9eadf41cd58523dae
       }).catch(function (err) {
         return console.log(err);
       });
@@ -116,6 +194,7 @@ var render = function() {
           attrs: { data: _vm.allPassed },
           scopedSlots: _vm._u([
             {
+<<<<<<< HEAD
               key: "default",
               fn: function(ref) {
                 var data = ref.data
@@ -123,6 +202,69 @@ var render = function() {
                   return _c(
                     "vs-tr",
                     { key: index },
+=======
+              attrs: {
+                classContent: "popup-example",
+                title: "",
+                active: _vm.popupActive2
+              },
+              on: {
+                "update:active": function($event) {
+                  _vm.popupActive2 = $event
+                }
+              }
+            },
+            [
+              _c("vs-input", {
+                staticClass: "w-full mb-base",
+                attrs: { "label-placeholder": "label" },
+                on: {
+                  input: function($event) {
+                    _vm.getNameVedmost(_vm.selectedVedmost)
+                  }
+                },
+                model: {
+                  value: _vm.selectedVedmost.good,
+                  callback: function($$v) {
+                    _vm.$set(_vm.selectedVedmost, "good", $$v)
+                  },
+                  expression: "selectedVedmost.good"
+                }
+              }),
+              _vm._v(" "),
+              _vm.allKatItem != null
+                ? _c(
+                    "vs-list",
+                    { staticClass: "mb-base" },
+                    _vm._l(_vm.allKatItem, function(val, index) {
+                      return _c(
+                        "vs-list-item",
+                        { key: index, attrs: { title: val.good } },
+                        [
+                          _c("vs-checkbox", {
+                            attrs: { color: "success" },
+                            on: {
+                              click: function($event) {
+                                _vm.getCheck(val)
+                              }
+                            }
+                          })
+                        ],
+                        1
+                      )
+                    }),
+                    1
+                  )
+                : _vm._e(),
+              _vm._v(" "),
+              _c(
+                "vs-row",
+                { attrs: { "vs-type": "flex", "vs-justify": "flex-end" } },
+                [
+                  _c(
+                    "div",
+                    { staticClass: "bx-row mb-10" },
+>>>>>>> aad962a2c5577340c64e2ac9eadf41cd58523dae
                     [
                       _c("vs-td", [_vm._v(_vm._s(val.number))]),
                       _vm._v(" "),
@@ -170,6 +312,7 @@ var render = function() {
         2
       ),
       _vm._v(" "),
+<<<<<<< HEAD
       _c("vs-row", { attrs: { "vs-type": "flex", "vs-justify": "flex-end" } }, [
         _c(
           "div",
@@ -184,6 +327,141 @@ var render = function() {
                   fields: _vm.json_fields,
                   type: "xlsx",
                   worksheet: "My Worksheet"
+=======
+      _c(
+        "vx-card",
+        [
+          _c(
+            "vs-table",
+            {
+              attrs: { data: _vm.vedomosts },
+              scopedSlots: _vm._u([
+                {
+                  key: "default",
+                  fn: function(ref) {
+                    var data = ref.data
+                    return _vm._l(data, function(val, index) {
+                      return _c(
+                        "vs-tr",
+                        {
+                          key: index,
+                          attrs: {
+                            state: _vm.allpassed.includes(val) ? "danger" : ""
+                          }
+                        },
+                        [
+                          _c("vs-td", [_vm._v(_vm._s(val.id))]),
+                          _vm._v(" "),
+                          _c("vs-td", [_vm._v(_vm._s(val.good))]),
+                          _vm._v(" "),
+                          _c("vs-td", [_vm._v(_vm._s(val.unit))]),
+                          _vm._v(" "),
+                          _c("vs-td", [_vm._v(_vm._s(val.act_one))]),
+                          _vm._v(" "),
+                          _c("vs-td", [_vm._v(_vm._s(val.act_one_price))]),
+                          _vm._v(" "),
+                          _c("vs-td", [_vm._v(_vm._s(val.act_total))]),
+                          _vm._v(" "),
+                          _c("vs-td", [_vm._v(_vm._s(val.amount))]),
+                          _vm._v(" "),
+                          _c("vs-td", [_vm._v(_vm._s(val.price))]),
+                          _vm._v(" "),
+                          _c("vs-td", [_vm._v(_vm._s(val.total))]),
+                          _vm._v(" "),
+                          _c(
+                            "vs-td",
+                            [
+                              _c(
+                                "vs-button",
+                                {
+                                  attrs: {
+                                    color: "primary",
+                                    size: "small",
+                                    type: "filled"
+                                  },
+                                  on: {
+                                    click: [
+                                      function($event) {
+                                        _vm.popupActive2 = true
+                                      },
+                                      function($event) {
+                                        _vm.getNameVedmost(val)
+                                      }
+                                    ]
+                                  }
+                                },
+                                [_vm._v("Poisk")]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "vs-td",
+                            [
+                              _c(
+                                "vs-button",
+                                {
+                                  attrs: {
+                                    color: "warning",
+                                    size: "small",
+                                    type: "filled"
+                                  },
+                                  on: {
+                                    click: function($event) {
+                                      _vm.getPass(val)
+                                    }
+                                  }
+                                },
+                                [_vm._v("Pass")]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _vm.allGoods[val.id]
+                            ? _c(
+                                "template",
+                                {
+                                  staticClass: "expand-user active",
+                                  slot: "expand"
+                                },
+                                [
+                                  _c(
+                                    "div",
+                                    { staticClass: "con-expand-users w-full" },
+                                    [
+                                      _c(
+                                        "vs-list",
+                                        _vm._l(_vm.allGoods[val.id], function(
+                                          val,
+                                          index
+                                        ) {
+                                          return _c("vs-list-item", {
+                                            key: index,
+                                            attrs: {
+                                              title:
+                                                index + " " + "--" + val.good,
+                                              subtitle: val.bezndc
+                                                ? val.bezndc
+                                                : null
+                                            }
+                                          })
+                                        }),
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ]
+                              )
+                            : _vm._e()
+                        ],
+                        2
+                      )
+                    })
+                  }
+>>>>>>> aad962a2c5577340c64e2ac9eadf41cd58523dae
                 }
               },
               [
