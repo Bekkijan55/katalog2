@@ -15,6 +15,7 @@ class CreateFilesTable extends Migration
     {
         Schema::create('files', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->integer('ved_file_id');
             $table->string('file_name');
             $table->timestamps();
         });

@@ -35,6 +35,11 @@ export default new Router({
                 // =============================================================================
                 {
                     path: '/',
+                    name: 'files',
+                    component: () => import('../views/pages/catalogs/vedfiles')
+                },
+                {
+                    path: '/ved-files/:id',
                     name: 'home',
                     component: () => import('../views/Home.vue'),
                 },

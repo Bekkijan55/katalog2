@@ -68720,15 +68720,21 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
     // =============================================================================
     {
       path: '/',
+      name: 'files',
+      component: function component() {
+        return __webpack_require__.e(/*! import() */ 9).then(__webpack_require__.bind(null, /*! ../views/pages/catalogs/vedfiles */ "./resources/views/pages/catalogs/vedfiles.vue"));
+      }
+    }, {
+      path: '/ved-files/:id',
       name: 'home',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 5).then(__webpack_require__.bind(null, /*! ../views/Home.vue */ "./resources/views/Home.vue"));
+        return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(4)]).then(__webpack_require__.bind(null, /*! ../views/Home.vue */ "./resources/views/Home.vue"));
       }
     }, {
       path: '/page2',
       name: 'page2',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 12).then(__webpack_require__.bind(null, /*! ../views/Page2.vue */ "./resources/views/Page2.vue"));
+        return __webpack_require__.e(/*! import() */ 13).then(__webpack_require__.bind(null, /*! ../views/Page2.vue */ "./resources/views/Page2.vue"));
       }
     }, {
       path: '/users/index',
@@ -68760,25 +68766,25 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
         pageTitle: 'User'
       },
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 10).then(__webpack_require__.bind(null, /*! ../views/pages/users/users */ "./resources/views/pages/users/users.vue"));
+        return __webpack_require__.e(/*! import() */ 11).then(__webpack_require__.bind(null, /*! ../views/pages/users/users */ "./resources/views/pages/users/users.vue"));
       }
     }, {
       path: '/vedomost/:id',
       name: 'vedimost',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 13).then(__webpack_require__.bind(null, /*! ../views/pages/catalogs/vedimost */ "./resources/views/pages/catalogs/vedimost.vue"));
+        return Promise.all(/*! import() */[__webpack_require__.e(14), __webpack_require__.e(6)]).then(__webpack_require__.bind(null, /*! ../views/pages/catalogs/vedimost */ "./resources/views/pages/catalogs/vedimost.vue"));
       }
     }, {
       path: '/all-passed',
       name: 'allPassed',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 7).then(__webpack_require__.bind(null, /*! ../views/pages/catalogs/allpassed */ "./resources/views/pages/catalogs/allpassed.vue"));
+        return __webpack_require__.e(/*! import() */ 8).then(__webpack_require__.bind(null, /*! ../views/pages/catalogs/allpassed */ "./resources/views/pages/catalogs/allpassed.vue"));
       }
     }, {
       path: '/upload-excel',
       name: 'uploadexcel',
       component: function component() {
-        return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(4)]).then(__webpack_require__.bind(null, /*! ../views/pages/catalogs/uploadexcel */ "./resources/views/pages/catalogs/uploadexcel.vue"));
+        return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(5)]).then(__webpack_require__.bind(null, /*! ../views/pages/catalogs/uploadexcel */ "./resources/views/pages/catalogs/uploadexcel.vue"));
       }
     }]
   }, // =============================================================================
@@ -68787,7 +68793,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
   {
     path: '',
     component: function component() {
-      return __webpack_require__.e(/*! import() */ 11).then(__webpack_require__.bind(null, /*! @/layouts/full-page/FullPage.vue */ "./resources/layouts/full-page/FullPage.vue"));
+      return __webpack_require__.e(/*! import() */ 12).then(__webpack_require__.bind(null, /*! @/layouts/full-page/FullPage.vue */ "./resources/layouts/full-page/FullPage.vue"));
     },
     children: [// =============================================================================
     // PAGES
@@ -68796,7 +68802,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
       path: '/login',
       name: 'pageLogin',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 6).then(__webpack_require__.bind(null, /*! @/views/authentication/Login.vue */ "./resources/views/authentication/Login.vue"));
+        return __webpack_require__.e(/*! import() */ 7).then(__webpack_require__.bind(null, /*! @/views/authentication/Login.vue */ "./resources/views/authentication/Login.vue"));
       }
     },
     /*{
@@ -68808,7 +68814,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
       path: '/pages/error-404',
       name: 'pageError404',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 9).then(__webpack_require__.bind(null, /*! @/views/pages/errors/Error404.vue */ "./resources/views/pages/errors/Error404.vue"));
+        return __webpack_require__.e(/*! import() */ 10).then(__webpack_require__.bind(null, /*! @/views/pages/errors/Error404.vue */ "./resources/views/pages/errors/Error404.vue"));
       }
     }]
   }, // Redirect to 404 page, if no match found

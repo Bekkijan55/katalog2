@@ -30,10 +30,11 @@ export function getAllPassed() {
     })
 }
 
-export function getFiles() {
+export function getFiles(id) {
     return request({
-        url: '/api/get-files',
-        method: 'get'
+        url: '/api/get-files/' + id,
+        method: 'get',
+
     })
 }
 
@@ -42,5 +43,20 @@ export function sendExcel(data) {
         url: '/api/get-excel',
         method: 'post',
         data
+    })
+}
+
+export function addVedFile(data) {
+    return request({
+        url: '/api/add-ved-fie',
+        method: 'post',
+        data
+    })
+}
+
+export function getVedFiles() {
+    return request({
+        url: '/api/get-ved-files',
+        method: 'get'
     })
 }

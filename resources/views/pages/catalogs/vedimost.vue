@@ -1,15 +1,7 @@
 <template>
   <div>
     <div class="demo-alignment">
-<<<<<<< HEAD
       <vs-popup classContent="popup-example" title :active.sync="popupActive2">
-=======
-      <vs-popup
-        classContent="popup-example"
-        title=""
-        :active.sync="popupActive2"
-      >
->>>>>>> aad962a2c5577340c64e2ac9eadf41cd58523dae
         <!-- <v-select
           label="good"
           class="mb-4 mt-2"
@@ -37,12 +29,34 @@
         </vs-row>
       </vs-popup>
     </div>
+    <!-- <vx-card class="mb-2 pb-2 vs-row stik">
+      <div class="w-1/8 vs-col">
+        <h6>№</h6>
+      </div>
+      <div class="w-1/8 vs-col">
+        <h6>НАИМЕНОВАНИЕ</h6>
+      </div>
+      <div class="w-1/8 vs-col">
+        <h6>ЕД.ИЗМ</h6>
+      </div>
+      <div class="w-1/8 vs-col">
+        <h6>НА ЕДИНИЦУ</h6>
+      </div>
+      <div class="w-1/8 vs-col">
+        <h6>Кол-во</h6>
+      </div>
+      <div class="w-1/8 vs-col">
+        <h6>Цена</h6>
+      </div>
+      <div class="w-1/8 vs-col">
+        <h6>ВСЕГО</h6>
+      </div>
+      <div class="w-1/8 vs-col">
+        <h6>action</h6>
+      </div>
+    </vx-card>-->
     <vx-card>
-<<<<<<< HEAD
       <h2 class="text-center mb-base mt-4">{{filename[0].name}}</h2>
-=======
-      <!-- <h2 class='text-center mb-base mt-4'>{{filename[0].name}}</h2> -->
->>>>>>> aad962a2c5577340c64e2ac9eadf41cd58523dae
       <vs-table :data="vedomosts">
         <template slot="thead">
           <vs-th>№</vs-th>
@@ -84,7 +98,6 @@
               <div class="con-expand-users w-full">
                 <vs-list>
                   <vs-list-item
-<<<<<<< HEAD
                     v-for="item in allGoods[val.id]"
                     :key="item.id"
                     :title="item.id + ' ' + '--' + item.good"
@@ -113,12 +126,6 @@
                     v-for="item in allGoods[val.id]"
                     :key="item.id"
                     :title="item.id + ' ' + item.good + ' -- ' + item.price4"
-=======
-                    v-for="(val,index) in allGoods[val.id]"
-                    :key="index"
-                    :title="index + ' ' + '--' + val.good"
-                    :subtitle="val.bezndc ? val.bezndc : null"
->>>>>>> aad962a2c5577340c64e2ac9eadf41cd58523dae
                   ></vs-list-item>
                 </vs-list>
               </div>
@@ -215,11 +222,7 @@ export default {
       this.allGoods[this.selectedVedmost.id] = this.check;
       this.check = [];
       this.popupActive2 = false;
-<<<<<<< HEAD
       console.log(this.allGoods);
-=======
-      console.log(this.allGoods)
->>>>>>> aad962a2c5577340c64e2ac9eadf41cd58523dae
     },
     getPass(v) {
       // this.allpassed.push(v);
@@ -250,5 +253,11 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.stik {
+  position: fixed;
+  top: 15%;
+  z-index: 1000;
+  width: 100%;
+}
 </style>

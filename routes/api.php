@@ -34,7 +34,9 @@ Route::group(['middleware' => 'auth:api'], function(){
   Route::get('find-katalog','KatalogController@matchFromKatalog');
   Route::post('click-passed','KatalogController@clickPassed');
   Route::get('get-all-passed','KatalogController@getAllPassed');
-  Route::get('get-files','KatalogController@getFiles');
+  Route::get('get-files/{id}','KatalogController@getFiles');
   Route::post('get-excel','KatalogController@getExcel');
+  Route::post('add-ved-fie','KatalogController@addVedFile');
+  Route::get('get-ved-files','KatalogController@getVedFiles');
 
 });

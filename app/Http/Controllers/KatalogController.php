@@ -6,9 +6,11 @@ use Illuminate\Http\Request;
 use App\Vedmost;
 use App\Katalog;
 use App\File;
+use App\VedFile;
 use App\Http\Resources\VedmostResource;
 use App\Http\Resources\KatalogResource;
 use App\Http\Resources\FilesResource;
+use App\Http\Resources\VedFileResource;
 use DB;
 use Maatwebsite\Excel\Facades\Excel;
 use Mtownsend\XmlToArray\XmlToArray;
@@ -73,19 +75,21 @@ class KatalogController extends Controller
         
     }
 
-    public function getFiles() {
-        $files = File::orderBy('id','desc')->get();
+    public function getFiles($id) {
+        
+        $files = File::orderBy('id','desc')->where('ved_file_id',$id)->get();
 
         return FilesResource::collection($files);
     }
 
     public function getExcel(Request $request) {    
-        
+       
         $allrows = $request->input('allrow'); 
         $filename = $request->input('ved_name');
         // return $allrows[1];
         $file = new File;
         $file->file_name = $filename;
+        $file->ved_file_id = $request->input('id');
         $file->created_at = Carbon::now();
         $file->save();
         // $ved = Vedmost::orderBy('id','desc')->first();
@@ -94,7 +98,7 @@ class KatalogController extends Controller
         for($i=2;$i<count($allrows);$i++) {
             $newveds = new Vedmost;
             $row = $allrows[$i];
-            if($row[0] != null) {
+            if($row[0] != null && $row[1] != null) {
              $newveds->number = $row[0];
              $newveds->good_name = $row[1];
              $newveds->unit = $row[2];
@@ -108,5 +112,19 @@ class KatalogController extends Controller
 
         }   
         return ['message' => 'Successfull'];
+    }
+
+    public function addVedFile(Request $request) {
+        $ved = new VedFile;
+        $ved->filename = $request->input('file');
+        $ved->save();
+
+        return new VedFileResource($ved);
+    }
+
+    public function getVedFiles() {
+        $veds = VedFile::orderBy('id','desc')->get();
+
+        return VedFileResource::collection($veds);
     }
 }
